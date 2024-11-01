@@ -1,19 +1,19 @@
 { "commands": [
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25,
   "signals": [
-    {"id": "MACAN_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "mul": 1, "unit": "scalar" }, "name": "Front right wheel speed"}
+    {"id": "MACAN_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1002"}, "freq": 0.25,
   "signals": [
-    {"id": "MACAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "mul": 1, "unit": "scalar" }, "name": "Front left wheel speed"}
+    {"id": "MACAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1003"}, "freq": 0.25,
   "signals": [
-    {"id": "MACAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "mul": 1, "unit": "scalar" }, "name": "Rear right wheel speed"}
+    {"id": "MACAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25,
   "signals": [
-    {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "mul": 1, "unit": "scalar" }, "name": "Rear left wheel speed"}
+    {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F1"}, "freq": 1,
   "signals": [
