@@ -2,7 +2,7 @@
 { "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 5,
   "signals": [
     {"id": "MACAN_TID_1", "path": "Tires", "fmt": {           "len": 32, "max": 100,                         "unit": "scalar"  }, "name": "Tire 1 sensor id"},
-    {"id": "MACAN_TP_1",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 1 current pressure"},
+    {"id": "MACAN_TP_1",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 1 current pressure", "suggestedMetric": "frontLeftTirePressure"},
     {"id": "MACAN_TT_1",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "unit": "celsius" }, "name": "Tire 1 temperature"},
     {"id": "MACAN_TPS_1", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 1 specified pressure"},
     {"id": "MACAN_TPW_1", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 1 warning pressure"},
@@ -17,7 +17,7 @@
 { "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 5,
   "signals": [
     {"id": "MACAN_TID_2", "path": "Tires", "fmt": {           "len": 32, "max": 100,                         "unit": "scalar"  }, "name": "Tire 2 sensor id"},
-    {"id": "MACAN_TP_2",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 2 current pressure"},
+    {"id": "MACAN_TP_2",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 2 current pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "MACAN_TT_2",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "unit": "celsius" }, "name": "Tire 2 temperature"},
     {"id": "MACAN_TPS_2", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 2 specified pressure"},
     {"id": "MACAN_TPW_2", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 2 warning pressure"},
@@ -32,7 +32,7 @@
 { "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 5,
   "signals": [
     {"id": "MACAN_TID_3", "path": "Tires", "fmt": {           "len": 32, "max": 100,                         "unit": "scalar"  }, "name": "Tire 3 sensor id"},
-    {"id": "MACAN_TP_3",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 3 current pressure"},
+    {"id": "MACAN_TP_3",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 3 current pressure", "suggestedMetric": "rearLeftTirePressure"},
     {"id": "MACAN_TT_3",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "unit": "celsius" }, "name": "Tire 3 temperature"},
     {"id": "MACAN_TPS_3", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 3 specified pressure"},
     {"id": "MACAN_TPW_3", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 3 warning pressure"},
@@ -47,7 +47,7 @@
 { "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 5,
   "signals": [
     {"id": "MACAN_TID_4", "path": "Tires", "fmt": {           "len": 32, "max": 100,                         "unit": "scalar"  }, "name": "Tire 4 sensor id"},
-    {"id": "MACAN_TP_4",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 4 current pressure"},
+    {"id": "MACAN_TP_4",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 4 current pressure", "suggestedMetric": "rearRightTirePressure"},
     {"id": "MACAN_TT_4",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "unit": "celsius" }, "name": "Tire 4 temperature"},
     {"id": "MACAN_TPS_4", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 4 specified pressure"},
     {"id": "MACAN_TPW_4", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,             "unit": "bars"    }, "name": "Tire 4 warning pressure"},
