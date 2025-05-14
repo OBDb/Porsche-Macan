@@ -59,6 +59,42 @@
         }}
     }
   ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+  "signals": [
+    {"id": "MACAN_CRASH_CNT_FRONT", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+  "signals": [
+    {"id": "MACAN_CRASH_CNT_DRVR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
+  ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+  "signals": [
+    {"id": "MACAN_CRASH_CNT_PSNGR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
+  ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+  "signals": [
+    {"id": "MACAN_CRASH_CNT_REAR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
+  ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+  "signals": [
+    {"id": "MACAN_CRASH_CNT_ROLLOVER", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0302"}, "freq": 600,
+  "signals": [
+    {"id": "MACAN_DRIVE_TIME", "path": "Trips", "fmt": { "len": 16, "max": 100, "div": 4, "unit": "hours" }, "name": "Total drive time"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0303"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_DRIVE_TIME_ECO", "path": "Trips", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "[TCM] driving time ecological"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0304"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_DRIVE_TIME_SPORT", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "[TCM] driving time sporty"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0305"}, "freq": 1,
+  "signals": [
+    {"id": "MACAN_DRIVE_TIME_MANUAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "[TCM] driving time manual"}
+  ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0805"}, "freq": 0.25,
   "signals": [
     {"id": "MACAN_BRAKE_LIGHT_ON_VALID", "path": "Control", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake light reading valid?"},
