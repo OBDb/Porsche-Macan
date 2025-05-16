@@ -1,0 +1,43 @@
+command_id: 70B.775.2218A2
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100D6218A224BE21
+    775219502FF1A3C1970
+  expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPOS_3: RL
+    MACAN_TPS_3: 2.5
+    MACAN_TPW_3: 11.2
+    MACAN_TP_3: 2.6
+    MACAN_TT_3: 20
+- response: |-
+    775100D6218A224BE21
+    775219502FF1B401970
+  expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPOS_3: RL
+    MACAN_TPS_3: 2.5
+    MACAN_TPW_3: 11.2
+    MACAN_TP_3: 2.7
+    MACAN_TT_3: 24
+- response: |-
+    775100D6218A224BE21
+    775219502FF1C43197F
+  expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPOS_3: RL
+    MACAN_TPS_3: 2.5
+    MACAN_TPW_3: 12.7
+    MACAN_TP_3: 2.8
+    MACAN_TT_3: 27
+- response: |-
+    775100D6218A224BE21
+    775219502FFFFFF197F
+  expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPOS_3: RL
+    MACAN_TPS_3: 2.5
+    MACAN_TPW_3: 12.7
+    MACAN_TT_3: 100

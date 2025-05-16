@@ -1,0 +1,10 @@
+command_id: 7E1.220304
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '7E90462030405'
+  expected_values:
+    MACAN_DRIVE_TIME_SPORT: 5
+- response: '7E90462030406'
+  expected_values:
+    MACAN_DRIVE_TIME_SPORT: 6

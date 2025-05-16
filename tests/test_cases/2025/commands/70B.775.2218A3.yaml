@@ -1,0 +1,53 @@
+command_id: 70B.775.2218A3
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100D6218A324BDF0
+    775217003FF1A3D1971
+  expected_values:
+    MACAN_TID_4: 100
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 11.3
+    MACAN_TP_4: 2.6
+    MACAN_TT_4: 21
+- response: |-
+    775100D6218A324BDF0
+    775217003FF1B3F1971
+  expected_values:
+    MACAN_TID_4: 100
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 11.3
+    MACAN_TP_4: 2.7
+    MACAN_TT_4: 23
+- response: |-
+    775100D6218A324BDF0
+    775217003FF1B401971
+  expected_values:
+    MACAN_TID_4: 100
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 11.3
+    MACAN_TP_4: 2.7
+    MACAN_TT_4: 24
+- response: |-
+    775100D6218A324BDF0
+    775217003FF1C43197F
+  expected_values:
+    MACAN_TID_4: 100
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 12.7
+    MACAN_TP_4: 2.8
+    MACAN_TT_4: 27
+- response: |-
+    775100D6218A324BDF0
+    775217003FFFFFF197F
+  expected_values:
+    MACAN_TID_4: 100
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 12.7
+    MACAN_TT_4: 100
