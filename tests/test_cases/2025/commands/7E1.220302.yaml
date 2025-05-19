@@ -8,3 +8,21 @@ test_cases:
 - response: 7E90562030201EF
   expected_values:
     MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F0
+  expected_values:
+    MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F1
+  expected_values:
+    MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F2
+  expected_values:
+    MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F3
+  expected_values:
+    MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F4
+  expected_values:
+    MACAN_DRIVE_TIME: 100
+- response: 7E90562030201F5
+  expected_values:
+    MACAN_DRIVE_TIME: 100

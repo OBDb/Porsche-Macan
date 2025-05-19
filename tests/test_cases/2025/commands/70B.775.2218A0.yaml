@@ -4,94 +4,44 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     775100D6218A024BDF0
-    775215B00FF19431771
+    775215B00FF17371770
   expected_values:
     MACAN_TID_1: 100
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 11.3
-    MACAN_TP_1: 2.5
-    MACAN_TT_1: 27
+    MACAN_TPW_1: 11.2
+    MACAN_TP_1: 2.3
+    MACAN_TT_1: 15
 - response: |-
     775100D6218A024BDF0
-    775215B00FF19441771
+    775215B00FF183F1770
   expected_values:
     MACAN_TID_1: 100
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 11.3
-    MACAN_TP_1: 2.5
-    MACAN_TT_1: 28
+    MACAN_TPW_1: 11.2
+    MACAN_TP_1: 2.4
+    MACAN_TT_1: 23
 - response: |-
     775100D6218A024BDF0
-    775215B00FF19451771
+    775215B00FF18401770
   expected_values:
     MACAN_TID_1: 100
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 11.3
-    MACAN_TP_1: 2.5
-    MACAN_TT_1: 29
+    MACAN_TPW_1: 11.2
+    MACAN_TP_1: 2.4
+    MACAN_TT_1: 24
 - response: |-
     775100D6218A024BDF0
-    775215B00FF19461771
-  expected_values:
-    MACAN_TID_1: 100
-    MACAN_TPOS_1: FL
-    MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 11.3
-    MACAN_TP_1: 2.5
-    MACAN_TT_1: 30
-- response: |-
-    775100D6218A024BDF0
-    775215B00FF1A461771
-  expected_values:
-    MACAN_TID_1: 100
-    MACAN_TPOS_1: FL
-    MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 11.3
-    MACAN_TP_1: 2.6
-    MACAN_TT_1: 30
-- response: |-
-    775100D6218A024BDF0
-    775215B00FF1A47177F
+    775215B00FF1941177F
   expected_values:
     MACAN_TID_1: 100
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
     MACAN_TPW_1: 12.7
-    MACAN_TP_1: 2.6
-    MACAN_TT_1: 31
-- response: |-
-    775100D6218A024BDF0
-    775215B00FF1A48177F
-  expected_values:
-    MACAN_TID_1: 100
-    MACAN_TPOS_1: FL
-    MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 12.7
-    MACAN_TP_1: 2.6
-    MACAN_TT_1: 32
-- response: |-
-    775100D6218A024BDF0
-    775215B00FF1A49177F
-  expected_values:
-    MACAN_TID_1: 100
-    MACAN_TPOS_1: FL
-    MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 12.7
-    MACAN_TP_1: 2.6
-    MACAN_TT_1: 33
-- response: |-
-    775100D6218A024BDF0
-    775215B00FF1A4A177F
-  expected_values:
-    MACAN_TID_1: 100
-    MACAN_TPOS_1: FL
-    MACAN_TPS_1: 2.3
-    MACAN_TPW_1: 12.7
-    MACAN_TP_1: 2.6
-    MACAN_TT_1: 34
+    MACAN_TP_1: 2.5
+    MACAN_TT_1: 25
 - response: |-
     775100D6218A024BDF0
     775215B00FFFFFF177F

@@ -4,32 +4,32 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     775100D6218A324BDF0
-    775217003FF1A3D1971
+    775217003FF19351970
   expected_values:
     MACAN_TID_4: 100
     MACAN_TPOS_4: RR
     MACAN_TPS_4: 2.5
-    MACAN_TPW_4: 11.3
-    MACAN_TP_4: 2.6
-    MACAN_TT_4: 21
+    MACAN_TPW_4: 11.2
+    MACAN_TP_4: 2.5
+    MACAN_TT_4: 13
 - response: |-
     775100D6218A324BDF0
-    775217003FF1B3F1971
+    775217003FF1B3F1970
   expected_values:
     MACAN_TID_4: 100
     MACAN_TPOS_4: RR
     MACAN_TPS_4: 2.5
-    MACAN_TPW_4: 11.3
+    MACAN_TPW_4: 11.2
     MACAN_TP_4: 2.7
     MACAN_TT_4: 23
 - response: |-
     775100D6218A324BDF0
-    775217003FF1B401971
+    775217003FF1B401970
   expected_values:
     MACAN_TID_4: 100
     MACAN_TPOS_4: RR
     MACAN_TPS_4: 2.5
-    MACAN_TPW_4: 11.3
+    MACAN_TPW_4: 11.2
     MACAN_TP_4: 2.7
     MACAN_TT_4: 24
 - response: |-

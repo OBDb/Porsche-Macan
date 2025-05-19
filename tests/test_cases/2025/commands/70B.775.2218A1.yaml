@@ -4,6 +4,26 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     775100D6218A124BE22
+    775217501FF17351771
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FR
+    MACAN_TPS_2: 2.3
+    MACAN_TPW_2: 11.3
+    MACAN_TP_2: 2.3
+    MACAN_TT_2: 13
+- response: |-
+    775100D6218A124BE22
+    775217501FF193F1771
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FR
+    MACAN_TPS_2: 2.3
+    MACAN_TPW_2: 11.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 23
+- response: |-
+    775100D6218A124BE22
     775217501FF19401771
   expected_values:
     MACAN_TID_2: 100
@@ -14,14 +34,14 @@ test_cases:
     MACAN_TT_2: 24
 - response: |-
     775100D6218A124BE22
-    775217501FF1A46177F
+    775217501FF1940177F
   expected_values:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FR
     MACAN_TPS_2: 2.3
     MACAN_TPW_2: 12.7
-    MACAN_TP_2: 2.6
-    MACAN_TT_2: 30
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 24
 - response: |-
     775100D6218A124BE22
     775217501FFFFFF177F
