@@ -1,7 +1,33 @@
-command_id: 70B.775.2218A1
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 70B.775.2218A1|fc=1
 test_cases:
+- response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+    775100C6218A12609B3
+    77521E421FFA77C00AA
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPS_2: 0
+    MACAN_TP_2: 16.7
+    MACAN_TT_2: 84
+- response: |-
+    775100C6218A12609B3
+    77521E421FFA77C00AA
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPS_2: 0
+    MACAN_TP_2: 16.7
+    MACAN_TT_2: 84
+- response: |-
+    775100C6218A12609B3
+    77521E421FFA77C00AA
+    775100C6218A32609A0
+    775217823FFA77C00AA
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPS_2: 0
+    MACAN_TP_2: 16.7
+    MACAN_TT_2: 84
 - response: |-
     775100D6218A124BE22
     775217501FF17351771
@@ -14,22 +40,32 @@ test_cases:
     MACAN_TT_2: 13
 - response: |-
     775100D6218A124BE22
-    775217501FF193F1771
+    775217501FF183E1770
   expected_values:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FR
     MACAN_TPS_2: 2.3
-    MACAN_TPW_2: 11.3
+    MACAN_TPW_2: 11.2
+    MACAN_TP_2: 2.4
+    MACAN_TT_2: 22
+- response: |-
+    775100D6218A124BE22
+    775217501FF193F1770
+  expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FR
+    MACAN_TPS_2: 2.3
+    MACAN_TPW_2: 11.2
     MACAN_TP_2: 2.5
     MACAN_TT_2: 23
 - response: |-
     775100D6218A124BE22
-    775217501FF19401771
+    775217501FF19401770
   expected_values:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FR
     MACAN_TPS_2: 2.3
-    MACAN_TPW_2: 11.3
+    MACAN_TPW_2: 11.2
     MACAN_TP_2: 2.5
     MACAN_TT_2: 24
 - response: |-
