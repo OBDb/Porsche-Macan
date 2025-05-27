@@ -1,7 +1,23 @@
-command_id: 70B.775.2218A0
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 70B.775.2218A0|fc=1
 test_cases:
+- response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+  expected_values:
+    MACAN_TID_1: 100
+    MACAN_TPS_1: 0
+    MACAN_TP_1: 16.7
+    MACAN_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+    775100C6218A12609B3
+    77521E421FFA77C00AA
+  expected_values:
+    MACAN_TID_1: 100
+    MACAN_TPS_1: 0
+    MACAN_TP_1: 16.7
+    MACAN_TT_1: 84
 - response: |-
     775100D6218A024BDF0
     775215B00FF17371770
