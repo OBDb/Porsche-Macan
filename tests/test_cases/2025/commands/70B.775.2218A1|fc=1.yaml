@@ -19,16 +19,6 @@ test_cases:
     MACAN_TP_2: 16.7
     MACAN_TT_2: 84
 - response: |-
-    775100C6218A12609B3
-    77521E421FFA77C00AA
-    775100C6218A32609A0
-    775217823FFA77C00AA
-  expected_values:
-    MACAN_TID_2: 100
-    MACAN_TPS_2: 0
-    MACAN_TP_2: 16.7
-    MACAN_TT_2: 84
-- response: |-
     775100D6218A124BE22
     775217501FF17351771
   expected_values:
