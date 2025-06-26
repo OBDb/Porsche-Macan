@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.221001
 test_cases:
-- response: '7E9056210010000'
-  expected_values:
+- expected_values:
     MACAN_TIRE_FR_SPD: 0
+  response: '7E9056210010000'
