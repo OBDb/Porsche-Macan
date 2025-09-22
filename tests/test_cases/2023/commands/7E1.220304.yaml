@@ -1,0 +1,8 @@
+command_id: 7E1.220304
+test_cases:
+- expected_values:
+    MACAN_DRIVE_TIME_SPORT: 13
+  response: 7E9046203040D
+- expected_values:
+    MACAN_DRIVE_TIME_SPORT: 14
+  response: 7E9046203040E
