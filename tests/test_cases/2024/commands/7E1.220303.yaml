@@ -1,0 +1,8 @@
+command_id: 7E1.220303
+test_cases:
+- expected_values:
+    MACAN_DRIVE_TIME_ECO: 76
+  response: 7E904620303BE
+- expected_values:
+    MACAN_DRIVE_TIME_ECO: 76.4
+  response: 7E904620303BF

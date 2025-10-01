@@ -1,0 +1,26 @@
+command_id: 7E1.220302
+test_cases:
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223EF
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F0
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F1
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F2
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F3
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F4
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F5
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030223F6
