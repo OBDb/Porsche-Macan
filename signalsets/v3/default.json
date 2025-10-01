@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 5,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_TID_1", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 1 sensor id"},
     {"id": "MACAN_TP_1",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 1 current pressure",   "suggestedMetric": "frontLeftTirePressure"},
@@ -14,7 +14,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 5,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_TID_2", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 2 sensor id"},
     {"id": "MACAN_TP_2",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 2 current pressure",   "suggestedMetric": "frontRightTirePressure"},
@@ -29,7 +29,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 5,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_TID_3", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 3 sensor id"},
     {"id": "MACAN_TP_3",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 3 current pressure",   "suggestedMetric": "rearLeftTirePressure"},
@@ -44,7 +44,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 5,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_TID_4", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Tire 4 sensor id"},
     {"id": "MACAN_TP_4",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 4 current pressure",   "suggestedMetric": "rearRightTirePressure"},
@@ -59,62 +59,62 @@
         }}
     }
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 3600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0302"}, "freq": 600,
+{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 600, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVE_TIME", "path": "Trips", "fmt": { "len": 16, "max": 100, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0303"}, "freq": 1,
+{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVE_TIME_ECO", "path": "Trips", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Drive time, eco"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0304"}, "freq": 1,
+{ "hdr": "7E1", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVE_TIME_SPORT", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Drive time, sport"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0305"}, "freq": 1,
+{ "hdr": "7E1", "cmd": {"22": "0305"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022], "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVE_TIME_MANUAL", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Drive time, manual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0805"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0805"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_BRAKE_LIGHT_ON_VALID", "path": "Control", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake light reading valid?"},
     {"id": "MACAN_BRAKE_PRESSED_VALID",  "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake pressure reading valid?"},
     {"id": "MACAN_BRAKE_PRESSED",        "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake"},
     {"id": "MACAN_BRAKE_LIGHT_ON",       "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake light"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1002"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1002"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1003"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1003"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]}
