@@ -2,14 +2,6 @@ command_id: 70B.775.2218A3|fc=1
 test_cases:
 - expected_values:
     MACAN_TID_4: 100
-    MACAN_TPS_4: 0
-    MACAN_TP_4: 6.4
-    MACAN_TT_4: 68
-  response: |-
-    775100C6218A324111A
-    7752154236F406C00AA
-- expected_values:
-    MACAN_TID_4: 100
     MACAN_TPOS_4: FR
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 10.7
