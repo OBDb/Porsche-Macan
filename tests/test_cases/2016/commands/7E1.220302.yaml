@@ -1,0 +1,5 @@
+command_id: 7E1.220302
+test_cases:
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E90562030225D1
