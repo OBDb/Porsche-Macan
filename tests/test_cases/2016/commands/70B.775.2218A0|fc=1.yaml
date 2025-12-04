@@ -1,0 +1,11 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    MACAN_TID_1: 100
+    MACAN_TPOS_1: RL
+    MACAN_TPS_1: 2.5
+    MACAN_TPW_1: 12.7
+    MACAN_TT_1: 100
+  response: |-
+    775100D6218A0217673
+    77521BE02FFFFFF197F
