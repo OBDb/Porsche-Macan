@@ -1,0 +1,23 @@
+command_id: 7E0.0131
+test_cases:
+- expected_values:
+    CLR_DIST: 8061
+  response: 7E80441311F7D
+- expected_values:
+    CLR_DIST: 8076
+  response: 7E80441311F8C
+- expected_values:
+    CLR_DIST: 8077
+  response: 7E80441311F8D
+- expected_values:
+    CLR_DIST: 8078
+  response: 7E80441311F8E
+- expected_values:
+    CLR_DIST: 8079
+  response: 7E80441311F8F
+- expected_values:
+    CLR_DIST: 8080
+  response: 7E80441311F90
+- expected_values:
+    CLR_DIST: 8091
+  response: 7E80441311F9B
