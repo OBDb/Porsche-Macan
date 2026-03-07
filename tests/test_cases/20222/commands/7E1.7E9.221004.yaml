@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_TIRE_RL_SPD: 0
   response: '7E9056210040000'
+- expected_values:
+    MACAN_TIRE_RL_SPD: 50.7
+  response: 7E90562100401FB
+- expected_values:
+    MACAN_TIRE_RL_SPD: 51.3
+  response: '7E9056210040201'

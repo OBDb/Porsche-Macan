@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_DRIVE_TIME: 100
   response: '7E9056203021618'
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: '7E9056203021619'
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E905620302161A
