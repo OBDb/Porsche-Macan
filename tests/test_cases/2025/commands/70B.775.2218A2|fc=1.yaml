@@ -4,6 +4,16 @@ test_cases:
     MACAN_TID_3: 100
     MACAN_TPS_3: 0
     MACAN_TP_3: 16.7
+    MACAN_TT_3: 60
+  response: |-
+    775100C6218A1263C99
+    775218321FFA76400AA
+    775100C6218A2263C98
+    775216522FFA76400AA
+- expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPS_3: 0
+    MACAN_TP_3: 16.7
     MACAN_TT_3: 84
   response: |-
     775100C6218A22609A8

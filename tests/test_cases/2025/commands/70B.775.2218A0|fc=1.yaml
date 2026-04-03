@@ -10,6 +10,14 @@ test_cases:
     77521C120FFA77C00AA
 - expected_values:
     MACAN_TID_1: 100
+    MACAN_TPS_1: 0
+    MACAN_TP_1: 16.7
+    MACAN_TT_1: 60
+  response: |-
+    775100C6218A0263C99
+    775218D20FFA76400AA
+- expected_values:
+    MACAN_TID_1: 100
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
     MACAN_TPW_1: 11.2
