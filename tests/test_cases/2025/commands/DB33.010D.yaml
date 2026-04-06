@@ -4,8 +4,8 @@ test_cases:
     VSS: 0
   response: 18DAF10403410D00
 - expected_values:
-    VSS: 59
-  response: 18DAF10403410D3B
+    VSS: 122
+  response: 18DAF10403410D7A
 - expected_values:
     VSS: 0
   response: |-
