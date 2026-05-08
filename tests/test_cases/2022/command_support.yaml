@@ -1,4 +1,4 @@
-model_year: 20222
+model_year: 2022
 supported_commands_by_ecu:
   "70B":
   - 70B.775.2218A0|fc=1:MACAN_TID_1,MACAN_TPOS_1,MACAN_TPS_1,MACAN_TPW_1,MACAN_TP_1,MACAN_TT_1
