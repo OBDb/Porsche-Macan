@@ -21,11 +21,11 @@ test_cases:
 - expected_values:
     MACAN_TID_4: 100
     MACAN_TPS_4: 0
-    MACAN_TP_4: 16.7
+    MACAN_TP_4: 5.5
     MACAN_TT_4: 60
   response: |-
     775100C6218A3263C98
-    77521B423FFA76400AA
+    77521B42365376400AA
 - expected_values:
     MACAN_TID_4: 100
     MACAN_TPOS_4: RR

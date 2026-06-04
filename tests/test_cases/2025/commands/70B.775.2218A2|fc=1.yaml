@@ -21,6 +21,14 @@ test_cases:
 - expected_values:
     MACAN_TID_3: 100
     MACAN_TPS_3: 0
+    MACAN_TP_3: 5.7
+    MACAN_TT_3: 60
+  response: |-
+    775100C6218A2263C98
+    77521652265396400AA
+- expected_values:
+    MACAN_TID_3: 100
+    MACAN_TPS_3: 0
     MACAN_TP_3: 16.7
     MACAN_TT_3: 60
   response: |-
