@@ -118,7 +118,7 @@
   "signals": [
     {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "210F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "1": { "description": "Reverse", "value": "REVERSE" },
