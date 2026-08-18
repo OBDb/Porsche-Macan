@@ -25,7 +25,6 @@ test_cases:
     MACAN_TPOS_2: FL
     MACAN_TPS_2: 2.3
     MACAN_TPW_2: 12.7
-    MACAN_TT_2: 100
   response: |-
     775100D6218A123BBD9
     775216400FFFFFF177F

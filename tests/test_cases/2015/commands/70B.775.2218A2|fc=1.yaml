@@ -55,7 +55,6 @@ test_cases:
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 12.7
-    MACAN_TT_3: 100
   response: |-
     775100D6218A22CA2F4
     775218102FFFFFF197F

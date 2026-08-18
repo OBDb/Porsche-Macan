@@ -43,7 +43,6 @@ test_cases:
     MACAN_TPOS_4: FR
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 12.7
-    MACAN_TT_4: 100
   response: |-
     775100D6218A323E744
     775215D01FFFFFF177F
@@ -52,7 +51,6 @@ test_cases:
     MACAN_TPOS_4: RL
     MACAN_TPS_4: 2.5
     MACAN_TPW_4: 12.7
-    MACAN_TT_4: 100
   response: |-
     775100D6218A3245782
     77521D702FFFFFF197F
