@@ -6,6 +6,16 @@ test_cases:
     MACAN_TPS_2: 2.5
     MACAN_TPW_2: 5.3
     MACAN_TP_2: 2.4
+    MACAN_TT_2: 35
+  response: |-
+    775100D6218A12CD636
+    775212F00FF184B1935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.4
     MACAN_TT_2: 37
   response: |-
     775100D6218A12CD636
@@ -70,6 +80,16 @@ test_cases:
   response: |-
     775100D6218A12CD636
     775212F00FF19531935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 44
+  response: |-
+    775100D6218A12CD636
+    775212F00FF19541935
 - expected_values:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FL
