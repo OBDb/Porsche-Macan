@@ -4,6 +4,76 @@ test_cases:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FL
     MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.4
+    MACAN_TT_2: 37
+  response: |-
+    775100D6218A12CD636
+    775212F00FF184D1935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 39
+  response: |-
+    775100D6218A12CD636
+    775212F00FF194F1935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 40
+  response: |-
+    775100D6218A12CD636
+    775212F00FF19501935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 12.7
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 40
+  response: |-
+    775100D6218A12CD636
+    775212F00FF1950197F
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 41
+  response: |-
+    775100D6218A12CD636
+    775212F00FF19511935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 42
+  response: |-
+    775100D6218A12CD636
+    775212F00FF19521935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
+    MACAN_TPW_2: 5.3
+    MACAN_TP_2: 2.5
+    MACAN_TT_2: 43
+  response: |-
+    775100D6218A12CD636
+    775212F00FF19531935
+- expected_values:
+    MACAN_TID_2: 100
+    MACAN_TPOS_2: FL
+    MACAN_TPS_2: 2.5
     MACAN_TPW_2: 12.7
   response: |-
     775100D6218A12CD636
