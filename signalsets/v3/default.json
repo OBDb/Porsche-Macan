@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2019, 2020], "from": 2026 },
   "signals": [
     {"id": "MACAN_TID_1", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                         "unit": "scalar"  }, "name": "Tire 1 sensor id"},
