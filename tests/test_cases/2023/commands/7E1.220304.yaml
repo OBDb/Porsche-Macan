@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACAN_DRIVE_TIME_SPORT: 14
   response: 7E9046203040E
+- expected_values:
+    MACAN_DRIVE_TIME_SPORT: 52
+  response: '7E90462030434'

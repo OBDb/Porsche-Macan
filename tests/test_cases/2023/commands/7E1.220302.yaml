@@ -5,28 +5,7 @@ test_cases:
   response: 7E90562030201B0
 - expected_values:
     MACAN_DRIVE_TIME: 100
-  response: 7E90562030201B2
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201B4
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201B5
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201B6
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201B7
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201BA
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201BC
-- expected_values:
-    MACAN_DRIVE_TIME: 100
-  response: 7E90562030201CC
-- expected_values:
-    MACAN_DRIVE_TIME: 100
   response: 7E90562030201CD
+- expected_values:
+    MACAN_DRIVE_TIME: 100
+  response: 7E9056203021A50
