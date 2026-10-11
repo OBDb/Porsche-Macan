@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221179
+test_cases:
+- expected_values:
+    MACAN_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1: 220.22
+  response: '7E9056211790656'

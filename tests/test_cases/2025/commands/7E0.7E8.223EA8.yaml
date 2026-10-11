@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223EA8
+test_cases:
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_SENS_V: 0.7129
+  response: 7E805623EA81240
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_SENS_V: 3.1342
+  response: 7E805623EA8503C
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_SENS_V: 3.13725
+  response: 7E805623EA85050

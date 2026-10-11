@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22202E
+test_cases:
+- expected_values:
+    MACAN_ECT_DIFF_ENG: 39.7
+  response: 7E80562202E018D
+- expected_values:
+    MACAN_ECT_DIFF_ENG: 72
+  response: 7E80562202E02D0

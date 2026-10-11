@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22203E
+test_cases:
+- expected_values:
+    MACAN_FUEL_T_7E0_7E0: 29.2
+  response: 7E80562203E0124
+- expected_values:
+    MACAN_FUEL_T_7E0_7E0: 38.2
+  response: 7E80562203E017E

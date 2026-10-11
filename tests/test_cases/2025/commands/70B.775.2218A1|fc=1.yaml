@@ -88,12 +88,12 @@ test_cases:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FR
     MACAN_TPS_2: 2.3
-    MACAN_TPW_2: 10.6
+    MACAN_TPW_2: 10.5
     MACAN_TP_2: 2.4
-    MACAN_TT_2: 26
+    MACAN_TT_2: 24
   response: |-
     775100D6218A1262904
-    77521C301FF1842176A
+    77521C301FF18401769
 - expected_values:
     MACAN_TID_2: 100
     MACAN_TPOS_2: FR

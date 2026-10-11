@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22112D
+test_cases:
+- expected_values:
+    MACAN_SPARK_EFF_DEV_PART: 17.182
+  response: 7E80562112D16C1
+- expected_values:
+    MACAN_SPARK_EFF_DEV_PART: 17.963
+  response: 7E80562112D17E9

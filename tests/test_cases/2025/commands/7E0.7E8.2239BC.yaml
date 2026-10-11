@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2239BC
+test_cases:
+- expected_values:
+    MACAN_MIXTURE_VARIATION_1: 0.05
+  response: 7E8056239BC0005
+- expected_values:
+    MACAN_MIXTURE_VARIATION_1: 0.48
+  response: 7E8056239BC0030

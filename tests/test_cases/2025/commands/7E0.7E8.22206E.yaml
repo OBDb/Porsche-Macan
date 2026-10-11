@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 0
+  response: 7E80562206E0000
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 1438
+  response: 7E80562206E059E
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 1538
+  response: 7E80562206E0602

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222003
+test_cases:
+- expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 0
+  response: '7E80462200300'
+- expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 0.6
+  response: '7E80462200306'
+- expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 2.4
+  response: '7E80462200318'

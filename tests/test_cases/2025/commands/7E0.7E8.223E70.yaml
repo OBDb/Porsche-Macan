@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223E70
+test_cases:
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.232
+  response: 7E805623E7000E8
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.989
+  response: 7E805623E7003DD
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 1.507
+  response: 7E805623E7005E3

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221005
+test_cases:
+- expected_values:
+    MACAN_VSS_ESP: 65.67
+  response: 7E90562100519A7
