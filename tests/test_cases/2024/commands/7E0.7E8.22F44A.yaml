@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F44A
+test_cases:
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 14.90196
+  response: 7E80462F44A26
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 24.70588
+  response: 7E80462F44A3F
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 25.09804
+  response: 7E80462F44A40
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 26.27451
+  response: 7E80462F44A43
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 36.47059
+  response: 7E80462F44A5D

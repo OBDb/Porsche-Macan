@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221216
+test_cases:
+- expected_values:
+    MACAN_REL_LOAD: 20.0649
+  response: '7E8056212160358'
+- expected_values:
+    MACAN_REL_LOAD: 23.62783
+  response: 7E80562121603F0
+- expected_values:
+    MACAN_REL_LOAD: 24.3076
+  response: 7E805621216040D
+- expected_values:
+    MACAN_REL_LOAD: 29.67543
+  response: 7E80562121604F2
+- expected_values:
+    MACAN_REL_LOAD: 50.95923
+  response: 7E805621216087E
+- expected_values:
+    MACAN_REL_LOAD: 57.87412
+  response: 7E80562121609A5

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2214A1
+test_cases:
+- expected_values:
+    MACAN_RATED_DRIVE_TQ: 163
+  response: 7E8076214A10000065E
+- expected_values:
+    MACAN_RATED_DRIVE_TQ: 384
+  response: 7E8076214A100000F00
+- expected_values:
+    MACAN_RATED_DRIVE_TQ: 1652
+  response: 7E8076214A100004088
+- expected_values:
+    MACAN_RATED_DRIVE_TQ: -223
+  response: 7E8076214A1FFFFF74A
+- expected_values:
+    MACAN_RATED_DRIVE_TQ: -84
+  response: 7E8076214A1FFFFFCB8

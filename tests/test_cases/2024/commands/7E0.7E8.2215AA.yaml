@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2215AA
+test_cases:
+- expected_values:
+    MACAN_SELECTED_GEAR: 2
+  response: 7E8056215AA02D0
+- expected_values:
+    MACAN_SELECTED_GEAR: 4
+  response: 7E8056215AA0453
+- expected_values:
+    MACAN_SELECTED_GEAR: 5
+  response: 7E8056215AA05B0
+- expected_values:
+    MACAN_SELECTED_GEAR: 6
+  response: 7E8056215AA064E
+- expected_values:
+    MACAN_SELECTED_GEAR: 9
+  response: 7E8056215AA090F

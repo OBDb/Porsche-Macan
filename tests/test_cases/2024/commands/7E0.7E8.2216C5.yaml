@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2216C5
+test_cases:
+- expected_values:
+    MACAN_THROTTLE_REGULATOR: 6.1875
+  response: 7E8056216C50318
+- expected_values:
+    MACAN_THROTTLE_REGULATOR: 6.48438
+  response: 7E8056216C5033E
+- expected_values:
+    MACAN_THROTTLE_REGULATOR: 10.67188
+  response: 7E8056216C50556
+- expected_values:
+    MACAN_THROTTLE_REGULATOR: 25.92969
+  response: 7E8056216C50CF7
+- expected_values:
+    MACAN_THROTTLE_REGULATOR: 57.64844
+  response: 7E8056216C51CD3

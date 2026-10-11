@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221490
+test_cases:
+- expected_values:
+    MACAN_BRAKE_BOOSTER_LOW_P_ACT: 0.62501
+  response: '7E8056214900010'
+- expected_values:
+    MACAN_BRAKE_BOOSTER_LOW_P_ACT: 0.66407
+  response: '7E8056214900011'
+- expected_values:
+    MACAN_BRAKE_BOOSTER_LOW_P_ACT: 0.85939
+  response: '7E8056214900016'
+- expected_values:
+    MACAN_BRAKE_BOOSTER_LOW_P_ACT: 0.93751
+  response: '7E8056214900018'
+- expected_values:
+    MACAN_BRAKE_BOOSTER_LOW_P_ACT: 0.97658
+  response: '7E8056214900019'

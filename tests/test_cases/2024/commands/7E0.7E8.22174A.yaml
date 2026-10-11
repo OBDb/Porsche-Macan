@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22174A
+test_cases:
+- expected_values:
+    MACAN_EXH_CAM_ADPT_BIAS: 2.63676
+  response: 7E80562174A0078
+- expected_values:
+    MACAN_EXH_CAM_ADPT_BIAS: 2.65873
+  response: 7E80562174A0079
+- expected_values:
+    MACAN_EXH_CAM_ADPT_BIAS: 2.68071
+  response: 7E80562174A007A
+- expected_values:
+    MACAN_EXH_CAM_ADPT_BIAS: 2.72465
+  response: 7E80562174A007C
+- expected_values:
+    MACAN_EXH_CAM_ADPT_BIAS: 2.90044
+  response: 7E80562174A0084

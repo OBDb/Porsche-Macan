@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221078
+test_cases:
+- expected_values:
+    MACAN_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT: 2.00704
+  response: '7E9056210780008'

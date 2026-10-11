@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221065
+test_cases:
+- expected_values:
+    MACAN_CYL_HEAD_T: 211.04
+  response: 7E8056210650E90
+- expected_values:
+    MACAN_CYL_HEAD_T: 212.48
+  response: 7E8056210650E98
+- expected_values:
+    MACAN_CYL_HEAD_T: 213.38
+  response: 7E8056210650E9D
+- expected_values:
+    MACAN_CYL_HEAD_T: 215.9
+  response: 7E8056210650EAB
+- expected_values:
+    MACAN_CYL_HEAD_T: 220.58
+  response: 7E8056210650EC5

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114C
+test_cases:
+- expected_values:
+    MACAN_MIS_1000_REVOLUTIONS_5: 0
+  response: 7E80562114C0000

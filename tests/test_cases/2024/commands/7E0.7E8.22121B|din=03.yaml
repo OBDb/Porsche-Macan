@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22121B|din=03
+test_cases:
+- expected_values:
+    MACAN_POST_INJ_2: 3.1588
+  response: 7E80562121B1ED9

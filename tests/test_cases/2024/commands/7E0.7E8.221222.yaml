@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221222
+test_cases:
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP: -0.9
+  response: 7E805621222FFF7
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP: -0.8
+  response: 7E805621222FFF8

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    MACAN_RUNTM: 803
+  response: 7E80562F41F0323
+- expected_values:
+    MACAN_RUNTM: 944
+  response: 7E80562F41F03B0
+- expected_values:
+    MACAN_RUNTM: 1027
+  response: 7E80562F41F0403
+- expected_values:
+    MACAN_RUNTM: 1113
+  response: 7E80562F41F0459
+- expected_values:
+    MACAN_RUNTM: 1200
+  response: 7E80562F41F04B0

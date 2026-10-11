@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211AB
+test_cases:
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 34.8
+  response: 7E8056211AB015C
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 44.6
+  response: 7E8056211AB01BE
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 89.9
+  response: 7E8056211AB0383
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 134.2
+  response: 7E8056211AB053E
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 157.9
+  response: 7E8056211AB062B

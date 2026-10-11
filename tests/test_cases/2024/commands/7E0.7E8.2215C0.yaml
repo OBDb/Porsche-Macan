@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2215C0
+test_cases:
+- expected_values:
+    MACAN_IAT_RAW: 21.5
+  response: 7E8056215C00B82
+- expected_values:
+    MACAN_IAT_RAW: 24.6
+  response: 7E8056215C00BA1
+- expected_values:
+    MACAN_IAT_RAW: 24.7
+  response: 7E8056215C00BA2
+- expected_values:
+    MACAN_IAT_RAW: 30.4
+  response: 7E8056215C00BDB
+- expected_values:
+    MACAN_IAT_RAW: 34.4
+  response: 7E8056215C00C03

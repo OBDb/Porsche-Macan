@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222143|fc=1
+test_cases:
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 45.9
+  response: '7E9056221430396'

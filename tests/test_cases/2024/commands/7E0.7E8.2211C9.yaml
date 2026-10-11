@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211C9
+test_cases:
+- expected_values:
+    MACAN_FUEL_PMP_ADPT: 88
+  response: 7E8056211C90370
+- expected_values:
+    MACAN_FUEL_PMP_ADPT: 88.1
+  response: 7E8056211C90371
+- expected_values:
+    MACAN_FUEL_PMP_ADPT: 88.3
+  response: 7E8056211C90373
+- expected_values:
+    MACAN_FUEL_PMP_ADPT: 88.4
+  response: 7E8056211C90374

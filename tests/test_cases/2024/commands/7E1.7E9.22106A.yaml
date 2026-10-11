@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22106A
+test_cases:
+- expected_values:
+    MACAN_RESERVE_TQ: 1912
+  response: 7E90562106A0778

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238F1|fc=1
+test_cases:
+- expected_values:
+    MACAN_LAUNCH_CTRL_CNT: 2
+  response: 7E9056238F10002

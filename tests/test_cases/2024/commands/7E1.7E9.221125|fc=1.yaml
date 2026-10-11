@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221125|fc=1
+test_cases:
+- expected_values:
+    MACAN_CLU_2_HI_ADPT_POINT: 6.555
+  response: 7E905621125199B

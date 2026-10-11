@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221175
+test_cases:
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 1957.71336
+  response: '7E8056211751582'
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 5785.31676
+  response: 7E8056211753F8F
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 7306.758
+  response: '7E8056211755046'
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 11129.028
+  response: 7E8056211757A44
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 12442.8222
+  response: 7E80562117588B3
+- expected_values:
+    MACAN_INTEGRATED_MASS_AIR: 12788.42652
+  response: 7E8056211758C7F
