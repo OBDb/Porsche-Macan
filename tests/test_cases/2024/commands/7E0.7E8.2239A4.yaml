@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2239A4
+test_cases:
+- expected_values:
+    MACAN_CHG_P_ACTUATOR_SPEC_7E0: 58.19077
+  response: 7E8056239A4129F
+- expected_values:
+    MACAN_CHG_P_ACTUATOR_SPEC_7E0: 60.07065
+  response: 7E8056239A41339
+- expected_values:
+    MACAN_CHG_P_ACTUATOR_SPEC_7E0: 100
+  response: 7E8056239A44FFC
+- expected_values:
+    MACAN_CHG_P_ACTUATOR_SPEC_7E0: 100
+  response: 7E8056239A47E0B
+- expected_values:
+    MACAN_CHG_P_ACTUATOR_SPEC_7E0: 100
+  response: 7E8056239A47E5A

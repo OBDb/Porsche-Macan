@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    MACAN_ENG_114F_RAW: 8667
+  response: 7E80562114F21DB

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221026
+test_cases:
+- expected_values:
+    MACAN_MAF_1_B1_RAW: 0
+  response: '7E8056210260000'
+- expected_values:
+    MACAN_MAF_1_B1_RAW: 40.3
+  response: '7E8056210260193'
+- expected_values:
+    MACAN_MAF_1_B1_RAW: 64.4
+  response: '7E8056210260284'
+- expected_values:
+    MACAN_MAF_1_B1_RAW: 509.4
+  response: 7E80562102613E6

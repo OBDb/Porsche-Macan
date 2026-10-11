@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2211E0
+test_cases:
+- expected_values:
+    MACAN_CMD_CRANK_TQ: 23.7
+  response: 7E8056211E000ED
+- expected_values:
+    MACAN_CMD_CRANK_TQ: 64.9
+  response: 7E8056211E00289
+- expected_values:
+    MACAN_CMD_CRANK_TQ: 162
+  response: 7E8056211E00654
+- expected_values:
+    MACAN_CMD_CRANK_TQ: -27.2
+  response: 7E8056211E0FEF0
+- expected_values:
+    MACAN_CMD_CRANK_TQ: -25.8
+  response: 7E8056211E0FEFE
+- expected_values:
+    MACAN_CMD_CRANK_TQ: -25.4
+  response: 7E8056211E0FF02

@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     LOAD_PCT: 21.96078
   response: '7E803410438'
+- expected_values:
+    LOAD_PCT: 36.07843
+  response: 7E80341045C
+- expected_values:
+    LOAD_PCT: 43.92157
+  response: '7E803410470'
+- expected_values:
+    LOAD_PCT: 45.09804
+  response: '7E803410473'

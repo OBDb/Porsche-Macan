@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211D7
+test_cases:
+- expected_values:
+    MACAN_HIGH_FUEL_P_CMD: 12.828
+  response: 7E8056211D76438
+- expected_values:
+    MACAN_HIGH_FUEL_P_CMD: 19.042
+  response: 7E8056211D794C4
+- expected_values:
+    MACAN_HIGH_FUEL_P_CMD: 22.294
+  response: 7E8056211D7AE2C
+- expected_values:
+    MACAN_HIGH_FUEL_P_CMD: 22.902
+  response: 7E8056211D7B2EC
+- expected_values:
+    MACAN_HIGH_FUEL_P_CMD: 25
+  response: 7E8056211D7C350

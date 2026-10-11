@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F446
+test_cases:
+- expected_values:
+    MACAN_AAT_V4: 18
+  response: 7E80462F4463A
+- expected_values:
+    MACAN_AAT_V4: 215
+  response: 7E80462F446FF

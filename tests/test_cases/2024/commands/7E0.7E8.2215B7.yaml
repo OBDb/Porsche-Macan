@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2215B7
+test_cases:
+- expected_values:
+    MACAN_ENG_OIL_SUMP_T: 177.02
+  response: 7E8056215B70DD3
+- expected_values:
+    MACAN_ENG_OIL_SUMP_T: 192.32
+  response: 7E8056215B70E28
+- expected_values:
+    MACAN_ENG_OIL_SUMP_T: 198.26
+  response: 7E8056215B70E49
+- expected_values:
+    MACAN_ENG_OIL_SUMP_T: 202.76
+  response: 7E8056215B70E62
+- expected_values:
+    MACAN_ENG_OIL_SUMP_T: 203.48
+  response: 7E8056215B70E66

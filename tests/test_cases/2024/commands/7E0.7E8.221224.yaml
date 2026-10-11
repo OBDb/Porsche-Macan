@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221224
+test_cases:
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_GEAR: 0.7
+  response: '7E8056212240007'
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_GEAR: 1.6
+  response: '7E8056212240010'
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_GEAR: 1.8
+  response: '7E8056212240012'
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_GEAR: 2.3
+  response: '7E8056212240017'
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_GEAR: 2.4
+  response: '7E8056212240018'

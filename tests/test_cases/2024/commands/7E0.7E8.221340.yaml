@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221340
+test_cases:
+- expected_values:
+    MACAN_TQ_INCREASE_REQ_ESP: -44892.1
+  response: 7E807621340FFF92667
+- expected_values:
+    MACAN_TQ_INCREASE_REQ_ESP: -32768
+  response: 7E807621340FFFB0000
+- expected_values:
+    MACAN_TQ_INCREASE_REQ_ESP: -28835.8
+  response: 7E807621340FFFB999A
+- expected_values:
+    MACAN_TQ_INCREASE_REQ_ESP: -9502.7
+  response: 7E807621340FFFE8CCD
+- expected_values:
+    MACAN_TQ_INCREASE_REQ_ESP: -7864.3
+  response: 7E807621340FFFECCCD

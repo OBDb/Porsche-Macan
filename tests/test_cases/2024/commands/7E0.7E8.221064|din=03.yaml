@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221064|din=03
+test_cases:
+- expected_values:
+    MACAN_ECT_ENG_OUTLET_CALC: 30.2
+  response: 7E8056210640BD9

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221150
+test_cases:
+- expected_values:
+    MACAN_MISFIRES_C3_ECM: 12191
+  response: 7E8056211502F9F
+- expected_values:
+    MACAN_MISFIRES_C3_ECM: 12192
+  response: 7E8056211502FA0
+- expected_values:
+    MACAN_MISFIRES_C3_ECM: 12193
+  response: 7E8056211502FA1

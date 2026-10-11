@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    MACAN_INT_MANIFOLD_P_CMD: 270.85938
+  response: 7E8056211DD0D8B
+- expected_values:
+    MACAN_INT_MANIFOLD_P_CMD: 297.96875
+  response: 7E8056211DD0EE6
+- expected_values:
+    MACAN_INT_MANIFOLD_P_CMD: 755.70312
+  response: 7E8056211DD25C9
+- expected_values:
+    MACAN_INT_MANIFOLD_P_CMD: 877.65625
+  response: 7E8056211DD2BE2
+- expected_values:
+    MACAN_INT_MANIFOLD_P_CMD: 986.95312
+  response: 7E8056211DD3159

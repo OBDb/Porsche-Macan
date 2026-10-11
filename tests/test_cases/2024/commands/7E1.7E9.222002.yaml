@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222002
+test_cases:
+- expected_values:
+    MACAN_ENG_TQ_7E1_7E1: 3244
+  response: 7E9056220020CAC

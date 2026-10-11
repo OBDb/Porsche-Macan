@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    MACAN_OIL_LEVEL_WARN: 1.3988
+  response: 7E8056211BD0DA9
+- expected_values:
+    MACAN_OIL_LEVEL_WARN: 1.4496
+  response: 7E8056211BD0E28
+- expected_values:
+    MACAN_OIL_LEVEL_WARN: 1.4612
+  response: 7E8056211BD0E45
+- expected_values:
+    MACAN_OIL_LEVEL_WARN: 1.468
+  response: 7E8056211BD0E56
+- expected_values:
+    MACAN_OIL_LEVEL_WARN: 1.4744
+  response: 7E8056211BD0E66

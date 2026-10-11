@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    MACAN_RPM: 584.5
+  response: 7E80562F40C0922
+- expected_values:
+    MACAN_RPM: 770
+  response: 7E80562F40C0C08
+- expected_values:
+    MACAN_RPM: 1187.5
+  response: 7E80562F40C128E
+- expected_values:
+    MACAN_RPM: 1373.5
+  response: 7E80562F40C1576
+- expected_values:
+    MACAN_RPM: 2287.5
+  response: 7E80562F40C23BE

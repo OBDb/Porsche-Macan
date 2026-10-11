@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22136D
+test_cases:
+- expected_values:
+    MACAN_CAM_ADJ_EXH_BANK_2_ACT: 0.28125
+  response: 7E80562136D0012
+- expected_values:
+    MACAN_CAM_ADJ_EXH_BANK_2_ACT: 2.82812
+  response: 7E80562136D00B5
+- expected_values:
+    MACAN_CAM_ADJ_EXH_BANK_2_ACT: 14.84375
+  response: 7E80562136D03B6
+- expected_values:
+    MACAN_CAM_ADJ_EXH_BANK_2_ACT: -18.54688
+  response: 7E80562136DFB5D
+- expected_values:
+    MACAN_CAM_ADJ_EXH_BANK_2_ACT: -15.78125
+  response: 7E80562136DFC0E

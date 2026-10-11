@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222106
+test_cases:
+- expected_values:
+    MACAN_VSS_HR: 50.1
+  response: '7E9056221061392'

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2211AD
+test_cases:
+- expected_values:
+    MACAN_MAF_CMD: 14.7
+  response: 7E8056211AD0093
+- expected_values:
+    MACAN_MAF_CMD: 38.6
+  response: 7E8056211AD0182
+- expected_values:
+    MACAN_MAF_CMD: 47.1
+  response: 7E8056211AD01D7
+- expected_values:
+    MACAN_MAF_CMD: 59.6
+  response: 7E8056211AD0254
+- expected_values:
+    MACAN_MAF_CMD: 60.1
+  response: 7E8056211AD0259
+- expected_values:
+    MACAN_MAF_CMD: 60.8
+  response: 7E8056211AD0260

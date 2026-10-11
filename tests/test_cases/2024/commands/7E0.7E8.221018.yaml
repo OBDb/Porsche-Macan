@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221018
+test_cases:
+- expected_values:
+    MACAN_CLT_FAN_REQ_AC: 0
+  response: '7E8056210180000'
+- expected_values:
+    MACAN_CLT_FAN_REQ_AC: 0.40283
+  response: '7E8056210180021'
+- expected_values:
+    MACAN_CLT_FAN_REQ_AC: 6.7993
+  response: 7E805621018022D

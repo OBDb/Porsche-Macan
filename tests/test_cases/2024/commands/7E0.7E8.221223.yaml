@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221223
+test_cases:
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: 1.1
+  response: 7E805621223000B
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -1.3
+  response: 7E805621223FFF3
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -1.1
+  response: 7E805621223FFF5
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -0.9
+  response: 7E805621223FFF7
+- expected_values:
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -0.7
+  response: 7E805621223FFF9

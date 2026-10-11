@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211EE
+test_cases:
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE_ACT: 1005.85938
+  response: 7E8056211EE324B
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE_ACT: 1011.32812
+  response: 7E8056211EE3291
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE_ACT: 1022.26562
+  response: 7E8056211EE331D
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE_ACT: 1050.39062
+  response: 7E8056211EE3485
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE_ACT: 1080.9375
+  response: 7E8056211EE360C

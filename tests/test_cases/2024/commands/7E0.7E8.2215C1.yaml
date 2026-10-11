@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215C1
+test_cases:
+- expected_values:
+    MACAN_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10B5E
+- expected_values:
+    MACAN_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10B60
+- expected_values:
+    MACAN_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10B64

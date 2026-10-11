@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221509
+test_cases:
+- expected_values:
+    MACAN_AMBIENT_AIR_P: 1003.236
+  response: 7E805621509647C
+- expected_values:
+    MACAN_AMBIENT_AIR_P: 1003.431
+  response: '7E8056215096481'
+- expected_values:
+    MACAN_AMBIENT_AIR_P: 1003.821
+  response: 7E805621509648B
+- expected_values:
+    MACAN_AMBIENT_AIR_P: 1004.016
+  response: '7E8056215096490'
+- expected_values:
+    MACAN_AMBIENT_AIR_P: 1004.406
+  response: 7E805621509649A

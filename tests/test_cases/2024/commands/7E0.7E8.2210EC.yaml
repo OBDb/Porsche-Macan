@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2210EC
+test_cases:
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: 0.03125
+  response: 7E8056210EC0002
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: 0.09375
+  response: 7E8056210EC0006
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: 0.23438
+  response: 7E8056210EC000F
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: 0.5
+  response: 7E8056210EC0020
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: -0.21875
+  response: 7E8056210ECFFF2
+- expected_values:
+    MACAN_VLV_TIM_DIFF_ACT_SET: -0.0625
+  response: 7E8056210ECFFFC
