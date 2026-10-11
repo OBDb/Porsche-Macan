@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_LOST_TQ_ADPT_DRIVING: 0
   response: 7E80562437E0000
+- expected_values:
+    MACAN_LOST_TQ_ADPT_DRIVING: 5
+  response: 7E80562437E0032

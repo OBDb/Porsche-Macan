@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0
   response: '7E8056239970000'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0.85
+  response: '7E8056239970055'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 1.87
+  response: 7E80562399700BB
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 7.77
+  response: '7E8056239970309'

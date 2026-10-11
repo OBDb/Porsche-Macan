@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     MACAN_MIS_PER_1000_3: 501
   response: 7E8056210F401F5
+- expected_values:
+    MACAN_MIS_PER_1000_3: 518
+  response: 7E8056210F40206
+- expected_values:
+    MACAN_MIS_PER_1000_3: 546
+  response: 7E8056210F40222
+- expected_values:
+    MACAN_MIS_PER_1000_3: 564
+  response: 7E8056210F40234
+- expected_values:
+    MACAN_MIS_PER_1000_3: 590
+  response: 7E8056210F4024E
+- expected_values:
+    MACAN_MIS_PER_1000_3: 604
+  response: 7E8056210F4025C

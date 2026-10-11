@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ENG_TQ_7E1_7E1: 61
   response: 7E905622002003D
+- expected_values:
+    MACAN_ENG_TQ_7E1_7E1: 3253
+  response: 7E9056220020CB5

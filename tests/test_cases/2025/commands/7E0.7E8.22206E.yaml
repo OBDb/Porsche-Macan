@@ -4,8 +4,20 @@ test_cases:
     MACAN_CRANK_SPD_RPM: 0
   response: 7E80562206E0000
 - expected_values:
+    MACAN_CRANK_SPD_RPM: 801
+  response: 7E80562206E0321
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 912
+  response: 7E80562206E0390
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 1000
+  response: 7E80562206E03E8
+- expected_values:
     MACAN_CRANK_SPD_RPM: 1438
   response: 7E80562206E059E
 - expected_values:
     MACAN_CRANK_SPD_RPM: 1538
   response: 7E80562206E0602
+- expected_values:
+    MACAN_CRANK_SPD_RPM: 2454
+  response: 7E80562206E0996

@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.222029
 test_cases:
 - expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 63.12
+  response: '7E8056220290315'
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 69.2
+  response: '7E8056220290361'
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 70.4
+  response: '7E8056220290370'
+- expected_values:
     MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 163.76
   response: 7E80562202907FF
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 164.08
+  response: '7E8056220290803'
 - expected_values:
     MACAN_PQ35_CHARGE_AIR_P_SPECIFIED: 168.8
   response: 7E805622029083E

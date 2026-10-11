@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ID_CURRENT_DRIVING: 255
   response: 7E905621012FF3D
+- expected_values:
+    MACAN_ID_CURRENT_DRIVING: 255
+  response: 7E905621012FF3E

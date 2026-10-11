@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     MACAN_EA888B_BOOST_P_CTRL_2: 84.3
   response: 7E8056212011E57
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 87.11
+  response: 7E8056212011FBC
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 87.11
+  response: 7E8056212011FC5
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 87.11
+  response: 7E8056212011FF1
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 89.92
+  response: 7E805621201204E
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 89.92
+  response: '7E8056212012080'

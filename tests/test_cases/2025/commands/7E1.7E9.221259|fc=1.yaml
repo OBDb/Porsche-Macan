@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_CLU_T: 49
   response: '7E90462125959'
+- expected_values:
+    MACAN_CLU_T: 62
+  response: '7E90462125966'

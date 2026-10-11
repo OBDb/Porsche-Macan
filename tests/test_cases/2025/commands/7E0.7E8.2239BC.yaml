@@ -4,5 +4,11 @@ test_cases:
     MACAN_MIXTURE_VARIATION_1: 0.05
   response: 7E8056239BC0005
 - expected_values:
+    MACAN_MIXTURE_VARIATION_1: 0.4
+  response: 7E8056239BC0028
+- expected_values:
     MACAN_MIXTURE_VARIATION_1: 0.48
   response: 7E8056239BC0030
+- expected_values:
+    MACAN_MIXTURE_VARIATION_1: 0.73
+  response: 7E8056239BC0049

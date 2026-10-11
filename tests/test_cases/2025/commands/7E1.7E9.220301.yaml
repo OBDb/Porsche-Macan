@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_CTRL_MODULE_T: 32
   response: '7E90462030148'
+- expected_values:
+    MACAN_CTRL_MODULE_T: 45
+  response: '7E90462030155'

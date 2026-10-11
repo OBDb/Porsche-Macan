@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     MACAN_WEAR_INDEX_0_NEW_ENG: 0
   response: 7E8056220C20000
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.03052
+  response: 7E8056220C20014
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.04273
+  response: 7E8056220C2001C
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.04883
+  response: 7E8056220C20020
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.07172
+  response: 7E8056220C2002F
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.12207
+  response: 7E8056220C20050

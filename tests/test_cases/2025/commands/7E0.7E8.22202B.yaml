@@ -9,3 +9,15 @@ test_cases:
 - expected_values:
     MACAN_ECT_RADIATOR_OUTLET_ACT: 25.4
   response: 7E80562202B00FE
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_ACT: 28.9
+  response: 7E80562202B0121
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_ACT: 31.2
+  response: 7E80562202B0138
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_ACT: 41.1
+  response: 7E80562202B019B
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_ACT: 70
+  response: 7E80562202B02BC

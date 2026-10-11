@@ -7,5 +7,17 @@ test_cases:
     MACAN_EXH_GAS_T_BEFORE: 435.9
   response: 7E80562296F1107
 - expected_values:
+    MACAN_EXH_GAS_T_BEFORE: 452.1
+  response: 7E80562296F11A9
+- expected_values:
+    MACAN_EXH_GAS_T_BEFORE: 463.4
+  response: 7E80562296F121A
+- expected_values:
+    MACAN_EXH_GAS_T_BEFORE: 470.9
+  response: 7E80562296F1265
+- expected_values:
     MACAN_EXH_GAS_T_BEFORE: 504.6
   response: 7E80562296F13B6
+- expected_values:
+    MACAN_EXH_GAS_T_BEFORE: 558.7
+  response: 7E80562296F15D3

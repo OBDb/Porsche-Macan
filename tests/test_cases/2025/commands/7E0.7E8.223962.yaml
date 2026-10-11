@@ -1,11 +1,29 @@
 command_id: 7E0.7E8.223962
 test_cases:
 - expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 0.27
+  response: 7E805623962010E
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 0.277
+  response: '7E8056239620115'
+- expected_values:
     MACAN_KNOCK_SENS_CYL_3: 0.349
   response: 7E805623962015D
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 0.353
+  response: '7E8056239620161'
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 0.359
+  response: '7E8056239620167'
 - expected_values:
     MACAN_KNOCK_SENS_CYL_3: 0.441
   response: 7E80562396201B9
 - expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 0.526
+  response: 7E805623962020E
+- expected_values:
     MACAN_KNOCK_SENS_CYL_3: 0.649
   response: '7E8056239620289'
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_3: 2.5
+  response: 7E80562396209C4

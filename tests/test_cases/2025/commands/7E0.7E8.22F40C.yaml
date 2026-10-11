@@ -4,8 +4,20 @@ test_cases:
     MACAN_RPM: 0
   response: 7E80562F40C0000
 - expected_values:
+    MACAN_RPM: 802.5
+  response: 7E80562F40C0C8A
+- expected_values:
+    MACAN_RPM: 1148.75
+  response: 7E80562F40C11F3
+- expected_values:
+    MACAN_RPM: 1385.75
+  response: 7E80562F40C15A7
+- expected_values:
     MACAN_RPM: 1481.25
   response: 7E80562F40C1725
 - expected_values:
     MACAN_RPM: 1551.25
   response: 7E80562F40C183D
+- expected_values:
+    MACAN_RPM: 1706.75
+  response: 7E80562F40C1AAB

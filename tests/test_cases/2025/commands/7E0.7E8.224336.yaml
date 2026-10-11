@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACAN_HEATER_SUPPORT_PMP_SPEC: 70.2
   response: 7E8056243361B6C
+- expected_values:
+    MACAN_HEATER_SUPPORT_PMP_SPEC: 95
+  response: 7E805624336251C

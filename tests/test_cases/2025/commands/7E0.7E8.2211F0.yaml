@@ -1,8 +1,23 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
+    MACAN_BOOST_P_ACT: 446.09375
+  response: 7E8056211F0164E
+- expected_values:
+    MACAN_BOOST_P_ACT: 462.57812
+  response: 7E8056211F01721
+- expected_values:
+    MACAN_BOOST_P_ACT: 477.5
+  response: 7E8056211F017E0
+- expected_values:
     MACAN_BOOST_P_ACT: 521.48438
   response: 7E8056211F01A13
+- expected_values:
+    MACAN_BOOST_P_ACT: 523.59375
+  response: 7E8056211F01A2E
+- expected_values:
+    MACAN_BOOST_P_ACT: 528.75
+  response: 7E8056211F01A70
 - expected_values:
     MACAN_BOOST_P_ACT: 586.01562
   response: 7E8056211F01D4D

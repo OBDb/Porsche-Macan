@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.22F449
 test_cases:
 - expected_values:
+    MACAN_ACCEL_PEDAL_POS: 14.90196
+  response: 7E90462F44926
+- expected_values:
     MACAN_ACCEL_PEDAL_POS: 18.43137
   response: 7E90462F4492F

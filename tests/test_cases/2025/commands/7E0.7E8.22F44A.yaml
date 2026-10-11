@@ -4,5 +4,11 @@ test_cases:
     MACAN_ACCEL_PEDAL_POS_2: 14.90196
   response: 7E80462F44A26
 - expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 15.29412
+  response: 7E80462F44A27
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_2: 22.35294
+  response: 7E80462F44A39
+- expected_values:
     MACAN_ACCEL_PEDAL_POS_2: 26.66667
   response: 7E80462F44A44

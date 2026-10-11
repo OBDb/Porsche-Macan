@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ANALYSIS_CLU_1_T_2: 901.2
   response: 7E90562106704B0
+- expected_values:
+    MACAN_ANALYSIS_CLU_1_T_2: 1295.44
+  response: 7E90562106704FD

@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.222004
 test_cases:
 - expected_values:
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: 6
+  response: '7E8056220040258'
+- expected_values:
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: 11.62
+  response: 7E805622004048A
+- expected_values:
     MACAN_IGN_ANG_CURRENT_CYL_ACT: 13.87
   response: 7E805622004056B
 - expected_values:
@@ -9,3 +15,12 @@ test_cases:
 - expected_values:
     MACAN_IGN_ANG_CURRENT_CYL_ACT: 25
   response: 7E8056220040CE4
+- expected_values:
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: -10.5
+  response: 7E805622004FBE6
+- expected_values:
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: -9.37
+  response: 7E805622004FC57
+- expected_values:
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: -4.87
+  response: 7E805622004FE19

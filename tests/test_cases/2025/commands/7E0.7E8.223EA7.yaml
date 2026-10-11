@@ -4,8 +4,23 @@ test_cases:
     MACAN_CHG_P_CTRL_VLV_POS_ACT: 0.04
   response: 7E805623EA70004
 - expected_values:
+    MACAN_CHG_P_CTRL_VLV_POS_ACT: 0.08
+  response: 7E805623EA70008
+- expected_values:
     MACAN_CHG_P_CTRL_VLV_POS_ACT: 0.09
   response: 7E805623EA70009
 - expected_values:
+    MACAN_CHG_P_CTRL_VLV_POS_ACT: 0.15
+  response: 7E805623EA7000F
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_POS_ACT: 0.73
+  response: 7E805623EA70049
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_POS_ACT: 2.82
+  response: 7E805623EA7011A
+- expected_values:
     MACAN_CHG_P_CTRL_VLV_POS_ACT: 3.96
   response: 7E805623EA7018C
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_POS_ACT: 97.43
+  response: 7E805623EA7260F

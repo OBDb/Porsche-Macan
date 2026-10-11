@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ACCEL_7E0: 0
   response: 7E8056210CA0000
+- expected_values:
+    MACAN_ACCEL_7E0: 17.125
+  response: 7E8056210CA42E5

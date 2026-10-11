@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2210F3|fc=1
 test_cases:
 - expected_values:
+    MACAN_OIL_LEVEL_LAST_VALID: 20
+  response: 7E8056210F314E6
+- expected_values:
     MACAN_OIL_LEVEL_LAST_VALID: 23
   response: 7E8056210F31708

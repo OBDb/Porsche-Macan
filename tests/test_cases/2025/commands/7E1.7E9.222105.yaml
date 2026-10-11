@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_TQ_TRANSMITTING: 2.9
   response: 7E905622105001D
+- expected_values:
+    MACAN_TQ_TRANSMITTING: 3.6
+  response: '7E9056221050024'

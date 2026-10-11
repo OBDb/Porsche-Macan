@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 145.95
   response: 7E9056210AD0339
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: -128.04
+  response: 7E9056210ADFCCD

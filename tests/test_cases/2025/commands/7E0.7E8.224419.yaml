@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.224419
 test_cases:
 - expected_values:
+    MACAN_ENG_T_MANAGEMENT: 1183
+  response: 7E805624419049F
+- expected_values:
+    MACAN_ENG_T_MANAGEMENT: 1203
+  response: 7E80562441904B3
+- expected_values:
+    MACAN_ENG_T_MANAGEMENT: 1279
+  response: 7E80562441904FF
+- expected_values:
     MACAN_ENG_T_MANAGEMENT: 1468
   response: 7E80562441905BC
+- expected_values:
+    MACAN_ENG_T_MANAGEMENT: 1684
+  response: '7E8056244190694'
 - expected_values:
     MACAN_ENG_T_MANAGEMENT: 2022
   response: 7E80562441907E6

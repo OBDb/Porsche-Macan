@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_TCM_DRAG_TQ: 53
   response: '7E9056210210035'
+- expected_values:
+    MACAN_TCM_DRAG_TQ: 65
+  response: '7E9056210210041'

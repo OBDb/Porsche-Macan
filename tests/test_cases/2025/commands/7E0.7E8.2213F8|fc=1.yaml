@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_KNOCK_SENS_V_CYL_1: 0.01442
   response: 7E8056213F800BD
+- expected_values:
+    MACAN_KNOCK_SENS_V_CYL_1: 0.02388
+  response: 7E8056213F80139

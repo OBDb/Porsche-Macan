@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 256.23
   response: 7E9056211A71764
+- expected_values:
+    MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 92.41
+  response: 7E9056211A71924

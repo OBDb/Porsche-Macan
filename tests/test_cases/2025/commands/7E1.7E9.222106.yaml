@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_VSS_HR: 61.6
   response: '7E9056221061810'
+- expected_values:
+    MACAN_VSS_HR: 65.6
+  response: 7E90562210619A0

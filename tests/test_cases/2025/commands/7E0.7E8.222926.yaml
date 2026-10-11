@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_TEST_CATALYTIC_CONV: 0.031
   response: 7E805622926001F
+- expected_values:
+    MACAN_TEST_CATALYTIC_CONV: 0.062
+  response: 7E805622926003E

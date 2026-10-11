@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     MACAN_ODO_ECU_INSTALLED: 34133
   response: 7E80662295B008555
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 34134
+  response: 7E80662295B008556
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 34136
+  response: 7E80662295B008558
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 34137
+  response: 7E80662295B008559
