@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.222103
 test_cases:
 - expected_values:
+    MACAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 465
+  response: '7E9056221030744'
+- expected_values:
     MACAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD: 487
   response: 7E905622103079C

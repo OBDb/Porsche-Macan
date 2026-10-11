@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     MACAN_CHG_P_CTRL_VLV_V_POS: 3.13298
   response: 7E805623EAB5034
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS: 3.13481
+  response: 7E805623EAB5040
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS: 3.1458
+  response: 7E805623EAB5088
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS: 3.15877
+  response: 7E805623EAB50DD
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS: 3.1664
+  response: 7E805623EAB510F
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS: 3.17753
+  response: 7E805623EAB5158

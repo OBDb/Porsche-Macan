@@ -1,11 +1,23 @@
 command_id: 7E0.7E8.224418
 test_cases:
 - expected_values:
+    MACAN_THERMOSTAT_ACT: 77.57548
+  response: 7E80562441818D3
+- expected_values:
+    MACAN_THERMOSTAT_ACT: 100
+  response: 7E805624418216E
+- expected_values:
     MACAN_THERMOSTAT_ACT: 100
   response: '7E8056244182286'
+- expected_values:
+    MACAN_THERMOSTAT_ACT: 100
+  response: '7E8056244182858'
 - expected_values:
     MACAN_THERMOSTAT_ACT: 100
   response: 7E805624418312D
 - expected_values:
     MACAN_THERMOSTAT_ACT: 100
   response: 7E805624418325E
+- expected_values:
+    MACAN_THERMOSTAT_ACT: 100
+  response: 7E805624418618A

@@ -4,5 +4,14 @@ test_cases:
     MACAN_FUEL_MASS_REQ_I_CTL: 0
   response: 7E80562130D0000
 - expected_values:
+    MACAN_FUEL_MASS_REQ_I_CTL: -3.26388
+  response: 7E80562130DFF66
+- expected_values:
+    MACAN_FUEL_MASS_REQ_I_CTL: -2.54328
+  response: 7E80562130DFF88
+- expected_values:
+    MACAN_FUEL_MASS_REQ_I_CTL: -2.52209
+  response: 7E80562130DFF89
+- expected_values:
     MACAN_FUEL_MASS_REQ_I_CTL: -2.4797
   response: 7E80562130DFF8B

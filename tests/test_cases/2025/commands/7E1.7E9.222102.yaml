@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_MQB_TCM_TRANSMISSION_INPUT_SPD: 1427
   response: 7E905622102164C
+- expected_values:
+    MACAN_MQB_TCM_TRANSMISSION_INPUT_SPD: 1576
+  response: 7E90562210218A0

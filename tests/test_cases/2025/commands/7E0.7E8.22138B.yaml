@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.22138B
 test_cases:
 - expected_values:
+    MACAN_IGA_IGC_1: -4.8955
+  response: 7E80462138B52
+- expected_values:
+    MACAN_IGA_IGC_1: 2.97425
+  response: 7E80462138B67
+- expected_values:
     MACAN_IGA_IGC_1: 8.97025
   response: 7E80462138B77
 - expected_values:
     MACAN_IGA_IGC_1: 12.343
   response: 7E80462138B80
+- expected_values:
+    MACAN_IGA_IGC_1: 16.0905
+  response: 7E80462138B8A
+- expected_values:
+    MACAN_IGA_IGC_1: 20.21275
+  response: 7E80462138B95

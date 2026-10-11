@@ -4,5 +4,20 @@ test_cases:
     MACAN_BRAKE_BOOSTER_P: 351.16738
   response: 7E8056211CF231E
 - expected_values:
+    MACAN_BRAKE_BOOSTER_P: 425.18987
+  response: 7E8056211CF2A85
+- expected_values:
+    MACAN_BRAKE_BOOSTER_P: 432.65071
+  response: 7E8056211CF2B44
+- expected_values:
     MACAN_BRAKE_BOOSTER_P: 484.32974
   response: 7E8056211CF306F
+- expected_values:
+    MACAN_BRAKE_BOOSTER_P: 520.30584
+  response: 7E8056211CF3408
+- expected_values:
+    MACAN_BRAKE_BOOSTER_P: 526.55576
+  response: 7E8056211CF34A8
+- expected_values:
+    MACAN_BRAKE_BOOSTER_P: 544.56334
+  response: 7E8056211CF3675

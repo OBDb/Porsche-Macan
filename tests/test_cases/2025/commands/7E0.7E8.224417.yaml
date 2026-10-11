@@ -5,4 +5,10 @@ test_cases:
   response: 7E80562441722AB
 - expected_values:
     MACAN_THERMOSTAT_CMD: 100
+  response: 7E805624417283C
+- expected_values:
+    MACAN_THERMOSTAT_CMD: 100
   response: 7E8056244173FF7
+- expected_values:
+    MACAN_THERMOSTAT_CMD: 100
+  response: 7E80562441761A8

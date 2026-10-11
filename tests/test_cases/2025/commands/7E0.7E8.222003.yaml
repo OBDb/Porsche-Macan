@@ -7,5 +7,14 @@ test_cases:
     MACAN_AVG_INJ_TIME_7E0: 0.6
   response: '7E80462200306'
 - expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 0.7
+  response: '7E80462200307'
+- expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 0.8
+  response: '7E80462200308'
+- expected_values:
+    MACAN_AVG_INJ_TIME_7E0: 1.7
+  response: '7E80462200311'
+- expected_values:
     MACAN_AVG_INJ_TIME_7E0: 2.4
   response: '7E80462200318'

@@ -9,3 +9,15 @@ test_cases:
 - expected_values:
     MACAN_CAM_ADJ_INT_BANK_1: 43.04
   response: 7E80562293010D0
+- expected_values:
+    MACAN_CAM_ADJ_INT_BANK_1: 44.51
+  response: '7E8056229301163'
+- expected_values:
+    MACAN_CAM_ADJ_INT_BANK_1: 44.84
+  response: '7E8056229301184'
+- expected_values:
+    MACAN_CAM_ADJ_INT_BANK_1: 47.56
+  response: '7E8056229301294'
+- expected_values:
+    MACAN_CAM_ADJ_INT_BANK_1: 49.15
+  response: '7E8056229301333'

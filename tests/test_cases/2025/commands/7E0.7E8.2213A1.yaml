@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACAN_TI_MES4_PLS_1_1: 0
   response: 7E8056213A10000
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 0.908
+  response: 7E8056213A100E3
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.336
+  response: 7E8056213A1014E
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.712
+  response: 7E8056213A101AC
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.904
+  response: 7E8056213A101DC

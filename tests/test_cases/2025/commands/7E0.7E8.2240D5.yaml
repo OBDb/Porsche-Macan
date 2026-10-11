@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     MACAN_EOT_SENS_2: 50
   response: 7E8056240D501F4
+- expected_values:
+    MACAN_EOT_SENS_2: 58
+  response: 7E8056240D50244
+- expected_values:
+    MACAN_EOT_SENS_2: 66
+  response: 7E8056240D50294
+- expected_values:
+    MACAN_EOT_SENS_2: 81
+  response: 7E8056240D5032A
+- expected_values:
+    MACAN_EOT_SENS_2: 83
+  response: 7E8056240D5033E
+- expected_values:
+    MACAN_EOT_SENS_2: 84
+  response: 7E8056240D50348
+- expected_values:
+    MACAN_EOT_SENS_2: 90
+  response: 7E8056240D50384

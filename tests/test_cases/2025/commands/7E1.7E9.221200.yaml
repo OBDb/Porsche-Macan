@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_LAUNCH_CTRL_CNT_VAR_1: 13830
   response: 7E90762120006363FCE
+- expected_values:
+    MACAN_LAUNCH_CTRL_CNT_VAR_1: 13830
+  response: '7E90762120006368448'

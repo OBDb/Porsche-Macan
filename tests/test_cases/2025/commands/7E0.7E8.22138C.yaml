@@ -4,5 +4,17 @@ test_cases:
     MACAN_IGA_IGC_2: -7.51875
   response: 7E80462138C4B
 - expected_values:
+    MACAN_IGA_IGC_2: -4.8955
+  response: 7E80462138C52
+- expected_values:
     MACAN_IGA_IGC_2: 16.46525
   response: 7E80462138C8B
+- expected_values:
+    MACAN_IGA_IGC_2: 19.46325
+  response: 7E80462138C93
+- expected_values:
+    MACAN_IGA_IGC_2: 20.5875
+  response: 7E80462138C96
+- expected_values:
+    MACAN_IGA_IGC_2: 25.45925
+  response: 7E80462138CA3

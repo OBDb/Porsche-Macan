@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221298|fc=1
 test_cases:
 - expected_values:
+    MACAN_CAT_T_BANK_1: 644.5375
+  response: 7E805621298395B
+- expected_values:
     MACAN_CAT_T_BANK_1: 704.0375
   response: 7E8056212983D13

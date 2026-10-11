@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_AIR_MASS: 100.75
   response: 7E8056213CD0C98
+- expected_values:
+    MACAN_AIR_MASS: 142.03125
+  response: 7E8056213CD11C1

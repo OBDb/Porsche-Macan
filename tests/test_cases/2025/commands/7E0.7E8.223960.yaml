@@ -4,5 +4,17 @@ test_cases:
     MACAN_KNOCK_SENS_CYL_1: 0.284
   response: 7E805623960011C
 - expected_values:
+    MACAN_KNOCK_SENS_CYL_1: 0.381
+  response: 7E805623960017D
+- expected_values:
     MACAN_KNOCK_SENS_CYL_1: 0.538
   response: 7E805623960021A
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_1: 0.665
+  response: '7E8056239600299'
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_1: 0.706
+  response: 7E80562396002C2
+- expected_values:
+    MACAN_KNOCK_SENS_CYL_1: 0.734
+  response: 7E80562396002DE

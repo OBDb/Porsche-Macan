@@ -4,5 +4,11 @@ test_cases:
     MACAN_LONG_TERM_FUEL_TRIM_IDLE: 0
   response: '7E8056243810000'
 - expected_values:
+    MACAN_LONG_TERM_FUEL_TRIM_IDLE: 0.11
+  response: 7E805624381000B
+- expected_values:
     MACAN_LONG_TERM_FUEL_TRIM_IDLE: 0.28
   response: 7E805624381001C
+- expected_values:
+    MACAN_LONG_TERM_FUEL_TRIM_IDLE: 0.34
+  response: '7E8056243810022'

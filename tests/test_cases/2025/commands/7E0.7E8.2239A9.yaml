@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_OXYGEN_CTRL_ADPT: 0.05
   response: 7E8056239A90005
+- expected_values:
+    MACAN_OXYGEN_CTRL_ADPT: 0.47
+  response: 7E8056239A9002F

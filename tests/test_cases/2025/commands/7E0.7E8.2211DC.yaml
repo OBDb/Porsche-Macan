@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.2211DC
 test_cases:
 - expected_values:
+    MACAN_MAP_RAW: 2.03125
+  response: 7E8056211DC001A
+- expected_values:
     MACAN_MAP_RAW: 8.98438
   response: 7E8056211DC0073
 - expected_values:
+    MACAN_MAP_RAW: 11.32812
+  response: 7E8056211DC0091
+- expected_values:
+    MACAN_MAP_RAW: 21.71875
+  response: 7E8056211DC0116
+- expected_values:
     MACAN_MAP_RAW: 26.17188
   response: 7E8056211DC014F
+- expected_values:
+    MACAN_MAP_RAW: 36.95312
+  response: 7E8056211DC01D9

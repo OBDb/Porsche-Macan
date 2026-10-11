@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7: 51.48
   response: 7E9056210A21C14
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7: 56.6
+  response: 7E9056210A21C16

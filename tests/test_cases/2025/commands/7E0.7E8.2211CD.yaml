@@ -4,5 +4,14 @@ test_cases:
     MACAN_TCO_1_SYS: 65
   response: 7E8046211CD69
 - expected_values:
+    MACAN_TCO_1_SYS: 86
+  response: 7E8046211CD7E
+- expected_values:
     MACAN_TCO_1_SYS: 95
   response: 7E8046211CD87
+- expected_values:
+    MACAN_TCO_1_SYS: 103
+  response: 7E8046211CD8F
+- expected_values:
+    MACAN_TCO_1_SYS: 105
+  response: 7E8046211CD91

@@ -4,5 +4,17 @@ test_cases:
     MACAN_DYNAMIC_AVG_IGN_ANG: 5.25
   response: 7E80562294A020D
 - expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: 10.87
+  response: 7E80562294A043F
+- expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: 12
+  response: 7E80562294A04B0
+- expected_values:
     MACAN_DYNAMIC_AVG_IGN_ANG: -5.25
   response: 7E80562294AFDF3
+- expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: -4.87
+  response: 7E80562294AFE19
+- expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: -1.87
+  response: 7E80562294AFF45

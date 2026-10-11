@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     MACAN_PQ35_CALCULATED_OIL_T: -38
   response: 7E8056220A1024E
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -38
+  response: 7E8056220A102D0
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A1033E
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A1035C
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A1038E
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A103A2
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A103AC

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_KNOCK_RETARD_CYL_6: -48
   response: 7E8056213F700EE
+- expected_values:
+    MACAN_KNOCK_RETARD_CYL_6: -47.25
+  response: 7E8056213F7022D

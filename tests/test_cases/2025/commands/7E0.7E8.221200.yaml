@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_EA888B_BOOST_P_CTRL_1: 61.82
   response: 7E80562120016DC
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_1: 98.35
+  response: 7E805621200235B
