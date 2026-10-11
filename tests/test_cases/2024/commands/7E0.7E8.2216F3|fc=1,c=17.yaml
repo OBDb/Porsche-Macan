@@ -13,8 +13,14 @@ test_cases:
     MACAN_CRANKSHAFT_VSS: 1192.5
   response: 7E8056216F30951
 - expected_values:
+    MACAN_CRANKSHAFT_VSS: 1259.5
+  response: 7E8056216F309D7
+- expected_values:
     MACAN_CRANKSHAFT_VSS: 1651.5
   response: 7E8056216F30CE7
+- expected_values:
+    MACAN_CRANKSHAFT_VSS: 1942
+  response: 7E8056216F30F2C
 - expected_values:
     MACAN_CRANKSHAFT_VSS: 2193.5
   response: 7E8056216F31123
