@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_MANUAL_ENG_STARTS: 3976
   response: 7E8056229980F88
+- expected_values:
+    MACAN_MANUAL_ENG_STARTS: 3977
+  response: 7E8056229980F89

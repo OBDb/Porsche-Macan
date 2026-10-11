@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2214D1
 test_cases:
 - expected_values:
+    MACAN_PRE_INJ_2_DURATION: 0
+  response: 7E8056214D10000
+- expected_values:
+    MACAN_PRE_INJ_2_DURATION: 10.4852
+  response: 7E8056214D16665
+- expected_values:
+    MACAN_PRE_INJ_2_DURATION: -6.7592
+  response: 7E8056214D1BDFE
+- expected_values:
     MACAN_PRE_INJ_2_DURATION: -0.0008
   response: 7E8056214D1FFFE

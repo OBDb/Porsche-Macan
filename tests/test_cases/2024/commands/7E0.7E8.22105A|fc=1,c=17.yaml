@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22105A|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_BATTERY_V: 14260
+  response: 7E80562105A02C9
+- expected_values:
+    MACAN_BATTERY_V: 14300
+  response: 7E80562105A02CB
+- expected_values:
+    MACAN_BATTERY_V: 14340
+  response: 7E80562105A02CD
+- expected_values:
     MACAN_BATTERY_V: 14420
   response: 7E80562105A02D1

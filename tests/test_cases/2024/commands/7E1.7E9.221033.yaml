@@ -2,4 +2,13 @@ command_id: 7E1.7E9.221033
 test_cases:
 - expected_values:
     MACAN_TIME_SINCE_SHIFT: 7650
+  response: 7E905621033FF38
+- expected_values:
+    MACAN_TIME_SINCE_SHIFT: 7650
+  response: 7E905621033FF43
+- expected_values:
+    MACAN_TIME_SINCE_SHIFT: 7650
+  response: 7E905621033FF6B
+- expected_values:
+    MACAN_TIME_SINCE_SHIFT: 7650
   response: 7E905621033FF8B

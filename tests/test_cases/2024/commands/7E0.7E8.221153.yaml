@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     MACAN_EM_TORQ_1: 284.34375
   response: 7E805621153238B
+- expected_values:
+    MACAN_EM_TORQ_1: 284.375
+  response: 7E805621153238C
+- expected_values:
+    MACAN_EM_TORQ_1: 284.40625
+  response: 7E805621153238D
+- expected_values:
+    MACAN_EM_TORQ_1: 284.4375
+  response: 7E805621153238E

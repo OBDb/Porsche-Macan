@@ -4,11 +4,8 @@ test_cases:
     MACAN_ACCEL_PED_1: 0
   response: '7E8056212210000'
 - expected_values:
-    MACAN_ACCEL_PED_1: -2
-  response: 7E805621221FFF6
-- expected_values:
-    MACAN_ACCEL_PED_1: -0.6
-  response: 7E805621221FFFD
+    MACAN_ACCEL_PED_1: -6.8
+  response: 7E805621221FFDE
 - expected_values:
     MACAN_ACCEL_PED_1: -0.2
   response: 7E805621221FFFF

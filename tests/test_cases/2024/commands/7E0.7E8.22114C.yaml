@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_MIS_1000_REVOLUTIONS_5: 0
   response: 7E80562114C0000
+- expected_values:
+    MACAN_MIS_1000_REVOLUTIONS_5: 1
+  response: 7E80562114C0001

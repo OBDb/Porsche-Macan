@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2211DF
 test_cases:
 - expected_values:
+    MACAN_POWERTRAIN_OVERALL: 1
+  response: 7E8056211DF0064
+- expected_values:
     MACAN_POWERTRAIN_OVERALL: 2.4
   response: 7E8056211DF00F0
 - expected_values:
@@ -10,11 +13,17 @@ test_cases:
     MACAN_POWERTRAIN_OVERALL: 3.6
   response: 7E8056211DF0168
 - expected_values:
+    MACAN_POWERTRAIN_OVERALL: 4.8
+  response: 7E8056211DF01E0
+- expected_values:
     MACAN_POWERTRAIN_OVERALL: 6.5
   response: 7E8056211DF028A
 - expected_values:
     MACAN_POWERTRAIN_OVERALL: 10
   response: 7E8056211DF03E8
+- expected_values:
+    MACAN_POWERTRAIN_OVERALL: 13.7
+  response: 7E8056211DF055A
 - expected_values:
     MACAN_POWERTRAIN_OVERALL: 17.2
   response: 7E8056211DF06B8

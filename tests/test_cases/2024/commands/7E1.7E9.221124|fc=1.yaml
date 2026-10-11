@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_CLU_1_HI_ADPT_POINT: 6.596
   response: 7E90562112419C4
+- expected_values:
+    MACAN_CLU_1_HI_ADPT_POINT: 6.637
+  response: 7E90562112419ED
+- expected_values:
+    MACAN_CLU_1_HI_ADPT_POINT: 6.717
+  response: 7E9056211241A3D

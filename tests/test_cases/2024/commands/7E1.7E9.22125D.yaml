@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     MACAN_NOMINAL_P_CLU_2: 2.27
   response: 7E90562125D00E3
+- expected_values:
+    MACAN_NOMINAL_P_CLU_2: 2.31
+  response: 7E90562125D00E7
+- expected_values:
+    MACAN_NOMINAL_P_CLU_2: 2.33
+  response: 7E90562125D00E9
+- expected_values:
+    MACAN_NOMINAL_P_CLU_2: 2.34
+  response: 7E90562125D00EA

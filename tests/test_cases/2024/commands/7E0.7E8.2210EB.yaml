@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.2210EB
 test_cases:
 - expected_values:
-    MACAN_CRANK_ROT_ANG: 49
-  response: 7E8056210EB01EA
+    MACAN_CRANK_ROT_ANG: 25.1
+  response: 7E8056210EB00FB
 - expected_values:
-    MACAN_CRANK_ROT_ANG: 55.1
-  response: 7E8056210EB0227
+    MACAN_CRANK_ROT_ANG: 51
+  response: 7E8056210EB01FE
 - expected_values:
-    MACAN_CRANK_ROT_ANG: 55.4
-  response: 7E8056210EB022A
-- expected_values:
-    MACAN_CRANK_ROT_ANG: 84
-  response: 7E8056210EB0348
-- expected_values:
-    MACAN_CRANK_ROT_ANG: 90.4
-  response: 7E8056210EB0388
+    MACAN_CRANK_ROT_ANG: 78
+  response: 7E8056210EB030C

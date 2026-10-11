@@ -13,5 +13,14 @@ test_cases:
     MACAN_GEAR_V2: 4
   response: 7E8046214CB04
 - expected_values:
+    MACAN_GEAR_V2: 5
+  response: 7E8046214CB05
+- expected_values:
+    MACAN_GEAR_V2: 6
+  response: 7E8046214CB06
+- expected_values:
     MACAN_GEAR_V2: 7
   response: 7E8046214CB07
+- expected_values:
+    MACAN_GEAR_V2: 255
+  response: 7E8046214CBFF

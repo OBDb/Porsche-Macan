@@ -4,14 +4,11 @@ test_cases:
     MACAN_AIR_FILLING: 14.57844
   response: 7E80562121C026E
 - expected_values:
-    MACAN_AIR_FILLING: 55.24337
-  response: 7E80562121C0935
-- expected_values:
-    MACAN_AIR_FILLING: 56.67308
-  response: 7E80562121C0972
-- expected_values:
-    MACAN_AIR_FILLING: 65.06389
-  response: 7E80562121C0AD8
+    MACAN_AIR_FILLING: 17.97695
+  response: 7E80562121C02FF
 - expected_values:
     MACAN_AIR_FILLING: 66.18891
   response: 7E80562121C0B08
+- expected_values:
+    MACAN_AIR_FILLING: 82.5252
+  response: 7E80562121C0DC1

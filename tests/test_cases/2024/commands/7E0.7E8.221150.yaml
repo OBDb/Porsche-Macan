@@ -4,8 +4,5 @@ test_cases:
     MACAN_MISFIRES_C3_ECM: 12191
   response: 7E8056211502F9F
 - expected_values:
-    MACAN_MISFIRES_C3_ECM: 12192
-  response: 7E8056211502FA0
-- expected_values:
-    MACAN_MISFIRES_C3_ECM: 12193
-  response: 7E8056211502FA1
+    MACAN_MISFIRES_C3_ECM: 12201
+  response: 7E8056211502FA9

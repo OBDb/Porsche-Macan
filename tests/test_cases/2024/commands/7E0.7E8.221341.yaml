@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.221341
 test_cases:
 - expected_values:
-    MACAN_CAMS_END: -436
-  response: 7E805621341F77C
+    MACAN_CAMS_END: 8.4
+  response: 7E805621341002A
 - expected_values:
-    MACAN_CAMS_END: -236.4
-  response: 7E805621341FB62
+    MACAN_CAMS_END: -307
+  response: 7E805621341FA01
 - expected_values:
-    MACAN_CAMS_END: -188
-  response: 7E805621341FC54
+    MACAN_CAMS_END: -102.8
+  response: 7E805621341FDFE
 - expected_values:
-    MACAN_CAMS_END: -142
-  response: 7E805621341FD3A
-- expected_values:
-    MACAN_CAMS_END: -125.8
-  response: 7E805621341FD8B
+    MACAN_CAMS_END: -36.8
+  response: 7E805621341FF48

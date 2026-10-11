@@ -4,17 +4,11 @@ test_cases:
     MACAN_AVG_INJ_TIME: 0.3132
   response: 7E80762128C0000030F
 - expected_values:
-    MACAN_AVG_INJ_TIME: 0.5444
-  response: 7E80762128C00000551
+    MACAN_AVG_INJ_TIME: 0.5128
+  response: 7E80762128C00000502
 - expected_values:
-    MACAN_AVG_INJ_TIME: 0.6116
-  response: 7E80762128C000005F9
-- expected_values:
-    MACAN_AVG_INJ_TIME: 0.7672
-  response: 7E80762128C0000077E
-- expected_values:
-    MACAN_AVG_INJ_TIME: 0.942
-  response: 7E80762128C00000933
+    MACAN_AVG_INJ_TIME: 1.74
+  response: 7E80762128C000010FE
 - expected_values:
     MACAN_AVG_INJ_TIME: 2.3628
   response: 7E80762128C00001713

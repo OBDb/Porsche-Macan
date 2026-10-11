@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.2212B0|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_ACCELERATION_29BIT: 0
+  response: 7E8056212B00000
+- expected_values:
+    MACAN_ACCELERATION_29BIT: 0.187
+  response: 7E8056212B000BB
+- expected_values:
+    MACAN_ACCELERATION_29BIT: -0.512
+  response: 7E8056212B0FE00
+- expected_values:
+    MACAN_ACCELERATION_29BIT: -0.244
+  response: 7E8056212B0FF0C
+- expected_values:
     MACAN_ACCELERATION_29BIT: -0.062
   response: 7E8056212B0FFC2

@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2211EF
 test_cases:
 - expected_values:
-    MACAN_P_BEFORE_THROTTLE: 1004.29651
-  response: 7E8056211EF646E
-- expected_values:
-    MACAN_P_BEFORE_THROTTLE: 1004.76526
-  response: 7E8056211EF647A
-- expected_values:
-    MACAN_P_BEFORE_THROTTLE: 1013.6715
-  response: 7E8056211EF655E
+    MACAN_P_BEFORE_THROTTLE: 988.51526
+  response: 7E8056211EF62DA
 - expected_values:
     MACAN_P_BEFORE_THROTTLE: 1019.14025
   response: 7E8056211EF65EA
 - expected_values:
-    MACAN_P_BEFORE_THROTTLE: 1046.17149
-  response: 7E8056211EF689E
+    MACAN_P_BEFORE_THROTTLE: 1019.99963
+  response: 7E8056211EF6600
+- expected_values:
+    MACAN_P_BEFORE_THROTTLE: 1084.84335
+  response: 7E8056211EF6C7C

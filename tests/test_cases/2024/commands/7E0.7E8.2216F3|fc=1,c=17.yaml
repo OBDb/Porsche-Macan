@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.2216F3|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_CRANKSHAFT_VSS: 592
+  response: 7E8056216F304A0
+- expected_values:
+    MACAN_CRANKSHAFT_VSS: 1095.5
+  response: 7E8056216F3088F
+- expected_values:
+    MACAN_CRANKSHAFT_VSS: 1192.5
+  response: 7E8056216F30951
+- expected_values:
+    MACAN_CRANKSHAFT_VSS: 1651.5
+  response: 7E8056216F30CE7
+- expected_values:
     MACAN_CRANKSHAFT_VSS: 2193.5
   response: 7E8056216F31123

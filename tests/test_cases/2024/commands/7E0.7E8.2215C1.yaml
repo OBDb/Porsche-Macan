@@ -5,7 +5,7 @@ test_cases:
   response: 7E8056215C10B5E
 - expected_values:
     MACAN_IAT_BEFORE_THROTTLE: -39.75
-  response: 7E8056215C10B60
+  response: 7E8056215C10BD7
 - expected_values:
-    MACAN_IAT_BEFORE_THROTTLE: -39.75
-  response: 7E8056215C10B64
+    MACAN_IAT_BEFORE_THROTTLE: -39
+  response: 7E8056215C10C1E

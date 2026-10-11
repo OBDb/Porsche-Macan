@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.2211AC
 test_cases:
 - expected_values:
-    MACAN_MAF_THROUGH_THROTTLE: 32
-  response: 7E8056211AC0140
+    MACAN_MAF_THROUGH_THROTTLE: 0
+  response: 7E8056211AC0000
 - expected_values:
-    MACAN_MAF_THROUGH_THROTTLE: 50.8
-  response: 7E8056211AC01FC
-- expected_values:
-    MACAN_MAF_THROUGH_THROTTLE: 73.2
-  response: 7E8056211AC02DC
-- expected_values:
-    MACAN_MAF_THROUGH_THROTTLE: 96.4
-  response: 7E8056211AC03C4
+    MACAN_MAF_THROUGH_THROTTLE: 76.7
+  response: 7E8056211AC02FF
 - expected_values:
     MACAN_MAF_THROUGH_THROTTLE: 177.7
   response: 7E8056211AC06F1

@@ -4,8 +4,8 @@ test_cases:
     MACAN_CLT_FAN_REQ_AC: 0
   response: '7E8056210180000'
 - expected_values:
-    MACAN_CLT_FAN_REQ_AC: 0.40283
-  response: '7E8056210180021'
+    MACAN_CLT_FAN_REQ_AC: 15.60055
+  response: 7E80562101804FE
 - expected_values:
-    MACAN_CLT_FAN_REQ_AC: 6.7993
-  response: 7E805621018022D
+    MACAN_CLT_FAN_REQ_AC: 31.60392
+  response: 7E8056210180A1D

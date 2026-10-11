@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22121A|din=03
 test_cases:
 - expected_values:
+    MACAN_PRE_INJ_3_ACTIVATION: 0.3396
+  response: 7E80562121A0351
+- expected_values:
+    MACAN_PRE_INJ_3_ACTIVATION: 0.7176
+  response: 7E80562121A0702
+- expected_values:
+    MACAN_PRE_INJ_3_ACTIVATION: 0.8724
+  response: 7E80562121A0885
+- expected_values:
+    MACAN_PRE_INJ_3_ACTIVATION: 1.0172
+  response: 7E80562121A09EF
+- expected_values:
     MACAN_PRE_INJ_3_ACTIVATION: 2.4352
   response: 7E80562121A17C8

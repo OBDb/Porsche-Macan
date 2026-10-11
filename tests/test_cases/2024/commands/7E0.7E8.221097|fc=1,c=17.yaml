@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221097|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_GENERATOR_PERFORMANCE: 603.1872
+  response: '7E8056210970040'
+- expected_values:
+    MACAN_GENERATOR_PERFORMANCE: 697.4352
+  response: 7E805621097004A
+- expected_values:
     MACAN_GENERATOR_PERFORMANCE: 753.984
   response: '7E8056210970050'
+- expected_values:
+    MACAN_GENERATOR_PERFORMANCE: 848.232
+  response: 7E805621097005A

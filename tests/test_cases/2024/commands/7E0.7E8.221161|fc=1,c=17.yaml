@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ENGINE_RPM_AT_IDLE_REQUIRED: 600
   response: 7E80562116104B0
+- expected_values:
+    MACAN_ENGINE_RPM_AT_IDLE_REQUIRED: 601
+  response: 7E80562116104B2

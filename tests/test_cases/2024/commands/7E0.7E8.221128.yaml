@@ -7,5 +7,11 @@ test_cases:
     MACAN_CAM_ADPT_EXH_BANK_1: -3.52
   response: 7E805621128FF50
 - expected_values:
+    MACAN_CAM_ADPT_EXH_BANK_1: -3.42
+  response: 7E805621128FF55
+- expected_values:
+    MACAN_CAM_ADPT_EXH_BANK_1: -3.34
+  response: 7E805621128FF59
+- expected_values:
     MACAN_CAM_ADPT_EXH_BANK_1: -3.04
   response: 7E805621128FF68

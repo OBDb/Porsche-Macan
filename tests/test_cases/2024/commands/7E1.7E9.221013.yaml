@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.221013
 test_cases:
 - expected_values:
+    MACAN_CURRENT_TYPE_DRIVER: 65249
+  response: 7E905621013FEE1
+- expected_values:
+    MACAN_CURRENT_TYPE_DRIVER: 65251
+  response: 7E905621013FEE3
+- expected_values:
     MACAN_CURRENT_TYPE_DRIVER: 65257
   response: 7E905621013FEE9

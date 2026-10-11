@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221291|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_COOLANT_T_AT_ENGINE_START: 92
+  response: 7E8056212910E43
+- expected_values:
     MACAN_COOLANT_T_AT_ENGINE_START: 97.6
   response: 7E8056212910E7B
+- expected_values:
+    MACAN_COOLANT_T_AT_ENGINE_START: 98.9
+  response: 7E8056212910E88
+- expected_values:
+    MACAN_COOLANT_T_AT_ENGINE_START: 99.6
+  response: 7E8056212910E8F

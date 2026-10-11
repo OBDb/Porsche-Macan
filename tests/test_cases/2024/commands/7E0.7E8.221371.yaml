@@ -4,17 +4,8 @@ test_cases:
     MACAN_CAM_ADJ_EXH_BANK_1_SPEC: 1.368
   response: 7E80562137100AB
 - expected_values:
-    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: 7.272
-  response: 7E805621371038D
+    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: 6.12
+  response: 7E80562137102FD
 - expected_values:
-    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: -11.456
-  response: 7E805621371FA68
-- expected_values:
-    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: -11.432
-  response: 7E805621371FA6B
-- expected_values:
-    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: -8.648
-  response: 7E805621371FBC7
-- expected_values:
-    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: -5.552
-  response: 7E805621371FD4A
+    MACAN_CAM_ADJ_EXH_BANK_1_SPEC: -1.992
+  response: 7E805621371FF07

@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2214A1
 test_cases:
 - expected_values:
-    MACAN_RATED_DRIVE_TQ: 163
-  response: 7E8076214A10000065E
+    MACAN_RATED_DRIVE_TQ: 0
+  response: 7E8076214A100000000
 - expected_values:
-    MACAN_RATED_DRIVE_TQ: 384
-  response: 7E8076214A100000F00
+    MACAN_RATED_DRIVE_TQ: 663
+  response: 7E8076214A1000019E6
 - expected_values:
-    MACAN_RATED_DRIVE_TQ: 1652
-  response: 7E8076214A100004088
+    MACAN_RATED_DRIVE_TQ: -549
+  response: 7E8076214A1FFFFEA8E
 - expected_values:
-    MACAN_RATED_DRIVE_TQ: -223
-  response: 7E8076214A1FFFFF74A
-- expected_values:
-    MACAN_RATED_DRIVE_TQ: -84
-  response: 7E8076214A1FFFFFCB8
+    MACAN_RATED_DRIVE_TQ: -97
+  response: 7E8076214A1FFFFFC36

@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22121B|din=03
 test_cases:
 - expected_values:
+    MACAN_POST_INJ_2: 2.05
+  response: 7E80562121B1405
+- expected_values:
+    MACAN_POST_INJ_2: 2.1692
+  response: 7E80562121B152F
+- expected_values:
+    MACAN_POST_INJ_2: 2.3736
+  response: 7E80562121B172E
+- expected_values:
+    MACAN_POST_INJ_2: 2.706
+  response: 7E80562121B1A6D
+- expected_values:
     MACAN_POST_INJ_2: 3.1588
   response: 7E80562121B1ED9

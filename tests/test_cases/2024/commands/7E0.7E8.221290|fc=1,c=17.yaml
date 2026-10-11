@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221290|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 719.40695
+  response: 7E805621290A56E
+- expected_values:
+    MACAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 719.96944
+  response: 7E805621290A586
+- expected_values:
+    MACAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 720.20381
+  response: 7E805621290A590
+- expected_values:
     MACAN_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 720.43818
   response: 7E805621290A59A

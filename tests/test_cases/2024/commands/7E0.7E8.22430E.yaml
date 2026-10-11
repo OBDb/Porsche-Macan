@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.22430E
 test_cases:
 - expected_values:
-    MACAN_NUM_INJECTIONS: 6028
-  response: 7E80562430E178C
+    MACAN_NUM_INJECTIONS: 0
+  response: 7E80562430E0000
 - expected_values:
-    MACAN_NUM_INJECTIONS: 15381
-  response: 7E80562430E3C15
+    MACAN_NUM_INJECTIONS: 22503
+  response: 7E80562430E57E7
 - expected_values:
-    MACAN_NUM_INJECTIONS: 20086
-  response: 7E80562430E4E76
-- expected_values:
-    MACAN_NUM_INJECTIONS: 27741
-  response: 7E80562430E6C5D
-- expected_values:
-    MACAN_NUM_INJECTIONS: 33292
-  response: 7E80562430E820C
+    MACAN_NUM_INJECTIONS: 45457
+  response: 7E80562430EB191

@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.22177D
 test_cases:
 - expected_values:
-    MACAN_OIL_P_ACT: 235
-  response: 7E80562177D092E
+    MACAN_OIL_P_ACT: 102.1
+  response: 7E80562177D03FD
 - expected_values:
-    MACAN_OIL_P_ACT: 237.7
-  response: 7E80562177D0949
-- expected_values:
-    MACAN_OIL_P_ACT: 250.6
-  response: 7E80562177D09CA
-- expected_values:
-    MACAN_OIL_P_ACT: 252.2
-  response: 7E80562177D09DA
-- expected_values:
-    MACAN_OIL_P_ACT: 254.7
-  response: 7E80562177D09F3
+    MACAN_OIL_P_ACT: 256
+  response: 7E80562177D0A00

@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.221633
 test_cases:
 - expected_values:
-    MACAN_LONGITUDINAL_ACCEL: 0.188
-  response: 7E80562163300BC
+    MACAN_LONGITUDINAL_ACCEL: 0
+  response: '7E8056216330000'
 - expected_values:
-    MACAN_LONGITUDINAL_ACCEL: 0.437
-  response: 7E80562163301B5
+    MACAN_LONGITUDINAL_ACCEL: -0.187
+  response: 7E805621633FF45
 - expected_values:
-    MACAN_LONGITUDINAL_ACCEL: -0.684
-  response: 7E805621633FD54
-- expected_values:
-    MACAN_LONGITUDINAL_ACCEL: -0.352
-  response: 7E805621633FEA0
-- expected_values:
-    MACAN_LONGITUDINAL_ACCEL: -0.063
-  response: 7E805621633FFC1
+    MACAN_LONGITUDINAL_ACCEL: -0.006
+  response: 7E805621633FFFA

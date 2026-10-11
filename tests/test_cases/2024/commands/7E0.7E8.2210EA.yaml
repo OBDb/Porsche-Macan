@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2210EA
 test_cases:
 - expected_values:
-    MACAN_OPEN_CAM_SHFT_ANG: 1
-  response: 7E8056210EA000A
+    MACAN_OPEN_CAM_SHFT_ANG: 0
+  response: 7E8056210EA0000
+- expected_values:
+    MACAN_OPEN_CAM_SHFT_ANG: -28
+  response: 7E8056210EAFEE8
 - expected_values:
     MACAN_OPEN_CAM_SHFT_ANG: -23.3
   response: 7E8056210EAFF17
-- expected_values:
-    MACAN_OPEN_CAM_SHFT_ANG: -17.3
-  response: 7E8056210EAFF53

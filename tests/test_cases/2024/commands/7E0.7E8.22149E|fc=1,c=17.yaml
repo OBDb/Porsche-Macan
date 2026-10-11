@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 18
   response: 7E80462149E58
+- expected_values:
+    MACAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 20.25
+  response: 7E80462149E5B
+- expected_values:
+    MACAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 21
+  response: 7E80462149E5C
+- expected_values:
+    MACAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 23.25
+  response: 7E80462149E5F
+- expected_values:
+    MACAN_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 32.25
+  response: 7E80462149E6B

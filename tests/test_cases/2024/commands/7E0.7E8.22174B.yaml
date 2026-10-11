@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.22174B
 test_cases:
 - expected_values:
-    MACAN_INT_CAM_ADPT_BIAS: -0.85695
-  response: 7E80562174BFFD9
-- expected_values:
-    MACAN_INT_CAM_ADPT_BIAS: -0.813
-  response: 7E80562174BFFDB
-- expected_values:
-    MACAN_INT_CAM_ADPT_BIAS: -0.74708
-  response: 7E80562174BFFDE
-- expected_values:
-    MACAN_INT_CAM_ADPT_BIAS: -0.72511
-  response: 7E80562174BFFDF
+    MACAN_INT_CAM_ADPT_BIAS: -0.94484
+  response: 7E80562174BFFD5
 - expected_values:
     MACAN_INT_CAM_ADPT_BIAS: -0.48341
   response: 7E80562174BFFEA
