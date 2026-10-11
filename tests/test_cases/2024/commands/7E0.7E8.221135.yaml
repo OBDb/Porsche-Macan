@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221135
 test_cases:
 - expected_values:
+    MACAN_COOLANT_T: 103.3
+  response: 7E8056211350EB4
+- expected_values:
     MACAN_COOLANT_T: 104.8
   response: 7E8056211350EC3
 - expected_values:

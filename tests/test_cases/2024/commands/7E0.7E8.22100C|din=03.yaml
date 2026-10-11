@@ -2,4 +2,16 @@ command_id: 7E0.7E8.22100C|din=03
 test_cases:
 - expected_values:
     MACAN_FUEL_LVL_2: 0
+  response: 7E80762100C00000028
+- expected_values:
+    MACAN_FUEL_LVL_2: 0
+  response: 7E80762100C000010A4
+- expected_values:
+    MACAN_FUEL_LVL_2: 0
   response: 7E80762100C00002FEE
+- expected_values:
+    MACAN_FUEL_LVL_2: 0
+  response: 7E80762100C00003B06
+- expected_values:
+    MACAN_FUEL_LVL_2: 0
+  response: 7E80762100C00003C64

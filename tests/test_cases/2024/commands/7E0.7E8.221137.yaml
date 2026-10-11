@@ -4,8 +4,26 @@ test_cases:
     MACAN_FUEL_PART_EVAP: 0
   response: '7E80462113700'
 - expected_values:
+    MACAN_FUEL_PART_EVAP: 0.00781
+  response: '7E80462113701'
+- expected_values:
+    MACAN_FUEL_PART_EVAP: 0.02343
+  response: '7E80462113703'
+- expected_values:
+    MACAN_FUEL_PART_EVAP: 0.03124
+  response: '7E80462113704'
+- expected_values:
+    MACAN_FUEL_PART_EVAP: -0.05467
+  response: 7E804621137F9
+- expected_values:
+    MACAN_FUEL_PART_EVAP: -0.03124
+  response: 7E804621137FC
+- expected_values:
     MACAN_FUEL_PART_EVAP: -0.02343
   response: 7E804621137FD
+- expected_values:
+    MACAN_FUEL_PART_EVAP: -0.01562
+  response: 7E804621137FE
 - expected_values:
     MACAN_FUEL_PART_EVAP: -0.00781
   response: 7E804621137FF

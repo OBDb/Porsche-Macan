@@ -1,20 +1,11 @@
 command_id: 7E0.7E8.222AE9
 test_cases:
 - expected_values:
-    MACAN_EXH_GAS_T_CALC_AFTER: 547.1328
-  response: 7E805622AE988B3
+    MACAN_EXH_GAS_T_CALC_AFTER: 398.80448
+  response: 7E805622AE96FFB
 - expected_values:
-    MACAN_EXH_GAS_T_CALC_AFTER: 561.33744
-  response: 7E805622AE98B11
-- expected_values:
-    MACAN_EXH_GAS_T_CALC_AFTER: 596.63808
-  response: 7E805622AE990F3
-- expected_values:
-    MACAN_EXH_GAS_T_CALC_AFTER: 655.73032
-  response: 7E805622AE99ACC
+    MACAN_EXH_GAS_T_CALC_AFTER: 578.94088
+  response: 7E805622AE98E00
 - expected_values:
     MACAN_EXH_GAS_T_CALC_AFTER: 703.03224
   response: 7E805622AE9A2AE
-- expected_values:
-    MACAN_EXH_GAS_T_CALC_AFTER: 704.13392
-  response: 7E805622AE9A2DD

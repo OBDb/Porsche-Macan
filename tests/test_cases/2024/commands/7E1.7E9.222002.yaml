@@ -1,5 +1,14 @@
 command_id: 7E1.7E9.222002
 test_cases:
 - expected_values:
+    MACAN_ENG_TQ_7E1_7E1: 3
+  response: '7E9056220020003'
+- expected_values:
+    MACAN_ENG_TQ_7E1_7E1: 117
+  response: '7E9056220020075'
+- expected_values:
+    MACAN_ENG_TQ_7E1_7E1: 3240
+  response: 7E9056220020CA8
+- expected_values:
     MACAN_ENG_TQ_7E1_7E1: 3244
   response: 7E9056220020CAC

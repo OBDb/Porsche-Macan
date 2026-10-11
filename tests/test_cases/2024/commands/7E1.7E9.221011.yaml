@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ADAPTIVE_MODE: 255
   response: 7E905621011FF2F
+- expected_values:
+    MACAN_ADAPTIVE_MODE: 255
+  response: 7E905621011FF31

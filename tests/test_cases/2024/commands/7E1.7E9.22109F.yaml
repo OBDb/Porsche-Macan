@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: -294.2
   response: 7E90562109F148D
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: -237.88
+  response: 7E90562109F14A3
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: -204.6
+  response: 7E90562109F14B0

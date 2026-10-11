@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.221519
 test_cases:
 - expected_values:
-    MACAN_FUEL_CONS_ACT_DRIVE: 1.37
-  response: '7E8056215190089'
-- expected_values:
-    MACAN_FUEL_CONS_ACT_DRIVE: 1.74
-  response: 7E80562151900AE
-- expected_values:
-    MACAN_FUEL_CONS_ACT_DRIVE: 1.84
-  response: 7E80562151900B8
-- expected_values:
-    MACAN_FUEL_CONS_ACT_DRIVE: 2.1
-  response: 7E80562151900D2
+    MACAN_FUEL_CONS_ACT_DRIVE: 0.05
+  response: '7E8056215190005'
 - expected_values:
     MACAN_FUEL_CONS_ACT_DRIVE: 2.34
   response: 7E80562151900EA

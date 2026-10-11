@@ -4,14 +4,8 @@ test_cases:
     MACAN_ACCEL_PEDAL_TQ_LIM: 0
   response: '7E8056210590000'
 - expected_values:
-    MACAN_ACCEL_PEDAL_TQ_LIM: 90
-  response: '7E8056210590384'
-- expected_values:
-    MACAN_ACCEL_PEDAL_TQ_LIM: 144.1
-  response: 7E80562105905A1
-- expected_values:
     MACAN_ACCEL_PEDAL_TQ_LIM: 150.8
   response: 7E80562105905E4
 - expected_values:
-    MACAN_ACCEL_PEDAL_TQ_LIM: 212.9
-  response: '7E8056210590851'
+    MACAN_ACCEL_PEDAL_TQ_LIM: 335.4
+  response: 7E8056210590D1A

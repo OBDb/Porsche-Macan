@@ -4,14 +4,8 @@ test_cases:
     MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: 1.1
   response: 7E805621223000B
 - expected_values:
-    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -1.3
-  response: 7E805621223FFF3
-- expected_values:
-    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -1.1
-  response: 7E805621223FFF5
-- expected_values:
-    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -0.9
-  response: 7E805621223FFF7
+    MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -2.8
+  response: 7E805621223FFE4
 - expected_values:
     MACAN_TQ_LOSS_ADPT_AC_COMP_7E0: -0.7
   response: 7E805621223FFF9

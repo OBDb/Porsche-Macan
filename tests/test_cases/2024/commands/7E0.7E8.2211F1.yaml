@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2211F1
 test_cases:
 - expected_values:
+    MACAN_TRANS_IN_SPD: 5067.5
+  response: 7E8056211F12797
+- expected_values:
+    MACAN_TRANS_IN_SPD: 5119.5
+  response: 7E8056211F127FF
+- expected_values:
     MACAN_TRANS_IN_SPD: 5120
   response: 7E8056211F12800
+- expected_values:
+    MACAN_TRANS_IN_SPD: 6636.5
+  response: 7E8056211F133D9

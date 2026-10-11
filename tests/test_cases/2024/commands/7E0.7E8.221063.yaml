@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.221063
 test_cases:
 - expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 99.9
-  response: 7E8056210630E92
+    MACAN_ENG_OUTLET_ECT_CALC: 98.7
+  response: 7E8056210630E86
 - expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 100.3
-  response: 7E8056210630E96
-- expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 100.9
-  response: 7E8056210630E9C
-- expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 101.1
-  response: 7E8056210630E9E
-- expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 101.9
-  response: 7E8056210630EA6
-- expected_values:
-    MACAN_ENG_OUTLET_ECT_CALC: 102.3
-  response: 7E8056210630EAA
+    MACAN_ENG_OUTLET_ECT_CALC: 103.3
+  response: 7E8056210630EB4

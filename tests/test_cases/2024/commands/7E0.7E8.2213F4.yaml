@@ -4,8 +4,8 @@ test_cases:
     MACAN_IGA_CYL_KNK_2: -1.125
   response: 7E8056213F47DDC
 - expected_values:
-    MACAN_IGA_CYL_KNK_2: -0.375
-  response: 7E8056213F47FF1
-- expected_values:
     MACAN_IGA_CYL_KNK_2: 0
-  response: 7E8056213F4802B
+  response: 7E8056213F480FD
+- expected_values:
+    MACAN_IGA_CYL_KNK_2: 0.375
+  response: 7E8056213F48102

@@ -1,20 +1,14 @@
 command_id: 7E0.7E8.222AE3
 test_cases:
 - expected_values:
-    MACAN_EGT_AFTER_CAT_MODEL_B: 559.76621
-  response: 7E805622AE38AD1
+    MACAN_EGT_AFTER_CAT_MODEL_B: 414.14591
+  response: 7E805622AE3728C
 - expected_values:
     MACAN_EGT_AFTER_CAT_MODEL_B: 578.56348
   response: 7E805622AE38DF3
 - expected_values:
-    MACAN_EGT_AFTER_CAT_MODEL_B: 601.95461
-  response: 7E805622AE391D9
-- expected_values:
-    MACAN_EGT_AFTER_CAT_MODEL_B: 622.06441
-  response: 7E805622AE39533
+    MACAN_EGT_AFTER_CAT_MODEL_B: 578.86818
+  response: 7E805622AE38E00
 - expected_values:
     MACAN_EGT_AFTER_CAT_MODEL_B: 669.85449
   response: 7E805622AE39D2A
-- expected_values:
-    MACAN_EGT_AFTER_CAT_MODEL_B: 672.05766
-  response: 7E805622AE39D88

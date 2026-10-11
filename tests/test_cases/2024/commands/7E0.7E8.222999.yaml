@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_AUTOMATIC_ENG_STARTS: 8551
   response: '7E8056229992167'
+- expected_values:
+    MACAN_AUTOMATIC_ENG_STARTS: 8552
+  response: '7E8056229992168'

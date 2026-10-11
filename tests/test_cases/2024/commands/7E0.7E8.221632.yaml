@@ -4,17 +4,5 @@ test_cases:
     MACAN_EOT_MEAS: 86.2
   response: 7E8056216320E09
 - expected_values:
-    MACAN_EOT_MEAS: 93.2
-  response: 7E8056216320E4F
-- expected_values:
-    MACAN_EOT_MEAS: 93.7
-  response: 7E8056216320E54
-- expected_values:
-    MACAN_EOT_MEAS: 97.7
-  response: 7E8056216320E7C
-- expected_values:
-    MACAN_EOT_MEAS: 98.7
-  response: 7E8056216320E86
-- expected_values:
-    MACAN_EOT_MEAS: 99.1
-  response: 7E8056216320E8A
+    MACAN_EOT_MEAS: 103.6
+  response: 7E8056216320EB7

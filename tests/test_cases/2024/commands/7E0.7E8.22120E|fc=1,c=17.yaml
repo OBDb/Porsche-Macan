@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22120E|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_KNOCK_SNS_C1_V_MS: 0.02062
+  response: 7E80762120E00006993
+- expected_values:
     MACAN_KNOCK_SNS_C1_V_MS: 0.02887
   response: 7E80762120E000093D4
+- expected_values:
+    MACAN_KNOCK_SNS_C1_V_MS: 0.03641
+  response: 7E80762120E0000BA70
+- expected_values:
+    MACAN_KNOCK_SNS_C1_V_MS: 0.05919
+  response: 7E80762120E00012F0E
+- expected_values:
+    MACAN_KNOCK_SNS_C1_V_MS: 0.06088
+  response: 7E80762120E000137B3

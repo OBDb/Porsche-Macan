@@ -1,5 +1,14 @@
 command_id: 7E1.7E9.222105
 test_cases:
 - expected_values:
+    MACAN_TQ_TRANSMITTING: 0
+  response: '7E9056221050000'
+- expected_values:
     MACAN_TQ_TRANSMITTING: 2.4
   response: '7E9056221050018'
+- expected_values:
+    MACAN_TQ_TRANSMITTING: 2.9
+  response: 7E905622105001D
+- expected_values:
+    MACAN_TQ_TRANSMITTING: 10
+  response: '7E9056221050064'

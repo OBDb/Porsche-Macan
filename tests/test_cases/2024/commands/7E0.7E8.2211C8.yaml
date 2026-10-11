@@ -4,17 +4,8 @@ test_cases:
     MACAN_LOW_FUEL_P_ACT: 552.2
   response: 7E8056211C81592
 - expected_values:
-    MACAN_LOW_FUEL_P_ACT: 561.1
-  response: 7E8056211C815EB
+    MACAN_LOW_FUEL_P_ACT: 588.7
+  response: 7E8056211C816FF
 - expected_values:
-    MACAN_LOW_FUEL_P_ACT: 573.8
-  response: 7E8056211C8166A
-- expected_values:
-    MACAN_LOW_FUEL_P_ACT: 576.2
-  response: 7E8056211C81682
-- expected_values:
-    MACAN_LOW_FUEL_P_ACT: 592.7
-  response: 7E8056211C81727
-- expected_values:
-    MACAN_LOW_FUEL_P_ACT: 686.1
-  response: 7E8056211C81ACD
+    MACAN_LOW_FUEL_P_ACT: 693.4
+  response: 7E8056211C81B16

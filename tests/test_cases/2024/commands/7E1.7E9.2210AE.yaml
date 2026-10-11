@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.2210AE
 test_cases:
 - expected_values:
+    MACAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 74.24
+  response: 7E9056210AE001D
+- expected_values:
+    MACAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 76.8
+  response: 7E9056210AE001E
+- expected_values:
     MACAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 89.6
   response: 7E9056210AE0023

@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2211A4
 test_cases:
 - expected_values:
-    MACAN_FUEL_PMP_CMD_DUTY: 29.38224
-  response: 7E8056211A44B38
-- expected_values:
-    MACAN_FUEL_PMP_CMD_DUTY: 29.74082
-  response: 7E8056211A44C23
-- expected_values:
-    MACAN_FUEL_PMP_CMD_DUTY: 29.77591
-  response: 7E8056211A44C3A
+    MACAN_FUEL_PMP_CMD_DUTY: 10.00058
+  response: 7E8056211A4199A
 - expected_values:
     MACAN_FUEL_PMP_CMD_DUTY: 30.84097
   response: 7E8056211A44EF4
 - expected_values:
-    MACAN_FUEL_PMP_CMD_DUTY: 31.26822
-  response: 7E8056211A4500C
+    MACAN_FUEL_PMP_CMD_DUTY: 30.87607
+  response: 7E8056211A44F0B
+- expected_values:
+    MACAN_FUEL_PMP_CMD_DUTY: 35.72224
+  response: 7E8056211A45B73

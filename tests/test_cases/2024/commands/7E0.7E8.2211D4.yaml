@@ -1,20 +1,14 @@
 command_id: 7E0.7E8.2211D4
 test_cases:
 - expected_values:
+    MACAN_TURBOCHARGER_INLET_P: 260.85938
+  response: 7E8056211D40D0B
+- expected_values:
+    MACAN_TURBOCHARGER_INLET_P: 300
+  response: 7E8056211D40F00
+- expected_values:
     MACAN_TURBOCHARGER_INLET_P: 359.60938
   response: 7E8056211D411FB
 - expected_values:
-    MACAN_TURBOCHARGER_INLET_P: 464.76562
-  response: 7E8056211D4173D
-- expected_values:
-    MACAN_TURBOCHARGER_INLET_P: 648.75
-  response: 7E8056211D42070
-- expected_values:
-    MACAN_TURBOCHARGER_INLET_P: 972.1875
-  response: 7E8056211D4309C
-- expected_values:
-    MACAN_TURBOCHARGER_INLET_P: 1071.25
-  response: 7E8056211D43590
-- expected_values:
-    MACAN_TURBOCHARGER_INLET_P: 1094.21875
-  response: 7E8056211D436B6
+    MACAN_TURBOCHARGER_INLET_P: 1085.23438
+  response: 7E8056211D43643

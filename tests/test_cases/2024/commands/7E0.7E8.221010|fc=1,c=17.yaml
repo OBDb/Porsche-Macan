@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     MACAN_ENGINE_TORQUE: 0
   response: '7E8056210100000'
+- expected_values:
+    MACAN_ENGINE_TORQUE: 40.9
+  response: '7E8056210100199'
+- expected_values:
+    MACAN_ENGINE_TORQUE: 44.1
+  response: 7E80562101001B9
+- expected_values:
+    MACAN_ENGINE_TORQUE: 197.9
+  response: 7E80562101007BB

@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.221136
 test_cases:
 - expected_values:
-    MACAN_HEIGHT_CORR: 0.99206
-  response: 7E8056211363F7E
+    MACAN_HEIGHT_CORR: 0.97918
+  response: 7E8056211363EAB
 - expected_values:
-    MACAN_HEIGHT_CORR: 0.99212
-  response: 7E8056211363F7F
+    MACAN_HEIGHT_CORR: 0.98431
+  response: 7E8056211363EFF
 - expected_values:
-    MACAN_HEIGHT_CORR: 0.99249
-  response: 7E8056211363F85
-- expected_values:
-    MACAN_HEIGHT_CORR: 0.99279
-  response: 7E8056211363F8A
-- expected_values:
-    MACAN_HEIGHT_CORR: 0.99298
-  response: 7E8056211363F8D
+    MACAN_HEIGHT_CORR: 0.98443
+  response: 7E8056211363F01

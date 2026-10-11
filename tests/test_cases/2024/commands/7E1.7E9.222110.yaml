@@ -1,5 +1,14 @@
 command_id: 7E1.7E9.222110
 test_cases:
 - expected_values:
+    MACAN_ENG_SPEC_TQ_DURING: 44
+  response: 7E905622110002C
+- expected_values:
     MACAN_ENG_SPEC_TQ_DURING: 101
   response: '7E9056221100065'
+- expected_values:
+    MACAN_ENG_SPEC_TQ_DURING: 140
+  response: 7E905622110008C
+- expected_values:
+    MACAN_ENG_SPEC_TQ_DURING: 211
+  response: 7E90562211000D3

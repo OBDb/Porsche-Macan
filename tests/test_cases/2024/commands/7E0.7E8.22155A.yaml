@@ -4,5 +4,11 @@ test_cases:
     MACAN_ENG_TORQUE: 0
   response: 7E80562155A0000
 - expected_values:
+    MACAN_ENG_TORQUE: -1.46875
+  response: 7E80562155AFFD1
+- expected_values:
+    MACAN_ENG_TORQUE: -1.3125
+  response: 7E80562155AFFD6
+- expected_values:
     MACAN_ENG_TORQUE: -1.09375
   response: 7E80562155AFFDD

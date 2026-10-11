@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.221272|fc=1,c=17
 test_cases:
 - expected_values:
+    MACAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 441.3
+  response: 7E8056212721BE8
+- expected_values:
+    MACAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 536.6
+  response: 7E8056212721FA1
+- expected_values:
+    MACAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 588.3
+  response: 7E80562127221A6
+- expected_values:
+    MACAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 594.5
+  response: 7E80562127221E4
+- expected_values:
     MACAN_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 717.6
   response: 7E80562127226B3

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_COMPRESSION_TEST_CYL_1: 0
   response: '7E8056211290000'
+- expected_values:
+    MACAN_COMPRESSION_TEST_CYL_1: 23.5
+  response: 7E805621129002F

@@ -4,14 +4,11 @@ test_cases:
     MACAN_SEG_AD_MMV_ER_MID_2: 0.7155
   response: 7E8056211340BB9
 - expected_values:
-    MACAN_SEG_AD_MMV_ER_MID_2: 0.72456
-  response: 7E8056211340BDF
+    MACAN_SEG_AD_MMV_ER_MID_2: 0.73338
+  response: 7E8056211340C04
 - expected_values:
-    MACAN_SEG_AD_MMV_ER_MID_2: 0.74411
-  response: 7E8056211340C31
+    MACAN_SEG_AD_MMV_ER_MID_2: 0.79251
+  response: 7E8056211340CFC
 - expected_values:
-    MACAN_SEG_AD_MMV_ER_MID_2: 0.74602
-  response: 7E8056211340C39
-- expected_values:
-    MACAN_SEG_AD_MMV_ER_MID_2: 0.74959
-  response: 7E8056211340C48
+    MACAN_SEG_AD_MMV_ER_MID_2: 0.79608
+  response: 7E8056211340D0B

@@ -4,6 +4,18 @@ test_cases:
     MACAN_NL_PRE_0: 2.49443
   response: 7E8056213F67FB7
 - expected_values:
+    MACAN_NL_PRE_0: 2.50443
+  response: 7E8056213F6803A
+- expected_values:
+    MACAN_NL_PRE_0: 2.50527
+  response: 7E8056213F68045
+- expected_values:
+    MACAN_NL_PRE_0: 2.50588
+  response: 7E8056213F6804D
+- expected_values:
+    MACAN_NL_PRE_0: 2.50954
+  response: 7E8056213F6807D
+- expected_values:
     MACAN_NL_PRE_0: 2.5235
   response: 7E8056213F68134
 - expected_values:

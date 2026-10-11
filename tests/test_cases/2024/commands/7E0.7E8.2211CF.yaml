@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.2211CF
 test_cases:
 - expected_values:
-    MACAN_BRAKE_BOOSTER_P: 1003.97152
-  response: 7E8056211CF6466
+    MACAN_BRAKE_BOOSTER_P: 988.97172
+  response: 7E8056211CF62E6
 - expected_values:
-    MACAN_BRAKE_BOOSTER_P: 1004.98714
-  response: 7E8056211CF6480
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 1005.96369
-  response: 7E8056211CF6499
+    MACAN_BRAKE_BOOSTER_P: 999.9872
+  response: 7E8056211CF6400

@@ -1,5 +1,29 @@
 command_id: 7E0.7E8.2211B8
 test_cases:
 - expected_values:
+    MACAN_AIR_LEAKAGE: 6.2
+  response: 7E8056211B8003E
+- expected_values:
+    MACAN_AIR_LEAKAGE: 6.3
+  response: 7E8056211B8003F
+- expected_values:
+    MACAN_AIR_LEAKAGE: 6.4
+  response: 7E8056211B80040
+- expected_values:
+    MACAN_AIR_LEAKAGE: 6.8
+  response: 7E8056211B80044
+- expected_values:
+    MACAN_AIR_LEAKAGE: 7.2
+  response: 7E8056211B80048
+- expected_values:
     MACAN_AIR_LEAKAGE: 7.3
   response: 7E8056211B80049
+- expected_values:
+    MACAN_AIR_LEAKAGE: 7.5
+  response: 7E8056211B8004B
+- expected_values:
+    MACAN_AIR_LEAKAGE: 7.6
+  response: 7E8056211B8004C
+- expected_values:
+    MACAN_AIR_LEAKAGE: 7.7
+  response: 7E8056211B8004D

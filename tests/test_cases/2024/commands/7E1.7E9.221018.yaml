@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0.39216
   response: 7E905621018011A
+- expected_values:
+    MACAN_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0.39216
+  response: '7E9056210180121'
+- expected_values:
+    MACAN_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0.39216
+  response: '7E9056210180122'

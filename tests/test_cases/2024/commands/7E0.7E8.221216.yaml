@@ -1,20 +1,14 @@
 command_id: 7E0.7E8.221216
 test_cases:
 - expected_values:
-    MACAN_REL_LOAD: 20.0649
-  response: '7E8056212160358'
+    MACAN_REL_LOAD: 17.22863
+  response: 7E80562121602DF
 - expected_values:
-    MACAN_REL_LOAD: 23.62783
-  response: 7E80562121603F0
+    MACAN_REL_LOAD: 18.11936
+  response: '7E8056212160305'
 - expected_values:
-    MACAN_REL_LOAD: 24.3076
-  response: 7E805621216040D
+    MACAN_REL_LOAD: 29.79263
+  response: 7E80562121604F7
 - expected_values:
-    MACAN_REL_LOAD: 29.67543
-  response: 7E80562121604F2
-- expected_values:
-    MACAN_REL_LOAD: 50.95923
-  response: 7E805621216087E
-- expected_values:
-    MACAN_REL_LOAD: 57.87412
-  response: 7E80562121609A5
+    MACAN_REL_LOAD: 73.11032
+  response: 7E8056212160C2F

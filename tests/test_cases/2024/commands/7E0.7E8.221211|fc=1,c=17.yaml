@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACAN_KNOCK_SNS_C2_V_MS: 0.0183
   response: 7E80762121100005DB4
+- expected_values:
+    MACAN_KNOCK_SNS_C2_V_MS: 0.03048
+  response: 7E80762121100009C11
+- expected_values:
+    MACAN_KNOCK_SNS_C2_V_MS: 0.03215
+  response: 7E8076212110000A49E
+- expected_values:
+    MACAN_KNOCK_SNS_C2_V_MS: 0.0511
+  response: 7E807621211000105A0
+- expected_values:
+    MACAN_KNOCK_SNS_C2_V_MS: 0.06194
+  response: 7E80762121100013D24

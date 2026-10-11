@@ -4,14 +4,11 @@ test_cases:
     MACAN_CAM_ADJ_INT_BANK_1_SPEC: 0.528
   response: '7E8056213730042'
 - expected_values:
-    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 0.712
-  response: '7E8056213730059'
+    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 4.312
+  response: 7E805621373021B
 - expected_values:
-    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 1.2
-  response: '7E8056213730096'
+    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 8.104
+  response: 7E80562137303F5
 - expected_values:
-    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 3.424
-  response: 7E80562137301AC
-- expected_values:
-    MACAN_CAM_ADJ_INT_BANK_1_SPEC: 5.624
-  response: 7E80562137302BF
+    MACAN_CAM_ADJ_INT_BANK_1_SPEC: -1.536
+  response: 7E805621373FF40

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ENG_114F_RAW: 8667
   response: 7E80562114F21DB
+- expected_values:
+    MACAN_ENG_114F_RAW: 8669
+  response: 7E80562114F21DD

@@ -1,5 +1,14 @@
 command_id: 7E1.7E9.221260
 test_cases:
 - expected_values:
+    MACAN_P_CLU_1: 0.007
+  response: '7E9056212600007'
+- expected_values:
+    MACAN_P_CLU_1: 0.03
+  response: 7E905621260001E
+- expected_values:
+    MACAN_P_CLU_1: 0.039
+  response: '7E9056212600027'
+- expected_values:
     MACAN_P_CLU_1: 0.066
   response: '7E9056212600042'

@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     MACAN_ECT_ENG_OUTLET_CALC: 30.2
   response: 7E8056210640BD9
+- expected_values:
+    MACAN_ECT_ENG_OUTLET_CALC: 37.7
+  response: 7E8056210640C24
+- expected_values:
+    MACAN_ECT_ENG_OUTLET_CALC: 41.8
+  response: 7E8056210640C4D
+- expected_values:
+    MACAN_ECT_ENG_OUTLET_CALC: 44.7
+  response: 7E8056210640C6A
+- expected_values:
+    MACAN_ECT_ENG_OUTLET_CALC: 52.4
+  response: 7E8056210640CB7
