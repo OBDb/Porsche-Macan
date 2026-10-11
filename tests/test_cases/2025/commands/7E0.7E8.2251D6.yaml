@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2251D6
+test_cases:
+- expected_values:
+    MACAN_FUEL_CONS_PER: 12.65
+  response: 7E8056251D604F1
+- expected_values:
+    MACAN_FUEL_CONS_PER: 18.73
+  response: 7E8056251D60751
+- expected_values:
+    MACAN_FUEL_CONS_PER: 43.56
+  response: 7E8056251D61104

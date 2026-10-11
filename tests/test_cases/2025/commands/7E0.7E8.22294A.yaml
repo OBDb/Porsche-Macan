@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22294A
+test_cases:
+- expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: 5.25
+  response: 7E80562294A020D
+- expected_values:
+    MACAN_DYNAMIC_AVG_IGN_ANG: -5.25
+  response: 7E80562294AFDF3

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221066
+test_cases:
+- expected_values:
+    MACAN_ANALYSIS_CLU_1_T_1: 901.2
+  response: 7E90562106604B0

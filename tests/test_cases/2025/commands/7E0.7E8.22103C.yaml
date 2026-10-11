@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22103C
+test_cases:
+- expected_values:
+    MACAN_MQB_INT_MAN_P: 12519
+  response: 7E80562103C30E7
+- expected_values:
+    MACAN_MQB_INT_MAN_P: 14257
+  response: 7E80562103C37B1
+- expected_values:
+    MACAN_MQB_INT_MAN_P: 14316
+  response: 7E80562103C37EC

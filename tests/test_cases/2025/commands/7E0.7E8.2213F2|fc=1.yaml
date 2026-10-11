@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213F2|fc=1
+test_cases:
+- expected_values:
+    MACAN_KNOCK_RETARD_CYL_1: 0
+  response: 7E8046213F280

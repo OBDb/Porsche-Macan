@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2220BB
+test_cases:
+- expected_values:
+    MACAN_FUEL_HIGH_P_CTRL_DEV: 0.5
+  response: 7E8056220BB0005
+- expected_values:
+    MACAN_FUEL_HIGH_P_CTRL_DEV: -1.5
+  response: 7E8056220BBFFF1

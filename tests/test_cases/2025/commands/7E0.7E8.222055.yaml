@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222055
+test_cases:
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 21.48
+  response: '7E8056220550864'
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 25.39
+  response: 7E80562205509EB

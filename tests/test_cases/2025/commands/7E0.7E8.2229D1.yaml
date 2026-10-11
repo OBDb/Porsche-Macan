@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2229D1
+test_cases:
+- expected_values:
+    MACAN_AIR_MASS_ACT_MG: 88.67
+  response: 7E8056229D122A3
+- expected_values:
+    MACAN_AIR_MASS_ACT_MG: 213.21
+  response: 7E8056229D15349

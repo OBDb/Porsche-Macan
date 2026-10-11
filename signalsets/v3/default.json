@@ -87,11 +87,11 @@
     {"id": "MACAN_PARKING_BRAKE_AIR",     "path": "Control", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "millimeters" }, "name": "Parking brake, air gap - left"},
     {"id": "MACAN_PARKING_BRAKE_AIR_GAP", "path": "Control", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "millimeters" }, "name": "Parking brake, air gap - right"}
   ]},
-{ "hdr": "773", "rax": "7DD", "fcm1": true, "cmd": {"22": "1814"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "773", "rax": "7DD", "fcm1": true, "cmd": {"22": "1814"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SIM_CARD_SIM_CARD", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "SIM card, SIM card in main unit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1000"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1000"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AAT_7E0_2", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -143,11 +143,11 @@
   "signals": [
     {"id": "MACAN_GENERATOR_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1023"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1023"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AC_COMP_TQ_REQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1024"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ALTERNATOR_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 12750, "mul": 50, "unit": "watts" }, "name": "Alternator load"}
   ]},
@@ -183,7 +183,7 @@
   "signals": [
     {"id": "MACAN_GEN_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "103C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "103C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_INT_MAN_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Intake manifold pressure calculated"}
   ]},
@@ -251,7 +251,7 @@
   "signals": [
     {"id": "MACAN_LIM_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Limitation, torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1077"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1077"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AUX_PWR", "path": "Battery", "fmt": { "len": 16, "max": 262140, "mul": 4, "unit": "watts" }, "name": "Onboard electrical system power"}
   ]},
@@ -327,7 +327,7 @@
   "signals": [
     {"id": "MACAN_PQ35_EGR_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10CA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10CA"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACCEL_7E0", "path": "Movement", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
@@ -447,19 +447,19 @@
   "signals": [
     {"id": "MACAN_SUM_MIS_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Sum of misfires counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "10F3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "10F3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_LEVEL_LAST_VALID", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level, raw count"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F5"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 2"}
   ]},
@@ -599,15 +599,15 @@
   "signals": [
     {"id": "MACAN_PQ35_COMP_TEST_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Compression test cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SPARK_EFF_DEV_PART", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 78.1, "div": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SEG_AD_MMV_ER_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_SEG_AD_MMV_ER_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 3"}
   ]},
@@ -847,11 +847,11 @@
   "signals": [
     {"id": "MACAN_HIGH_P_EGR_ACTUATOR_ACT_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "High pressure exhaust gas recirculation actuator, actual unconditioned voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AB"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
@@ -899,11 +899,11 @@
   "signals": [
     {"id": "MACAN_FUEL_PMP_ADPT", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Fuel pump adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CC"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CC"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "MACAN_BOOST_REGULATOR", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "TCO_1_SYS"}
   ]},
@@ -911,7 +911,7 @@
   "signals": [
     {"id": "MACAN_LOW_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CF"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 2559, "mul": 19531, "div": 500000, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
@@ -943,7 +943,7 @@
   "signals": [
     {"id": "MACAN_INT_MANIFOLD_P", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Intake manifold pressure, corrected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DC"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11DC"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MAP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Manifold absolute pressure, raw value"}
   ]},
@@ -967,7 +967,7 @@
   "signals": [
     {"id": "MACAN_P_BEFORE_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 2559.96, "mul": 21333, "div": 546125, "unit": "unknown" }, "name": "Pressure before throttle valve - sensor measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F0"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_BOOST_P_ACT", "path": "Engine", "fmt": { "len": 16, "max": 5119.9218, "mul": 5, "div": 64, "unit": "unknown" }, "name": "Boost pressure, actual"}
   ]},
@@ -995,11 +995,11 @@
   "signals": [
     {"id": "MACAN_EA888B_BOOST_P_CTRL_0", "path": "Engine", "fmt": { "len": 8, "max": 356, "min": -359, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1200"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356, "min": -359, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1201"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EA888B_BOOST_P_CTRL_2", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 2"}
   ]},
@@ -1131,7 +1131,7 @@
   "signals": [
     {"id": "MACAN_COOLANT_T_AT_ENGINE_START", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1298"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1298"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAT_T_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 3822, "min": -273, "div": 16, "add": -273.15, "unit": "celsius" }, "name": "Cat. temperature, bank 1"}
   ]},
@@ -1167,11 +1167,11 @@
   "signals": [
     {"id": "MACAN_LIM_SMOKE", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Limitation, smoke"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "130D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "130D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_MASS_REQ_I_CTL", "path": "Fuel", "fmt": { "len": 16, "max": 694, "min": -694, "mul": 10597, "div": 500000, "sign": true, "unit": "unknown" }, "name": "Fuel mass request, integral controller"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1312"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1312"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_MASS_REQ_P_CTL", "path": "Fuel", "fmt": { "len": 16, "max": 694, "min": -694, "mul": 10597, "div": 500000, "sign": true, "unit": "unknown" }, "name": "Fuel mass request, proportional controller"}
   ]},
@@ -1243,127 +1243,127 @@
   "signals": [
     {"id": "MACAN_CAM_POS_DEV_BASE_POS", "path": "Engine", "fmt": { "len": 16, "max": 719.9892, "min": -720.0112, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft position, deviation from the base position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "138A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGA_IGC_0", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGA_IGC_1", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "138C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGA_IGC_2", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "138D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGA_IGC_3", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "139C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "139C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature at probe before the front catalytic converter, model value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "13A0"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "13A0"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature modeled value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_1_1", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_1, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_1_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_1, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_1_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_1, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_2_0", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_2, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A5"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_2_1", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_2, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_2_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_2, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_2_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_2, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_3_0", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13A9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A9"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_3_1", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AA"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_3_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AB"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_MES4_PLS_3_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_MES4_PLS_3, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AC"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_1_MPI_0", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AD"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_1_MPI_1", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AE"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_1_MPI_2", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13AF"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TI_1_MPI_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "13B8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "13B8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_P_SWITCH_VLV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch valve activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13CD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13CD"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "unknown" }, "name": "Air mass"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_RETARD_CYL_1", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_RETARD_CYL_2", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGA_CYL_KNK_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F5"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_RETARD_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F6"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F6"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_NL_PRE_0", "path": "Engine", "fmt": { "len": 16, "max": 4.9999, "mul": 38147, "div": 500000000, "unit": "volts" }, "name": "NL_PRE, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_RETARD_CYL_6", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_V_CYL_1", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F9"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_V_CYL_4", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 4"}
   ]},
@@ -1439,23 +1439,23 @@
   "signals": [
     {"id": "MACAN_MIS_PER_1000_RPM_5", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm:, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "148B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "148B"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_RPM_ALL", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm, all cylinders"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "148D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "148D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CTR_MIS_DC_MMV_CYL_0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "CTR_MIS_DC_MMV_CYL_SAE, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "148E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "148E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CTR_MIS_DC_MMV_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "CTR_MIS_DC_MMV_CYL_SAE, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "148F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "148F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CTR_MIS_DC_MMV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "CTR_MIS_DC_MMV_CYL_SAE, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1490"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1490"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_BRAKE_BOOSTER_LOW_P_ACT", "path": "Control", "fmt": { "len": 16, "max": 2559.9937, "mul": 39063, "div": 1000000, "unit": "unknown" }, "name": "Brake booster low pressure, actual"}
   ]},
@@ -1487,7 +1487,7 @@
   "signals": [
     {"id": "MACAN_PRE_INJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "degrees" }, "name": "Second pilot injection, start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -1515,19 +1515,19 @@
   "signals": [
     {"id": "MACAN_PRE_INJ_2_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Second pilot injection, duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "14F5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "14F5"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14F7"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F7"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_EXHAUST_GAS_T_SENSOR_2", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "nullmin": -3549.9, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F8"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F8"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_AAT_V1", "path": "Engine", "fmt": { "len": 16, "max": 160, "min": -460, "mul": 0.18, "add": -460, "nullmax": 160, "unit": "fahrenheit" }, "name": "Ambient air temperature, v1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "14F9"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "14F9"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 2, "div": 65535, "unit": "scalar" }, "name": "Main cat oxygen storage capacity age correction factor"}
   ]},
@@ -1547,11 +1547,11 @@
   "signals": [
     {"id": "MACAN_AMBIENT_AIR_P", "path": "Engine", "fmt": { "len": 16, "max": 2555.8649, "mul": 39, "div": 1000, "unit": "unknown" }, "name": "Ambient air pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1511"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1512"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
   ]},
@@ -1559,7 +1559,7 @@
   "signals": [
     {"id": "MACAN_ECT_LINEAR", "path": "Engine", "fmt": { "len": 16, "max": 143.9978, "min": -48, "mul": 29297, "div": 10000000, "add": -48, "unit": "celsius" }, "name": "Coolant temperature linear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1515"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1515"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAT_T_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1225, "min": -50, "mul": 5, "add": -50, "unit": "celsius" }, "name": "Catalyst temperature, calculated"}
   ]},
@@ -1575,11 +1575,11 @@
   "signals": [
     {"id": "MACAN_ENG_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1023.968, "min": -1024, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "155B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_SPARK_EFFICIENCY_DEV_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at idle, maximum"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "155C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_SPARK_EFFICIENCY_DEV_PART_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load, maximum"}
   ]},
@@ -1655,7 +1655,7 @@
   "signals": [
     {"id": "MACAN_VEHICLE_LATERAL_ACCELERATION_RAW_VALUE", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Vehicle lateral acceleration, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "15D4"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_LAMBDA_OUTPUT", "path": "Engine", "fmt": { "len": 16, "max": 1.99, "mul": 199997, "div": 6553500000, "unit": "scalar" }, "name": "Lambda output value"}
   ]},
@@ -1795,47 +1795,47 @@
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_TOT_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1717"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1717"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_TOT_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1718"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1718"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_TOT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, total, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "171A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_BASIC_CORR_FACTOR_1", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 1, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "171B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_BASIC_CORR_FACTOR_3", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 3, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "171C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_BASIC_CORR_FACTOR_4", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 4, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "171D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_BASIC_CORR_FACTOR_2", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 2, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1722"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1722"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1723"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1723"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1724"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1724"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1725"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1725"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "173A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "173A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_INTAKE_CAMSHAFT_SIGNAL_EDGE_POS_ADAPTED_VALUE_EDGE_1", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted value edge 1"}
   ]},
@@ -1847,11 +1847,11 @@
   "signals": [
     {"id": "MACAN_INTEGRATED_MASS_AIR_SINCE", "path": "Engine", "fmt": { "len": 16, "max": 23301.6246, "mul": 8889, "div": 25000, "unit": "unknown" }, "name": "Integrated mass of air since the first engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174A"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EXH_CAM_ADPT_BIAS", "path": "Engine", "fmt": { "len": 16, "max": 719.9892, "min": -720.0112, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Exhaust camshaft, adaptation bias"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "174B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_INT_CAM_ADPT_BIAS", "path": "Engine", "fmt": { "len": 16, "max": 719.9892, "min": -720.0112, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Intake camshaft, adaptation bias"}
   ]},
@@ -1887,7 +1887,7 @@
   "signals": [
     {"id": "MACAN_OIL_ASH_LIM", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Oil ash limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED", "path": "Battery", "fmt": { "len": 16, "max": 3003.6, "min": -273.1, "mul": 1000, "div": 10000, "add": -273.1, "sign": true, "nullmin": -273.1, "unit": "celsius" }, "name": "Charge air temp at the turbocharger outlet, calculated"}
   ]},
@@ -1987,15 +1987,15 @@
   "signals": [
     {"id": "MACAN_ENG_TQ_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2003"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2003"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AVG_INJ_TIME_7E0", "path": "Engine", "fmt": { "len": 8, "max": 25, "div": 10, "unit": "milliseconds" }, "name": "Avg. injection time"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2004"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2004"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_IGN_ANG_CURRENT_CYL_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25, "min": -25, "div": 100, "sign": true, "unit": "degrees" }, "name": "Ignition angle current cylinder, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2006"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2006"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_OIL_FILL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 1966.02, "min": -1966.08, "mul": 0.06, "sign": true, "unit": "millimeters" }, "name": "Oil fill level"}
   ]},
@@ -2019,71 +2019,71 @@
   "signals": [
     {"id": "MACAN_PQ35_TIMING_ANGLE_RETARDATION_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2017"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2017"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AC_COMP_TQ_7E0", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2019"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2019"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADJ_EXH_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "201A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADJ_EXH_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, exhaust, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "201D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADJ_INT_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, intake, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "201E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADJ_INT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adjustment, intake, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2021"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2021"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADPT_INT_BANK_1_PHASE_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2023"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2023"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADPT_EXH_BANK_1_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation exhaust bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2025"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2025"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_LOW_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Fuel low pressure, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2027"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2027"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_HIGH_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Fuel high pressure, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2028"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACTIVATION_FUEL_PMP", "path": "Fuel", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Activation of fuel pump electronics"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2029"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2029"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CHARGE_AIR_P_SPECIFIED", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: specified"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CHARGE_AIR_P_ACTUAL", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202B"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_RADIATOR_OUTLET_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202C"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_RADIATOR_OUTLET_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202E"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202E"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_DIFF_ENG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature difference between engine and radiator"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "202F"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202F"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EOT_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2032"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2032"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MEAN_ENG_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Mean engine air mass"}
   ]},
@@ -2091,11 +2091,11 @@
   "signals": [
     {"id": "MACAN_ENG_AIR_MASS_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Engine air mass, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203E"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203E"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_T_7E0_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "203F"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TQ_LIM_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque limitation"}
   ]},
@@ -2115,19 +2115,19 @@
   "signals": [
     {"id": "MACAN_INJ_AMOUNT_DEV_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 12, "min": -12, "mul": 0.00036623, "sign": true, "unit": "unknown" }, "name": "Injection amount deviation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "204C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "204C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2050"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2050"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_GEN_LOAD_SIG_7E0", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2055"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2055"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLT_FAN_1_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant fan 1, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2056"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2056"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLT_FAN_2_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant fan 2, activation"}
   ]},
@@ -2135,15 +2135,15 @@
   "signals": [
     {"id": "MACAN_CHG_AIR_P_ACTUATOR_7E0", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Charge air pressure actuator, acknowledgment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2069"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2069"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_INT_MANIFOLD_RUNNER", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Intake manifold runner control, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_INT_MANIFOLD_RUNNER_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Intake manifold runner control, acknowledgment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "206E"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "206E"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CRANK_SPD_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Crankshaft speed, RPM"}
   ]},
@@ -2151,19 +2151,19 @@
   "signals": [
     {"id": "MACAN_FUEL_INJ_TIME_DEV_2", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Fuel injector time deviation, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "209B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "209B"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TQ_REQ_SUM_AUXILIARY", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque request, sum of auxiliary aggregate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "209C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "209C"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_DRAG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Engine drag torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20A0"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A0"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TQ_LIM_CLU", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Torque limitation, clutch protection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20A1"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -2171,16 +2171,16 @@
   "signals": [
     {"id": "MACAN_OIL_P_SWITCH_P", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch activation, high pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20A3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A3"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_P_SWITCH_HIGH_P", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for high pressure, closed"},
     {"id": "MACAN_OIL_P_SWITCH_LOW_P",  "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch for low pressure, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20BB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20BB"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_HIGH_P_CTRL_DEV", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "bars" }, "name": "Fuel high pressure, control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20C2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20C2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_WEAR_INDEX_0_NEW_ENG", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 20, "div": 13107, "unit": "percent" }, "name": "Wear index %, 0=new engine"}
   ]},
@@ -2204,7 +2204,7 @@
   "signals": [
     {"id": "MACAN_FUEL_INJ_TIME_DEV_CYL_2", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Fuel injector time deviation, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2206"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2206"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_FUEL_LEVEL_7E0_2206", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -2228,87 +2228,87 @@
   "signals": [
     {"id": "MACAN_CLT_SHUT_OFF_VLV", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Coolant shut-off valve, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "276D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "276D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLT_CIRCULATION_PMP_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Coolant circulation pump, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2904"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2904"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_TOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MISFIRES_1000_RPM_C1", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MISFIRES_1000_RPM_C3", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "291F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "291F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MISFIRES_1000_RPM_C4", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "2920"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "2920"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MISFIRES_1000_RPM_C2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires/1000 rpm, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2926"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2926"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TEST_CATALYTIC_CONV", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "scalar" }, "name": "Test of catalytic converter, measured value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2927"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2927"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TEST_CATALYTIC_CONV_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Test of catalytic converter status, canceled"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2929"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2929"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_LOSS_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Adaptation of loss torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "292B"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "292B"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_THROTTLE_VLV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Adaptation of throttle valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2930"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2930"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CAM_ADJ_INT_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Camshaft adjustment intake bank 1, activation %"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2932"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2932"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_LOW_P_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Fuel low pressure, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2935"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2935"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ECT_ENG_START", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "293B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_HIGH_P_SPEC_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "bars" }, "name": "Fuel high pressure, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "293E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_ADPT_MAX", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control adaptation higher than max. threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "293F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "293F"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_ADPT_LO_MIN", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control adaptation lower than min. threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2949"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2949"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AVG_IGN_TIM_ANG", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Average ignition timing angle delay adjustment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "294A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "294A"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_DYNAMIC_AVG_IGN_ANG", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Dynamic average of ignition angle delay adjustment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "295B"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295B"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ODO_ECU_INSTALLED", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "meters" }, "name": "Odometer with ECU installed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "295C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LOAD_SHIFT_FLAPS_ACT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Load shift flaps, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "295D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LOAD_SHIFT_FLAPS_SPEC", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Load shift flaps, specified value"}
   ]},
@@ -2328,19 +2328,19 @@
   "signals": [
     {"id": "MACAN_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "296F"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "296F"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EXH_GAS_T_BEFORE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature before catalytic converter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2976"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2976"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EXH_GAS_T_SENS_1_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2998"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2998"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MANUAL_ENG_STARTS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Manual engine starts counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2999"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2999"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_AUTOMATIC_ENG_STARTS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic engine starts counter"}
   ]},
@@ -2368,7 +2368,7 @@
   "signals": [
     {"id": "MACAN_CHG_P_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Charge pressure sensor, unconditioned voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "29D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "29D1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_AIR_MASS_ACT_MG", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Air mass, actual value, mg/stroke"}
   ]},
@@ -2396,7 +2396,7 @@
   "signals": [
     {"id": "MACAN_OIL_P_VLV_PISTON", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil pressure valve for piston cooling nozzles, control switch button ratio"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3804"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3804"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACCEL_PEDAL_POS_7E0", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
@@ -2417,39 +2417,39 @@
     {"id": "MACAN_CAM_ADJ_INT_TEST_1",    "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Camshaft adjustment intake test bank 1"},
     {"id": "MACAN_CAM_ADJ_OUTLET_TEST_1", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Camshaft adjustment outlet test bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "394F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "394F"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MAF_OVER_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Mass air flow over throttle valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3960"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3960"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3961"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3961"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_CYL_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3962"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3962"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3963"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3963"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENS_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensor, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3996"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3996"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIXTURE_ADPT_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Mixture adaptation factor at partial load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3997"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3997"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIXTURE_ADPT_FACTOR_IDLE", "path": "Movement", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Mixture adaptation factor at idle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3999"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3999"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_RELAY_RESERVE_CLT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Relay for reserve coolant pump status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "399F"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "399F"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CNT_FUEL_ENTRY_OIL", "path": "Fuel", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Counter of fuel entry in oil"}
   ]},
@@ -2473,11 +2473,11 @@
   "signals": [
     {"id": "MACAN_CHG_P_ACTUATOR_ADPT_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, adaptation for upper stop"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39A9"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39A9"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OXYGEN_CTRL_ADPT", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Oxygen control, adaptation value at part. load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "39BC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "39BC"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIXTURE_VARIATION_1", "path": "Trips", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Mixture variation in adapted part load range 1"}
   ]},
@@ -2509,39 +2509,39 @@
   "signals": [
     {"id": "MACAN_ENG_T_CTRL_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Engine temperature control actuator"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D74"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D74"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TRANS_CLT_VLV_OPEN", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission coolant valve, open"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3D77"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3D77"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_ACTUATOR_MAX_V", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millivolts" }, "name": "Charge pressure actuator, maximum sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3E70"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3E70"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_INT_MANIFOLD_P_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Intake manifold pressure raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EA6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV_POS_TGT", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control valve position, target value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EA7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV_POS_ACT", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Charge pressure control valve position, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EA8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA8"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 9.9999, "mul": 15259, "div": 100000000, "unit": "volts" }, "name": "Charge pressure control valve sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EA9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EA9"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV", "path": "Battery", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Charge pressure control valve activation pulse duty factor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EAB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EAB"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV_V_POS", "path": "Battery", "fmt": { "len": 16, "max": 9.9999, "mul": 15259, "div": 100000000, "unit": "volts" }, "name": "Charge pressure control valve voltage, position closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3EAC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3EAC"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHG_P_CTRL_VLV_V_POS_OPENED", "path": "Battery", "fmt": { "len": 16, "max": 9.9999, "mul": 15259, "div": 100000000, "unit": "volts" }, "name": "Charge pressure control valve voltage, position opened"}
   ]},
@@ -2549,35 +2549,35 @@
   "signals": [
     {"id": "MACAN_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 256, "add": 1, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F41"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F41"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL1_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder1 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F42"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F42"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL3_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder3 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F43"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F43"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL4_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder4 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F44"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F44"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL2_SLOW", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder2 slow diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F45"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F45"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL1_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder1 fast diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F46"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F46"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL3_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder3 fast diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F47"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F47"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL4_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder4 fast diagnosis"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F48"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F48"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_VAL_CYL2_FAST", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Adaptation val.cylinder2 fast diagnosis"}
   ]},
@@ -2585,7 +2585,7 @@
   "signals": [
     {"id": "MACAN_CORR_FACTOR_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 7.99, "mul": 12207, "div": 100000000, "unit": "scalar" }, "name": "Correction factor of oil temperature for engine protection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3F68"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3F68"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_SECONDARY_AIR_INJ_1", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Secondary air injection sensor 1"}
   ]},
@@ -2593,23 +2593,23 @@
   "signals": [
     {"id": "MACAN_ENG_T_MANAGEMENT_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4056"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4056"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_IDLE_SPD_SPEC_RPM", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Idle speed specified rpm"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "40CE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "40CE"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_LEVEL_STATIC", "path": "Engine", "fmt": { "len": 16, "max": 3968, "min": -127, "div": 16, "add": -127, "unit": "millimeters" }, "name": "Oil level, static measurement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "40D5"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40D5"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EOT_SENS_2", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "40E2"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40E2"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_T_SENS_ENG_T_TGT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Temperature sensor for engine temperature management, target value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "40E4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "40E4"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_T_SENS_ENG_T_V", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Temperature sensor for engine temperature management voltage"}
   ]},
@@ -2617,75 +2617,75 @@
   "signals": [
     {"id": "MACAN_AC_REFRIGERANT_P", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "Air conditioning refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "414E"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "414E"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LONG_TERM_ADPT_INT", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Long-term adaptation of intake manifold injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "414F"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "414F"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LONG_TERM_ADPT_INT_MANIFOLD_INJ", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Long-term adaptation of intake manifold injection at idle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417B"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_AFTER_CHAIN_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_AFTER_CHAIN_REPLACEMENT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, exhaust bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417F"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_AFTER_OTHER_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after other repairs, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4181"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4181"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_AFTER_OTHER_REPAIRS_INT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after other repairs, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4183"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4183"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_CURRENT_INT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation current value intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4185"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4185"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIM_DEV_CURRENT_EXH_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation current value exhaust bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4187"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4187"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHAIN_ELONGATION_NO_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Chain elongation, no of valid initial values, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4189"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4189"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHAIN_ELONGATION_NO_VALID_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Chain elongation, no of valid initial values, exhaust bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4267"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4267"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_DIRECT_INJECTIONS", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Direct injections counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4268"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4268"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PORT_INJ_INJECTIONS", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Port injection injections counter"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "426B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "426B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 1, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "426C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "426C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_2_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 2, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "426D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "426D"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_3_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 3, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "426E"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "426E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_MIS_PER_1000_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions, cylinder 4, port injection"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4270"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4270"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_P_SWITCH_PISTON", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch for piston-cooling jets, closed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4286"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4286"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_PISTON_COOLING_JETS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Piston-cooling jets, activation"}
   ]},
@@ -2701,7 +2701,7 @@
   "signals": [
     {"id": "MACAN_CYL_CHG_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "unknown" }, "name": "Cylinder charge specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4336"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4336"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_HEATER_SUPPORT_PMP_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Heater support pump, specified value"}
   ]},
@@ -2709,19 +2709,19 @@
   "signals": [
     {"id": "MACAN_CYL_CHG_ACT", "path": "Battery", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "unknown" }, "name": "Cylinder charge, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "437C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "437C"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_TQ_7E0_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "437E"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "437E"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LOST_TQ_ADPT_DRIVING", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Lost torque adaptation driving mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "437F"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "437F"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LOST_TQ_ADPT_AC", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Lost torque adaptation A/C + driving mode"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4381"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4381"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_LONG_TERM_FUEL_TRIM_IDLE", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Long term fuel trim at idle"}
   ]},
@@ -2729,27 +2729,27 @@
   "signals": [
     {"id": "MACAN_HIGH_P_REGULATION", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "High pressure regulation, adaptation value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4417"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4417"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_THERMOSTAT_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 12207, "div": 1000000, "unit": "percent" }, "name": "Thermostat, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4418"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4418"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_THERMOSTAT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 12207, "div": 1000000, "unit": "percent" }, "name": "Thermostat, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4419"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4419"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_T_MANAGEMENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "441A"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441A"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_T_MANAGEMENT_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine temperature management actuator, duty cycle activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "441C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441C"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_T_MANAGEMENT_ACTUATOR_STOP", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, stop open"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "441D"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "441D"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_T_MANAGEMENT_ACTUATOR_AFTER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine temperature management actuator, after-run stop"}
   ]},
@@ -2765,7 +2765,7 @@
   "signals": [
     {"id": "MACAN_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature at engine outlet, calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "44BB"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "44BB"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ERROR_CNT_BAD_FUEL", "path": "Fuel", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Error counter bad fuel"}
   ]},
@@ -2781,47 +2781,47 @@
   "signals": [
     {"id": "MACAN_COMP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Compressor speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E48"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E48"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_OXYGEN_1", "path": "Transmission", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for oxygen shift, cylinder 1"},
     {"id": "MACAN_EARLY_IGN_CNT_OXYGEN_2", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for oxygen shift, cylinder 2"},
     {"id": "MACAN_EARLY_IGN_CNT_OXYGEN_3", "path": "Transmission", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for oxygen shift, cylinder 3"},
     {"id": "MACAN_EARLY_IGN_CNT_OXYGEN_4", "path": "Transmission", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for oxygen shift, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E49"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E49"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress early ignition, cylinder 1"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress early ignition, cylinder 2"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress early ignition, cylinder 3"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress early ignition, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E4A"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E4A"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_TOQUE_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 1"},
     {"id": "MACAN_EARLY_IGN_CNT_TOQUE_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 2"},
     {"id": "MACAN_EARLY_IGN_CNT_TOQUE_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 3"},
     {"id": "MACAN_EARLY_IGN_CNT_TOQUE_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter for toque reduction, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E4B"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E4B"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 1"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 2"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_3", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 3"},
     {"id": "MACAN_EARLY_IGN_CNT_CYL_SUPPRESS_GLOW_4", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder suppress glow ignition, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E51"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E51"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_LEVEL_TEST_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E52"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E52"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_LEVEL_TEST_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E53"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E53"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_OIL_LEVEL_TEST_3", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Oil level test method 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4E70"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4E70"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_KNOCK_SENSORS_AVG_V_1_2", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Knock sensors average voltage bank 1, variant 2"}
   ]},
@@ -2845,11 +2845,11 @@
   "signals": [
     {"id": "MACAN_CAM_ADPT_INT_DEV", "path": "Engine", "fmt": { "len": 16, "max": 255.9921, "min": -256, "div": 128, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, intake deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "5149"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "5149"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHAIN_ELONGATION", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Chain elongation outlet, mileage at last adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "516C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "516C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CHAIN_ELONGATION_INLET", "path": "Engine", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Chain elongation inlet, mileage at last adaptation"}
   ]},
@@ -2861,11 +2861,11 @@
   "signals": [
     {"id": "MACAN_CYL_BLOCK_T_SENS", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Cylinder block temperature sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "51D6"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "51D6"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_FUEL_CONS_PER", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption per driving cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "51D8"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "51D8"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TANK_FILL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Tank fill level diagnostic reference value"}
   ]},
@@ -2893,31 +2893,31 @@
   "signals": [
     {"id": "MACAN_SERVICE_LIM_7E0_7E0", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Service limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "58D1"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "58D1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine oil level current value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SHORT_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Short term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
@@ -2925,39 +2925,39 @@
   "signals": [
     {"id": "MACAN_HIGH_P_EGR_CLOSING_2", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": -25, "div": 64, "add": 100, "unit": "percent" }, "name": "High-pressure exhaust gas recirculation closing, variant 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_AAT_V4", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},
@@ -2989,11 +2989,11 @@
   "signals": [
     {"id": "MACAN_MQB_TCM_ECU_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0327"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0327"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "MACAN_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 1.27, "min": -1.28, "div": 100, "sign": true, "unit": "scalar" }, "name": "Transmission gear ratio"}
   ]},
@@ -3020,11 +3020,11 @@
   "signals": [
     {"id": "MACAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_VSS_ESP", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed ESP"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1009"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1009"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_SPD_OUTPUT", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 7000, "sign": true, "unit": "rpm" }, "name": "Speed ​​output"}
   ]},
@@ -3048,47 +3048,47 @@
   "signals": [
     {"id": "MACAN_TCM_ENGINE_TORQUE_LOSS", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque loss"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1010"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TCM_CONVERTER_LOSS_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Converter loss torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADAPTIVE_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Adaptive mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ID_CURRENT_DRIVING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "ID of current driving program"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1013"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1013"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CURRENT_TYPE_DRIVER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Current type of driver counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ROAD_RESISTANCE", "path": "Transmission", "fmt": { "len": 8, "max": 31.894, "min": -31, "mul": 24.9, "div": 100, "add": -31.6, "unit": "percent" }, "name": "Road resistance"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1018"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVING_STRATEGY_MOUNTAIN_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Driving strategy mountain factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1019"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVING_STRATEGY_SPORT_FACTOR", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 1700, "div": 255, "unit": "percent" }, "name": "Driving strategy sport factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "MACAN_ODO_MILEAGE_2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Odometer, mileage 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TCM_DRAG_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission drag torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TCM_TQ_LOSSES", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque losses"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1024"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CURRENT_N215_P_CTRL_1", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N215 pressure control valve 1"}
   ]},
@@ -3116,11 +3116,11 @@
   "signals": [
     {"id": "MACAN_CLU_CENTER_CENTRAL_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 600, "min": -40, "sign": true, "nullmin": -40, "nullmax": 600, "unit": "celsius" }, "name": "Clutch center central plate temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102B"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 1 temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_2_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Clutch 2 temperature"}
   ]},
@@ -3128,7 +3128,7 @@
   "signals": [
     {"id": "MACAN_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Pressure supply actual pressure analog digital value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_M009_DES_SOLENOID_10", "path": "Engine", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 10"},
     {"id": "MACAN_M009_DES_SOLENOID_11", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 11"},
@@ -3136,7 +3136,7 @@
     {"id": "MACAN_M009_DES_SOLENOID_13", "path": "Engine", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 13"},
     {"id": "MACAN_M009_DES_SOLENOID_14", "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "M009, desired solenoid out 14"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1033"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1033"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIME_SINCE_SHIFT", "path": "Transmission", "fmt": { "len": 8, "max": 7650, "mul": 30, "unit": "milliseconds" }, "name": "Time since shift"}
   ]},
@@ -3148,7 +3148,7 @@
   "signals": [
     {"id": "MACAN_TIME_AFTERRUN", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time in run-on after shutdown"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "103B"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "103B"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TIME_SINCE_RESET", "path": "Engine", "fmt": { "len": 8, "max": 7650, "mul": 30, "unit": "milliseconds" }, "name": "Time since reset"}
   ]},
@@ -3156,7 +3156,7 @@
   "signals": [
     {"id": "MACAN_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 0 position"}
   ]},
@@ -3168,15 +3168,15 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 1 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 1 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 2 moment"}
   ]},
@@ -3184,39 +3184,39 @@
   "signals": [
     {"id": "MACAN_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 3 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1061"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1061"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DES_TQ_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Desired torque raw"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1062"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1062"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 1 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1063"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ANALYSIS_CLU_1_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 1, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_1_T_TIME_RANGE_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Clutch 1 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ANALYSIS_CLU_1_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ANALYSIS_CLU_1_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ANALYSIS_CLU_1_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 3"}
   ]},
@@ -3224,15 +3224,15 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 1 protection function engaged quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106A"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106A"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_RESERVE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Reserve torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 0 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 0 moment"}
   ]},
@@ -3248,7 +3248,7 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 2 position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1071"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 2 moment"}
   ]},
@@ -3272,7 +3272,7 @@
   "signals": [
     {"id": "MACAN_MQB_DQ200_CLUTCH_2_FRICTION_VALUE_CORRECTION_FACTOR", "path": "Transmission", "fmt": { "len": 16, "max": 100, "mul": 0.09766, "sign": true, "unit": "percent" }, "name": "Clutch 2 friction value correction factor"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1078"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 characteristic curve shift"}
   ]},
@@ -3300,15 +3300,15 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_PROT_ENGAGED_QTY", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "scalar" }, "name": "Clutch 2 protection function engaged quantity"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1082"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1082"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1083"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1083"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1084"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1084"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GANGSTELLER_A_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector a adaptation neutral position"}
   ]},
@@ -3316,7 +3316,7 @@
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1086"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1086"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G3"}
   ]},
@@ -3324,7 +3324,7 @@
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1091"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1091"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TRANS_INPUT_SPD_SHFT_1", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission input speed - shaft 1"}
   ]},
@@ -3332,43 +3332,43 @@
   "signals": [
     {"id": "MACAN_PQ35_GANGSTELLER_B_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector b adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1093"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1093"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TRANS_INPUT_SPD_SHFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission input speed - shaft 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1094"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1094"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "109F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A0"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A0"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector c adaptation neutral position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A1"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A1"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10A2"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G7", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AC"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AC"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AD"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AD"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation synchronization position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AE"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10AE"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear selector d adaptation neutral position"}
   ]},
@@ -3376,7 +3376,7 @@
   "signals": [
     {"id": "MACAN_ANALYSIS_39_DRIVING", "path": "Engine", "fmt": { "len": 32, "max": 858993459, "div": 5, "unit": "seconds" }, "name": "Analysis-39 driving recorder total time"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "10B0"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "10B0"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ANALYSIS_40_ATF_T_65_C",        "path": "Engine", "fmt": {            "len": 32, "max": 858993459, "div": 5, "unit": "seconds" }, "name": "Time with transmission fluid below 65 degrees"},
     {"id": "MACAN_ANALYSIS_40_ATF_T_65_C_80_C",   "path": "Engine", "fmt": {"bix": 32,  "len": 32, "max": 858993459, "div": 5, "unit": "seconds" }, "name": "Time with transmission fluid at 65 to 80 degrees"},
@@ -3384,11 +3384,11 @@
     {"id": "MACAN_ANALYSIS_40_ATF_T_110_C_135_C", "path": "Engine", "fmt": {"bix": 96,  "len": 32, "max": 858993459, "div": 5, "unit": "seconds" }, "name": "Time with transmission fluid at 110 to 135 degrees"},
     {"id": "MACAN_ANALYSIS_40_ATF_T_135_C",       "path": "Engine", "fmt": {"bix": 128, "len": 32, "max": 858993459, "div": 5, "unit": "seconds" }, "name": "Time with transmission fluid above 135 degrees"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLUTCH_1_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CA"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10CA"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "nullmax": 655350, "unit": "kilometers" }, "name": "Clutch 1 adaptation kiss point part 1 odometer reading"}
   ]},
@@ -3396,31 +3396,31 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EA"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EA"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 successful adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EB"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10EB"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_ADAPT_KISS_POINT_PART_1_ODO_READING", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 655350, "mul": 10, "unit": "kilometers" }, "name": "Clutch 2 adaptation kiss point part 1 odometer reading"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10ED"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10ED"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 1 actual pressure raw value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10FA"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10FA"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DL382_CLUTCH_2_ACTUAL_P_RAW_VALUE", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 2 actual pressure raw value"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1100"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1100"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_INFLATION_TIME", "path": "Transmission", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "milliseconds" }, "name": "Torque converter lockup clutch fill time adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1101"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1101"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ADPT_CNT_TSF_LOCKUP", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Torque converter lockup clutch adaptation count"}
   ]},
@@ -3448,7 +3448,7 @@
   "signals": [
     {"id": "MACAN_WORKING_HOURS", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 23860.929, "mul": 2, "div": 360000, "unit": "unknown" }, "name": "Working hours"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_OP_TIME_T_RANGE_1", "path": "Trips", "fmt": {            "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 1"},
     {"id": "MACAN_OP_TIME_T_RANGE_2", "path": "Trips", "fmt": {"bix": 32,  "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 2"},
@@ -3461,76 +3461,76 @@
   "signals": [
     {"id": "MACAN_REACHED_MAXIMUM_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Reached maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_1_MAXIMUM_T", "path": "Engine", "fmt": {           "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #1 maximum temperature"},
     {"id": "MACAN_PQ35_CLUTCH_2_MAXIMUM_T", "path": "Engine", "fmt": {"bix": 16, "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #2 maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1120"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1120"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_1_LO_ADPT_POINT", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Clutch 1 lower adaptation point"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1121"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1121"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_2_LO_ADPT_POINT", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Clutch 2 lower adaptation point"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1124"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1124"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_1_HI_ADPT_POINT", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Clutch 1 upper adaptation point"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1125"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1125"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_2_HI_ADPT_POINT", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Clutch 2 upper adaptation point"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1130"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1130"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_I_LOWER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current lower pressure point clutch 1 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1131"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1131"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_I_UPPER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current upper pressure point clutch 1 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1132"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1132"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_I_LOWER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current lower pressure point clutch 2 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1133"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1133"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_I_UPPER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current upper pressure point clutch 2 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1138"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1138"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1139"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1139"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1140"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1140"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 1-3"}
   ]},
@@ -3542,7 +3542,7 @@
   "signals": [
     {"id": "MACAN_DQ250_NEUTRAL_POS_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1143"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1143"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 6 and reverse"}
   ]},
@@ -3562,135 +3562,135 @@
   "signals": [
     {"id": "MACAN_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side b gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1148"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1148"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1149"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1149"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1154"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1154"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_NUM_TIMES_PERMITTED_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of times the permitted centrifugal oil temperature has been exceeded"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1155"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1155"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_NUM_WARN_HI_CENTRIF_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warnings due to increased centrifugal oil temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values initial kill point 0 for K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1157"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1157"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K2", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values initial kill point 0 for K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1158"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1158"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K2", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115A"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115A"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_KILOMETERS_DRIVEN_SINCE_LAST_EVENT_ON_K1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 7000, "mul": 10, "unit": "kilometers" }, "name": "Kilometers driven since last event on K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_KILOMETERS_DRIVEN_SINCE_LAST_EVENT_ON_K2", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 7000, "mul": 10, "unit": "kilometers" }, "name": "Kilometers driven since last event on K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1179"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1179"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117A"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117B"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117C"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117E"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117F"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position, reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1180"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1180"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: low press on clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: high press on clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1182"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1182"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation low pressure on clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1183"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1183"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation high pressure on clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1191"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1191"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ200_P_SUPPLY_ACTUAL_P", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Pressure supply actual pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1196"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1196"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_HYBRID_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Hybrid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "11A7"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "11A7"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_LAUNCH_CTRL_CNT_VAR_1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, variant 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "120F"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "120F"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_0_T_CALC", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch_0 temperature calculated"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1259"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "1259"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Clutch temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "125C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "125C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_1_NOMINAL_P", "path": "Transmission", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 nominal pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "125D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "125D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_NOMINAL_P_CLU_2", "path": "Transmission", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "bars" }, "name": "Nominal pressure clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1260"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1260"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_P_CLU_1", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Pressure_clutch_1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1261"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1261"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_P_CLU_2", "path": "Transmission", "fmt": { "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "sign": true, "unit": "bars" }, "name": "Pressure_clutch_2"}
   ]},
@@ -3745,7 +3745,7 @@
   "signals": [
     {"id": "MACAN_CLU_T_CALC", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch temperature calculated"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_TQ_7E1_7E1", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -3753,27 +3753,27 @@
   "signals": [
     {"id": "MACAN_TORQUE_LIMITATION", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Torque limitation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_TCM_TRANSMISSION_INPUT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Transmission input speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2103"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2103"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_TCM_TRANSMISSION_OUTPUT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Transmission output speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2105"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2105"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_TQ_TRANSMITTING", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Torque transmitting function, ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2106"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2106"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_VSS_HR", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed, HR"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2108"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2108"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVING_RES_INDEX", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "add": -128, "unit": "scalar" }, "name": "Driving resistance index"}
   ]},
@@ -3781,7 +3781,7 @@
   "signals": [
     {"id": "MACAN_DRIVING_MODE_SENS", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving mode sensor, hall sensor a"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210E"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_DRIVING_POS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Driving position"}
   ]},
@@ -3794,11 +3794,11 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2110"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2110"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ENG_SPEC_TQ_DURING", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine specified torque during transmission intervention"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2114"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_MQB_TCM_KICK_DOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Kick down"}
   ]},
@@ -3834,19 +3834,19 @@
   "signals": [
     {"id": "MACAN_TORQUE_CONVERTER_SLIP_TCM", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter slip"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "2142"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "2142"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SPEC_TQ_CLU_1_DATA", "path": "Transmission", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 1 - data"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "2143"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "2143"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_SPEC_TQ_CLU_2_DATA", "path": "Transmission", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Specified torque clutch 2 - data"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "214C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "214C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_1_P", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 1 pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "214D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "214D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_CLU_2_P", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 2 pressure"}
   ]},
@@ -4082,11 +4082,11 @@
   "signals": [
     {"id": "MACAN_PQ35_CENTRIFUGAL_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Centrifugal oil temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38BF"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38BF"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ATF_T_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38C0"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38C0"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_LAUNCH_CTRL_CNT_CLU_1", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, clutch 1"}
   ]},
@@ -4106,7 +4106,7 @@
   "signals": [
     {"id": "MACAN_PQ35_CLUTCH_2_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 commanded pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38F1"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "cmd": {"22": "38F1"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_LAUNCH_CTRL_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Launch control counter"}
   ]},
@@ -4279,11 +4279,11 @@
   "signals": [
     {"id": "MACAN_INPUT_SHFT_SPD_2", "path": "Movement", "fmt": { "len": 16, "max": 32766, "min": -32769, "add": -1, "sign": true, "unit": "rpm" }, "name": "Input shaft speed 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "MACAN_ACCEL_PEDAL_POS", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]}

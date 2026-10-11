@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    MACAN_CAM_ADJ_INT_SPEC: 14.2
+  response: 7E80562201D008E
+- expected_values:
+    MACAN_CAM_ADJ_INT_SPEC: 22.4
+  response: 7E80562201D00E0

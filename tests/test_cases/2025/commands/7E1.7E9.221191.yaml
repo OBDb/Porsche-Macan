@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221191
+test_cases:
+- expected_values:
+    MACAN_MQB_DQ200_P_SUPPLY_ACTUAL_P: -235.49
+  response: 7E90562119103A4

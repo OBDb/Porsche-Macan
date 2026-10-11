@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221024|fc=1
+test_cases:
+- expected_values:
+    MACAN_ALTERNATOR_LOAD: 600
+  response: 7E8046210240C

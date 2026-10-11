@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222027
+test_cases:
+- expected_values:
+    MACAN_FUEL_HIGH_P_ACT: 168
+  response: '7E8056220270690'
+- expected_values:
+    MACAN_FUEL_HIGH_P_ACT: 241.1
+  response: 7E805622027096B

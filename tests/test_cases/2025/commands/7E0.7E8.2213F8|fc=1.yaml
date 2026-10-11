@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213F8|fc=1
+test_cases:
+- expected_values:
+    MACAN_KNOCK_SENS_V_CYL_1: 0.01442
+  response: 7E8056213F800BD

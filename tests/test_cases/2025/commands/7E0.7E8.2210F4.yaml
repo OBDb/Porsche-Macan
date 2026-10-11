@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210F4
+test_cases:
+- expected_values:
+    MACAN_MIS_PER_1000_3: 426
+  response: 7E8056210F401AA
+- expected_values:
+    MACAN_MIS_PER_1000_3: 428
+  response: 7E8056210F401AC
+- expected_values:
+    MACAN_MIS_PER_1000_3: 501
+  response: 7E8056210F401F5

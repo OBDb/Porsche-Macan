@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221200
+test_cases:
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_1: 61.82
+  response: 7E80562120016DC
