@@ -4,6 +4,12 @@ test_cases:
     MACAN_BATTERY_V: 14100
   response: 7E80562105A02C1
 - expected_values:
+    MACAN_BATTERY_V: 14140
+  response: 7E80562105A02C3
+- expected_values:
+    MACAN_BATTERY_V: 14160
+  response: 7E80562105A02C4
+- expected_values:
     MACAN_BATTERY_V: 14180
   response: 7E80562105A02C5
 - expected_values:

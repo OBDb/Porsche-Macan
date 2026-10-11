@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.2216F3|fc=1,c=17
 test_cases:
 - expected_values:
-    MACAN_CRANKSHAFT_VSS: 592
-  response: 7E8056216F304A0
-- expected_values:
-    MACAN_CRANKSHAFT_VSS: 1001.5
-  response: 7E8056216F307D3
-- expected_values:
-    MACAN_CRANKSHAFT_VSS: 1095.5
-  response: 7E8056216F3088F
-- expected_values:
-    MACAN_CRANKSHAFT_VSS: 1192.5
-  response: 7E8056216F30951
-- expected_values:
-    MACAN_CRANKSHAFT_VSS: 1259.5
-  response: 7E8056216F309D7
+    MACAN_CRANKSHAFT_VSS: 0
+  response: 7E8056216F30000
 - expected_values:
     MACAN_CRANKSHAFT_VSS: 1651.5
   response: 7E8056216F30CE7
-- expected_values:
-    MACAN_CRANKSHAFT_VSS: 1942
-  response: 7E8056216F30F2C
 - expected_values:
     MACAN_CRANKSHAFT_VSS: 2193.5
   response: 7E8056216F31123
