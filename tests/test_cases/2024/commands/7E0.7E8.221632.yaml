@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221632
 test_cases:
 - expected_values:
+    MACAN_EOT_MEAS: 66.9
+  response: 7E8056216320D48
+- expected_values:
+    MACAN_EOT_MEAS: 79
+  response: 7E8056216320DC1
+- expected_values:
     MACAN_EOT_MEAS: 86.2
   response: 7E8056216320E09
-- expected_values:
-    MACAN_EOT_MEAS: 103.6
-  response: 7E8056216320EB7

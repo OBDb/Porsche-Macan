@@ -4,5 +4,5 @@ test_cases:
     MACAN_ODO_2_V2: 70322
   response: 7E8076210E0000112B2
 - expected_values:
-    MACAN_ODO_2_V2: 70348
-  response: 7E8076210E0000112CC
+    MACAN_ODO_2_V2: 70350
+  response: 7E8076210E0000112CE
