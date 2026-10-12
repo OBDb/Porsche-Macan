@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221024|fc=1
 test_cases:
 - expected_values:
-    MACAN_ALTERNATOR_LOAD: 400
-  response: '7E80462102408'
+    MACAN_ALTERNATOR_LOAD: 0
+  response: '7E80462102400'
+- expected_values:
+    MACAN_ALTERNATOR_LOAD: 950
+  response: '7E80462102413'

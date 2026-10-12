@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -296.7
   response: 7E9056210A01A8C
+- expected_values:
+    MACAN_PQ35_GANGSTELLER_C_ADAPT_NEUTRALPOS: -212.22
+  response: 7E9056210A01AAD

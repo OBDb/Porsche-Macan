@@ -4,17 +4,8 @@ test_cases:
     MACAN_ECT_DIFF_ENG: 12
   response: 7E80562202E0078
 - expected_values:
-    MACAN_ECT_DIFF_ENG: 64.5
-  response: 7E80562202E0285
+    MACAN_ECT_DIFF_ENG: 51
+  response: 7E80562202E01FE
 - expected_values:
-    MACAN_ECT_DIFF_ENG: 65.2
-  response: 7E80562202E028C
-- expected_values:
-    MACAN_ECT_DIFF_ENG: 66
-  response: 7E80562202E0294
-- expected_values:
-    MACAN_ECT_DIFF_ENG: 68.2
-  response: 7E80562202E02AA
-- expected_values:
-    MACAN_ECT_DIFF_ENG: 71.2
-  response: 7E80562202E02C8
+    MACAN_ECT_DIFF_ENG: 51.7
+  response: 7E80562202E0205

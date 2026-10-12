@@ -7,6 +7,9 @@ test_cases:
     MACAN_PQ35_CALCULATED_OIL_T: -37
   response: 7E8056220A103F2
 - expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: -37
+  response: 7E8056220A103FC
+- expected_values:
     MACAN_PQ35_CALCULATED_OIL_T: -36
   response: 7E8056220A10406
 - expected_values:

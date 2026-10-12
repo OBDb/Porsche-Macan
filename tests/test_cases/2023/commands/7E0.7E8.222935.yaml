@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ECT_ENG_START: 88.5
   response: '7E8056229350375'
+- expected_values:
+    MACAN_ECT_ENG_START: 94.5
+  response: 7E80562293503B1

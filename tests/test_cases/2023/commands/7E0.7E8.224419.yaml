@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.224419
 test_cases:
 - expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1133
-  response: 7E805624419046D
+    MACAN_ENG_T_MANAGEMENT: 788
+  response: '7E8056244190314'
 - expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1194
-  response: 7E80562441904AA
+    MACAN_ENG_T_MANAGEMENT: 1017
+  response: 7E80562441903F9
 - expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1195
-  response: 7E80562441904AB
+    MACAN_ENG_T_MANAGEMENT: 1280
+  response: '7E8056244190500'
 - expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1196
-  response: 7E80562441904AC
-- expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1199
-  response: 7E80562441904AF
-- expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1261
-  response: 7E80562441904ED
-- expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1348
-  response: '7E8056244190544'
-- expected_values:
-    MACAN_ENG_T_MANAGEMENT: 1391
-  response: 7E805624419056F
+    MACAN_ENG_T_MANAGEMENT: 3875
+  response: 7E8056244190F23

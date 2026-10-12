@@ -4,5 +4,11 @@ test_cases:
     MACAN_INT_MODEL_AIR_MASS: 0
   response: 7E8056211AB0000
 - expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 0.1
+  response: 7E8056211AB0001
+- expected_values:
     MACAN_INT_MODEL_AIR_MASS: 0.4
   response: 7E8056211AB0004
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 0.8
+  response: 7E8056211AB0008

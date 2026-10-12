@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.223EAC
 test_cases:
 - expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.70176
-  response: 7E805623EAC11F7
+    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.67353
+  response: 7E805623EAC113E
 - expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.71946
-  response: 7E805623EAC126B
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.72175
-  response: 7E805623EAC127A
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.72206
-  response: 7E805623EAC127C
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.72373
-  response: 7E805623EAC1287
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.73716
-  response: 7E805623EAC12DF
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.7393
-  response: 7E805623EAC12ED
-- expected_values:
-    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.7396
-  response: 7E805623EAC12EF
+    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.70359
+  response: 7E805623EAC1203
 - expected_values:
     MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.74159
   response: 7E805623EAC12FC
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV_V_POS_OPENED: 0.75364
+  response: 7E805623EAC134B

@@ -4,14 +4,5 @@ test_cases:
     MACAN_MAF_OVER_THROTTLE: 0
   response: 7E80562394F0000
 - expected_values:
-    MACAN_MAF_OVER_THROTTLE: 10
-  response: 7E80562394F000A
-- expected_values:
-    MACAN_MAF_OVER_THROTTLE: 12
-  response: 7E80562394F000C
-- expected_values:
-    MACAN_MAF_OVER_THROTTLE: 13
-  response: 7E80562394F000D
-- expected_values:
-    MACAN_MAF_OVER_THROTTLE: 77
-  response: 7E80562394F004D
+    MACAN_MAF_OVER_THROTTLE: 168
+  response: 7E80562394F00A8

@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.221093|fc=1
 test_cases:
 - expected_values:
-    MACAN_TRANS_INPUT_SPD_SHFT_2: 1293
-  response: 7E905621093050D
+    MACAN_TRANS_INPUT_SPD_SHFT_2: 0
+  response: '7E9056210930000'
+- expected_values:
+    MACAN_TRANS_INPUT_SPD_SHFT_2: 1019
+  response: 7E90562109303FB
+- expected_values:
+    MACAN_TRANS_INPUT_SPD_SHFT_2: 2435
+  response: '7E9056210930983'

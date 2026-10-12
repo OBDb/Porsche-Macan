@@ -1,6 +1,21 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
+    MACAN_FLI_INPUT: 65.4902
+  response: 7E80462F42FA7
+- expected_values:
+    MACAN_FLI_INPUT: 66.66667
+  response: 7E80462F42FAA
+- expected_values:
+    MACAN_FLI_INPUT: 67.84314
+  response: 7E80462F42FAD
+- expected_values:
+    MACAN_FLI_INPUT: 69.41176
+  response: 7E80462F42FB1
+- expected_values:
+    MACAN_FLI_INPUT: 70.58824
+  response: 7E80462F42FB4
+- expected_values:
     MACAN_FLI_INPUT: 83.92157
   response: 7E80462F42FD6
 - expected_values:

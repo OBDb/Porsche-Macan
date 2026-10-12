@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2210CA
 test_cases:
 - expected_values:
+    MACAN_ACCEL_7E0: 0
+  response: 7E8056210CA0000
+- expected_values:
     MACAN_ACCEL_7E0: 17.438
   response: 7E8056210CA441E
+- expected_values:
+    MACAN_ACCEL_7E0: 20.088
+  response: 7E8056210CA4E78
+- expected_values:
+    MACAN_ACCEL_7E0: 21.3
+  response: 7E8056210CA5334

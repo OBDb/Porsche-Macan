@@ -4,23 +4,11 @@ test_cases:
     MACAN_KNOCK_SENS_CYL_1: 0.236
   response: 7E80562396000EC
 - expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 0.483
-  response: 7E80562396001E3
+    MACAN_KNOCK_SENS_CYL_1: 0.518
+  response: '7E8056239600206'
 - expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 0.627
-  response: '7E8056239600273'
-- expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 0.669
-  response: 7E805623960029D
-- expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 0.671
-  response: 7E805623960029F
-- expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 1.328
-  response: '7E8056239600530'
-- expected_values:
-    MACAN_KNOCK_SENS_CYL_1: 1.395
-  response: '7E8056239600573'
+    MACAN_KNOCK_SENS_CYL_1: 0.763
+  response: 7E80562396002FB
 - expected_values:
     MACAN_KNOCK_SENS_CYL_1: 1.771
   response: 7E80562396006EB

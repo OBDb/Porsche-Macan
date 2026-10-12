@@ -4,5 +4,5 @@ test_cases:
     MACAN_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    MACAN_VSS: 58
-  response: 7E80462F40D3A
+    MACAN_VSS: 119
+  response: 7E80462F40D77

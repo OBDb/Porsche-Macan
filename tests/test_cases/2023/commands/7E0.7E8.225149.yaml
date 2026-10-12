@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_CHAIN_ELONGATION: 117837
   response: 7E80662514901CC4D
+- expected_values:
+    MACAN_CHAIN_ELONGATION: 118841
+  response: 7E80662514901D039

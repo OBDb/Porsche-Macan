@@ -1,5 +1,32 @@
 command_id: 7E1.7E9.22214D|fc=1
 test_cases:
 - expected_values:
+    MACAN_CLU_2_P: -1
+  response: 7E90562214D0000
+- expected_values:
+    MACAN_CLU_2_P: -1
+  response: 7E90562214D0001
+- expected_values:
+    MACAN_CLU_2_P: -0.9
+  response: 7E90562214D012D
+- expected_values:
+    MACAN_CLU_2_P: -0.9
+  response: 7E90562214D0139
+- expected_values:
+    MACAN_CLU_2_P: -0.9
+  response: 7E90562214D0194
+- expected_values:
     MACAN_CLU_2_P: -0.8
   response: 7E90562214D021A
+- expected_values:
+    MACAN_CLU_2_P: -0.8
+  response: 7E90562214D0250
+- expected_values:
+    MACAN_CLU_2_P: -0.7
+  response: 7E90562214D0317
+- expected_values:
+    MACAN_CLU_2_P: 24.5
+  response: 7E90562214DFFFE
+- expected_values:
+    MACAN_CLU_2_P: 24.5
+  response: 7E90562214DFFFF

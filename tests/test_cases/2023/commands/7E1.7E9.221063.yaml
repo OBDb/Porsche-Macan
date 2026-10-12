@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.221063
 test_cases:
 - expected_values:
+    MACAN_CLUTCH_1_CHAR_CURVE_SHIFT: 25.1125
+  response: '7E9056210631964'
+- expected_values:
     MACAN_CLUTCH_1_CHAR_CURVE_SHIFT: -14.02478
   response: 7E90562106319C8

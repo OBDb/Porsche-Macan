@@ -4,14 +4,5 @@ test_cases:
     MACAN_AAT_V4: 26
   response: 7E80462F44642
 - expected_values:
-    MACAN_AAT_V4: 27
-  response: 7E80462F44643
-- expected_values:
-    MACAN_AAT_V4: 28
-  response: 7E80462F44644
-- expected_values:
-    MACAN_AAT_V4: 30
-  response: 7E80462F44646
-- expected_values:
-    MACAN_AAT_V4: 31
-  response: 7E80462F44647
+    MACAN_AAT_V4: 48
+  response: 7E80462F44658

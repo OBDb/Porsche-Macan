@@ -1,5 +1,32 @@
 command_id: 7E1.7E9.221061
 test_cases:
 - expected_values:
+    MACAN_DES_TQ_RAW: 0
+  response: '7E9056210610000'
+- expected_values:
+    MACAN_DES_TQ_RAW: 6
+  response: '7E9056210610006'
+- expected_values:
+    MACAN_DES_TQ_RAW: 7
+  response: '7E9056210610007'
+- expected_values:
+    MACAN_DES_TQ_RAW: -38
+  response: 7E905621061FFDA
+- expected_values:
+    MACAN_DES_TQ_RAW: -14
+  response: 7E905621061FFF2
+- expected_values:
+    MACAN_DES_TQ_RAW: -13
+  response: 7E905621061FFF3
+- expected_values:
     MACAN_DES_TQ_RAW: -12
   response: 7E905621061FFF4
+- expected_values:
+    MACAN_DES_TQ_RAW: -7
+  response: 7E905621061FFF9
+- expected_values:
+    MACAN_DES_TQ_RAW: -3
+  response: 7E905621061FFFD
+- expected_values:
+    MACAN_DES_TQ_RAW: -1
+  response: 7E905621061FFFF

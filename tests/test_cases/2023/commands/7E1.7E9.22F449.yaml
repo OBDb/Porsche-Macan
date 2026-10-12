@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     MACAN_ACCEL_PEDAL_POS: 14.90196
   response: 7E90462F44926
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 21.56863
+  response: 7E90462F44937
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 23.13725
+  response: 7E90462F4493B
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 24.31373
+  response: 7E90462F4493E
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 25.4902
+  response: 7E90462F44941
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 29.41176
+  response: 7E90462F4494B
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 30.19608
+  response: 7E90462F4494D
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 30.58824
+  response: 7E90462F4494E
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 30.98039
+  response: 7E90462F4494F
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS: 31.37255
+  response: 7E90462F44950

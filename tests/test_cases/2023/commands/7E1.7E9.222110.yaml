@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_ENG_SPEC_TQ_DURING: 0
   response: '7E9056221100000'
+- expected_values:
+    MACAN_ENG_SPEC_TQ_DURING: 197
+  response: 7E90562211000C5

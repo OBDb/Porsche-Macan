@@ -4,26 +4,8 @@ test_cases:
     MACAN_KNOCK_SENSORS_AVG_V_1_2: 0
   response: 7E805624E700000
 - expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.245
-  response: 7E805624E7000F5
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.326
-  response: 7E805624E700146
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.502
-  response: 7E805624E7001F6
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.585
-  response: 7E805624E700249
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.804
-  response: 7E805624E700324
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.84
-  response: 7E805624E700348
-- expected_values:
-    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.85
-  response: 7E805624E700352
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.767
+  response: 7E805624E7002FF
 - expected_values:
     MACAN_KNOCK_SENSORS_AVG_V_1_2: 1.599
   response: 7E805624E70063F

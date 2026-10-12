@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    MACAN_RUNTM: 942
-  response: 7E80562F41F03AE
+    MACAN_RUNTM: 191
+  response: 7E80562F41F00BF
 - expected_values:
-    MACAN_RUNTM: 1082
-  response: 7E80562F41F043A
+    MACAN_RUNTM: 1023
+  response: 7E80562F41F03FF
 - expected_values:
-    MACAN_RUNTM: 1218
-  response: 7E80562F41F04C2
+    MACAN_RUNTM: 2052
+  response: 7E80562F41F0804
 - expected_values:
-    MACAN_RUNTM: 1356
-  response: 7E80562F41F054C
-- expected_values:
-    MACAN_RUNTM: 1490
-  response: 7E80562F41F05D2
-- expected_values:
-    MACAN_RUNTM: 1626
-  response: 7E80562F41F065A
-- expected_values:
-    MACAN_RUNTM: 1741
-  response: 7E80562F41F06CD
-- expected_values:
-    MACAN_RUNTM: 1788
-  response: 7E80562F41F06FC
-- expected_values:
-    MACAN_RUNTM: 1843
-  response: 7E80562F41F0733
+    MACAN_RUNTM: 2315
+  response: 7E80562F41F090B

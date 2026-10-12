@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_CURRENT_TYPE_DRIVER: 65275
   response: 7E905621013FEFB
+- expected_values:
+    MACAN_CURRENT_TYPE_DRIVER: 65284
+  response: 7E905621013FF04

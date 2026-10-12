@@ -4,17 +4,11 @@ test_cases:
     MACAN_VPWR: 12.363
   response: 7E80562F442304B
 - expected_values:
-    MACAN_VPWR: 13.417
-  response: 7E80562F4423469
+    MACAN_VPWR: 13.046
+  response: 7E80562F44232F6
 - expected_values:
-    MACAN_VPWR: 13.437
-  response: 7E80562F442347D
+    MACAN_VPWR: 13.066
+  response: 7E80562F442330A
 - expected_values:
-    MACAN_VPWR: 13.457
-  response: 7E80562F4423491
-- expected_values:
-    MACAN_VPWR: 13.476
-  response: 7E80562F44234A4
-- expected_values:
-    MACAN_VPWR: 13.496
-  response: 7E80562F44234B8
+    MACAN_VPWR: 13.769
+  response: 7E80562F44235C9

@@ -4,23 +4,5 @@ test_cases:
     MACAN_IGA_IGC_0: -9.01775
   response: 7E80462138A47
 - expected_values:
-    MACAN_IGA_IGC_0: -8.643
-  response: 7E80462138A48
-- expected_values:
-    MACAN_IGA_IGC_0: -8.26825
-  response: 7E80462138A49
-- expected_values:
-    MACAN_IGA_IGC_0: -6.76925
-  response: 7E80462138A4D
-- expected_values:
-    MACAN_IGA_IGC_0: -6.3945
-  response: 7E80462138A4E
-- expected_values:
-    MACAN_IGA_IGC_0: -5.645
-  response: 7E80462138A50
-- expected_values:
-    MACAN_IGA_IGC_0: 10.46925
-  response: 7E80462138A7B
-- expected_values:
-    MACAN_IGA_IGC_0: 10.844
-  response: 7E80462138A7C
+    MACAN_IGA_IGC_0: 31.0805
+  response: 7E80462138AB2

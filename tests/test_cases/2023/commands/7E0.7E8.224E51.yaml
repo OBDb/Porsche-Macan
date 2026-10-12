@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MACAN_OIL_LEVEL_TEST_1: 100
   response: 7E805624E51457E
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_1: 100
+  response: 7E805624E514E16
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_1: 100
+  response: 7E805624E514E20

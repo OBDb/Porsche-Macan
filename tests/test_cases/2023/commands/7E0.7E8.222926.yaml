@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.222926
 test_cases:
 - expected_values:
+    MACAN_TEST_CATALYTIC_CONV: 0.008
+  response: '7E8056229260008'
+- expected_values:
     MACAN_TEST_CATALYTIC_CONV: 0.047
   response: 7E805622926002F
+- expected_values:
+    MACAN_TEST_CATALYTIC_CONV: 0.055
+  response: '7E8056229260037'

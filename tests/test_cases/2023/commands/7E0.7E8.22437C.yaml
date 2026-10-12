@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22437C
 test_cases:
 - expected_values:
-    MACAN_ENG_TQ_7E0_7E0_7E0: 22.6
-  response: 7E80562437C00E2
+    MACAN_ENG_TQ_7E0_7E0_7E0: 9.1
+  response: 7E80562437C005B
 - expected_values:
     MACAN_ENG_TQ_7E0_7E0_7E0: 25.5
   response: 7E80562437C00FF
@@ -10,14 +10,5 @@ test_cases:
     MACAN_ENG_TQ_7E0_7E0_7E0: 25.6
   response: 7E80562437C0100
 - expected_values:
-    MACAN_ENG_TQ_7E0_7E0_7E0: 25.7
-  response: 7E80562437C0101
-- expected_values:
-    MACAN_ENG_TQ_7E0_7E0_7E0: 42.8
-  response: 7E80562437C01AC
-- expected_values:
-    MACAN_ENG_TQ_7E0_7E0_7E0: 81.6
-  response: 7E80562437C0330
-- expected_values:
-    MACAN_ENG_TQ_7E0_7E0_7E0: 134.3
-  response: 7E80562437C053F
+    MACAN_ENG_TQ_7E0_7E0_7E0: -15.8
+  response: 7E80562437CFF62

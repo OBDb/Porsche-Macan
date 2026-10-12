@@ -2,10 +2,28 @@ command_id: 7E0.7E8.224E52
 test_cases:
 - expected_values:
     MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E523E4E
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
   response: 7E805624E524042
 - expected_values:
     MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E524470
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E5245A6
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E52472C
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E524916
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
   response: 7E805624E5249AC
+- expected_values:
+    MACAN_OIL_LEVEL_TEST_2: 100
+  response: 7E805624E524D6C
 - expected_values:
     MACAN_OIL_LEVEL_TEST_2: 100
   response: 7E805624E524D76
