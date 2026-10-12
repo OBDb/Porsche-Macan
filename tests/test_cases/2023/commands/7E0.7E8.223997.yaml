@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.223997
+test_cases:
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0
+  response: '7E8056239970000'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0.39
+  response: '7E8056239970027'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0.41
+  response: '7E8056239970029'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0.44
+  response: 7E805623997002C
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 0.67
+  response: '7E8056239970043'
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR_IDLE: 1.16
+  response: '7E8056239970074'

@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.222949
+test_cases:
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 3.37
+  response: '7E8056229490151'
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 3.75
+  response: '7E8056229490177'
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 4.5
+  response: 7E80562294901C2
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 5.25
+  response: 7E805622949020D
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 6
+  response: '7E8056229490258'
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 14.25
+  response: '7E8056229490591'
+- expected_values:
+    MACAN_AVG_IGN_TIM_ANG: 26.25
+  response: 7E8056229490A41

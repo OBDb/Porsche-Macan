@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221201
+test_cases:
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 81.49
+  response: 7E8056212011D85
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 81.49
+  response: 7E8056212011DB9
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 81.49
+  response: 7E8056212011DE8
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 84.3
+  response: 7E8056212011E58
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 84.3
+  response: 7E8056212011EBC
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 84.3
+  response: 7E8056212011EEB
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 89.92
+  response: '7E8056212012012'
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 89.92
+  response: 7E805621201204C
+- expected_values:
+    MACAN_EA888B_BOOST_P_CTRL_2: 89.92
+  response: 7E805621201206E

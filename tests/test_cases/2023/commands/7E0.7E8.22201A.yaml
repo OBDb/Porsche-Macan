@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22201A
+test_cases:
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 0
+  response: 7E80562201A0000
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 4.8
+  response: 7E80562201A0030
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 4.9
+  response: 7E80562201A0031
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 5
+  response: 7E80562201A0032
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 5.6
+  response: 7E80562201A0038
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 6.1
+  response: 7E80562201A003D
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 10.3
+  response: 7E80562201A0067
+- expected_values:
+    MACAN_CAM_ADJ_EXH_ACT: 19.9
+  response: 7E80562201A00C7

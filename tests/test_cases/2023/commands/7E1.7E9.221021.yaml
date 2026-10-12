@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221021
+test_cases:
+- expected_values:
+    MACAN_TCM_DRAG_TQ: 97
+  response: '7E9056210210061'

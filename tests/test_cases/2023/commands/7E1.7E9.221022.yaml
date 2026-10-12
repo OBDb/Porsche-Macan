@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221022
+test_cases:
+- expected_values:
+    MACAN_TCM_TQ_LOSSES: 129
+  response: '7E9056210220081'

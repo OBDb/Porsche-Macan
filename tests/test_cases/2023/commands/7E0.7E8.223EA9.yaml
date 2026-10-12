@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.223EA9
+test_cases:
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: 0
+  response: 7E805623EA90000
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -22.52
+  response: 7E805623EA9F734
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -22.12
+  response: 7E805623EA9F75C
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -21.32
+  response: 7E805623EA9F7AC
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -19.74
+  response: 7E805623EA9F84A
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -19.71
+  response: 7E805623EA9F84D
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -19.64
+  response: 7E805623EA9F854
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -19.44
+  response: 7E805623EA9F868
+- expected_values:
+    MACAN_CHG_P_CTRL_VLV: -0.56
+  response: 7E805623EA9FFC8

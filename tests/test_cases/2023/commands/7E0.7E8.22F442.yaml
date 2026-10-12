@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    MACAN_VPWR: 12.363
+  response: 7E80562F442304B
+- expected_values:
+    MACAN_VPWR: 13.417
+  response: 7E80562F4423469
+- expected_values:
+    MACAN_VPWR: 13.437
+  response: 7E80562F442347D
+- expected_values:
+    MACAN_VPWR: 13.457
+  response: 7E80562F4423491
+- expected_values:
+    MACAN_VPWR: 13.476
+  response: 7E80562F44234A4
+- expected_values:
+    MACAN_VPWR: 13.496
+  response: 7E80562F44234B8

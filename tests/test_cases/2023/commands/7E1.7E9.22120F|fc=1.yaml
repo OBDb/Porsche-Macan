@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22120F|fc=1
+test_cases:
+- expected_values:
+    MACAN_CLU_0_T_CALC: 1333
+  response: 7E90562120F0535

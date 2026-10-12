@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2210F4
+test_cases:
+- expected_values:
+    MACAN_MIS_PER_1000_3: 642
+  response: 7E8056210F40282
+- expected_values:
+    MACAN_MIS_PER_1000_3: 643
+  response: 7E8056210F40283
+- expected_values:
+    MACAN_MIS_PER_1000_3: 644
+  response: 7E8056210F40284
+- expected_values:
+    MACAN_MIS_PER_1000_3: 651
+  response: 7E8056210F4028B
+- expected_values:
+    MACAN_MIS_PER_1000_3: 654
+  response: 7E8056210F4028E
+- expected_values:
+    MACAN_MIS_PER_1000_3: 657
+  response: 7E8056210F40291
+- expected_values:
+    MACAN_MIS_PER_1000_3: 660
+  response: 7E8056210F40294

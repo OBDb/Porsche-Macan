@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222055
+test_cases:
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 20.7
+  response: '7E8056220550816'
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 24.22
+  response: '7E8056220550976'
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 25.39
+  response: 7E80562205509EB
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 34.38
+  response: 7E8056220550D6E
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 36.72
+  response: 7E8056220550E58
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 37.11
+  response: 7E8056220550E7F
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 37.89
+  response: 7E8056220550ECD
+- expected_values:
+    MACAN_CLT_FAN_1_ACTIVATION: 38.28
+  response: 7E8056220550EF4
