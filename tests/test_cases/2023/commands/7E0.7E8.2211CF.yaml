@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.2211CF
 test_cases:
 - expected_values:
-    MACAN_BRAKE_BOOSTER_P: 485.03285
-  response: 7E8056211CF3081
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 495.69678
-  response: 7E8056211CF3192
+    MACAN_BRAKE_BOOSTER_P: 462.25971
+  response: 7E8056211CF2E3A
 - expected_values:
     MACAN_BRAKE_BOOSTER_P: 510.03253
   response: 7E8056211CF3301
 - expected_values:
-    MACAN_BRAKE_BOOSTER_P: 534.29004
-  response: 7E8056211CF356E
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 535.03221
-  response: 7E8056211CF3581
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 535.73533
-  response: 7E8056211CF3593
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 537.96186
-  response: 7E8056211CF35CC
-- expected_values:
-    MACAN_BRAKE_BOOSTER_P: 538.70404
-  response: 7E8056211CF35DF
+    MACAN_BRAKE_BOOSTER_P: 539.40716
+  response: 7E8056211CF35F1
 - expected_values:
     MACAN_BRAKE_BOOSTER_P: 544.21178
   response: 7E8056211CF366C

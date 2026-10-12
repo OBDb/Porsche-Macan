@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2213A0|fc=1,c=17
 test_cases:
 - expected_values:
-    MACAN_COOLANT_T_MODELED_VALUE: -226.8
-  response: 7E8056213A001CF
+    MACAN_COOLANT_T_MODELED_VALUE: -273.1
+  response: 7E8056213A00000
+- expected_values:
+    MACAN_COOLANT_T_MODELED_VALUE: -247.8
+  response: 7E8056213A000FD
+- expected_values:
+    MACAN_COOLANT_T_MODELED_VALUE: -219.6
+  response: 7E8056213A00217

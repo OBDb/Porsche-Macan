@@ -4,23 +4,11 @@ test_cases:
     MACAN_FUEL_LOW_P_SPEC: 5
   response: '7E8056229321388'
 - expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.13
-  response: 7E805622932140A
+    MACAN_FUEL_LOW_P_SPEC: 5.385
+  response: '7E8056229321509'
 - expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.17
-  response: '7E8056229321432'
+    MACAN_FUEL_LOW_P_SPEC: 6.653
+  response: 7E80562293219FD
 - expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.3
-  response: 7E80562293214B4
-- expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.469
-  response: 7E805622932155D
-- expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.6
-  response: 7E80562293215E0
-- expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.669
-  response: '7E8056229321625'
-- expected_values:
-    MACAN_FUEL_LOW_P_SPEC: 5.738
-  response: 7E805622932166A
+    MACAN_FUEL_LOW_P_SPEC: 7.001
+  response: 7E8056229321B59

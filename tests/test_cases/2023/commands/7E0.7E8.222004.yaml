@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.222004
 test_cases:
 - expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: 6.75
-  response: 7E80562200402A3
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: 0.75
+  response: 7E805622004004B
 - expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: 11.25
-  response: '7E8056220040465'
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: 2.62
+  response: '7E8056220040106'
 - expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: 25
-  response: 7E8056220040A1B
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: -2.62
+  response: 7E805622004FEFA
 - expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -9.75
-  response: 7E805622004FC31
-- expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -9.37
-  response: 7E805622004FC57
-- expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -9
-  response: 7E805622004FC7C
-- expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -8.62
-  response: 7E805622004FCA2
-- expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -7.87
-  response: 7E805622004FCED
-- expected_values:
-    MACAN_IGN_ANG_CURRENT_CYL_ACT: -7.12
-  response: 7E805622004FD38
+    MACAN_IGN_ANG_CURRENT_CYL_ACT: -2.25
+  response: 7E805622004FF1F

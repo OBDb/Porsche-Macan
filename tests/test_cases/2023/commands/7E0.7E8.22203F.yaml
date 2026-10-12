@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.22203F
 test_cases:
 - expected_values:
-    MACAN_TQ_LIM_7E0: 220
-  response: 7E80562203F0898
+    MACAN_TQ_LIM_7E0: 207.6
+  response: 7E80562203F081C
 - expected_values:
-    MACAN_TQ_LIM_7E0: 222.1
-  response: 7E80562203F08AD
+    MACAN_TQ_LIM_7E0: 255.4
+  response: 7E80562203F09FA
 - expected_values:
-    MACAN_TQ_LIM_7E0: 223.6
-  response: 7E80562203F08BC
+    MACAN_TQ_LIM_7E0: 384.8
+  response: 7E80562203F0F08
 - expected_values:
-    MACAN_TQ_LIM_7E0: 223.9
-  response: 7E80562203F08BF
-- expected_values:
-    MACAN_TQ_LIM_7E0: 224.1
-  response: 7E80562203F08C1
-- expected_values:
-    MACAN_TQ_LIM_7E0: 224.8
-  response: 7E80562203F08C8
-- expected_values:
-    MACAN_TQ_LIM_7E0: 224.9
-  response: 7E80562203F08C9
-- expected_values:
-    MACAN_TQ_LIM_7E0: 265.8
-  response: 7E80562203F0A62
-- expected_values:
-    MACAN_TQ_LIM_7E0: 386.7
-  response: 7E80562203F0F1B
+    MACAN_TQ_LIM_7E0: 416
+  response: 7E80562203F1040

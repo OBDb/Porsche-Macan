@@ -1,29 +1,11 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
-    MACAN_RPM: 797.5
-  response: 7E80562F40C0C76
+    MACAN_RPM: 0
+  response: 7E80562F40C0000
 - expected_values:
-    MACAN_RPM: 798.25
-  response: 7E80562F40C0C79
+    MACAN_RPM: 1599.75
+  response: 7E80562F40C18FF
 - expected_values:
-    MACAN_RPM: 801.25
-  response: 7E80562F40C0C85
-- expected_values:
-    MACAN_RPM: 801.75
-  response: 7E80562F40C0C87
-- expected_values:
-    MACAN_RPM: 802.5
-  response: 7E80562F40C0C8A
-- expected_values:
-    MACAN_RPM: 803.75
-  response: 7E80562F40C0C8F
-- expected_values:
-    MACAN_RPM: 868.5
-  response: 7E80562F40C0D92
-- expected_values:
-    MACAN_RPM: 1602.75
-  response: 7E80562F40C190B
-- expected_values:
-    MACAN_RPM: 1800.5
-  response: 7E80562F40C1C22
+    MACAN_RPM: 2052.25
+  response: 7E80562F40C2011

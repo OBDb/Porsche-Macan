@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    MACAN_EXH_GAS_T: 468.8
-  response: 7E80562F43C13E0
+    MACAN_EXH_GAS_T: 413.3
+  response: 7E80562F43C11B5
 - expected_values:
     MACAN_EXH_GAS_T: 472.1
   response: 7E80562F43C1401
 - expected_values:
-    MACAN_EXH_GAS_T: 474
-  response: 7E80562F43C1414
+    MACAN_EXH_GAS_T: 676.5
+  response: 7E80562F43C1BFD
 - expected_values:
-    MACAN_EXH_GAS_T: 477.6
-  response: 7E80562F43C1438
-- expected_values:
-    MACAN_EXH_GAS_T: 490.8
-  response: 7E80562F43C14BC
-- expected_values:
-    MACAN_EXH_GAS_T: 547.3
-  response: 7E80562F43C16F1
-- expected_values:
-    MACAN_EXH_GAS_T: 572.5
-  response: 7E80562F43C17ED
-- expected_values:
-    MACAN_EXH_GAS_T: 585.3
-  response: 7E80562F43C186D
-- expected_values:
-    MACAN_EXH_GAS_T: 593.9
-  response: 7E80562F43C18C3
+    MACAN_EXH_GAS_T: 817.3
+  response: 7E80562F43C217D

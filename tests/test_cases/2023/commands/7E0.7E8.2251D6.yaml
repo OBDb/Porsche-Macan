@@ -4,8 +4,8 @@ test_cases:
     MACAN_FUEL_CONS_PER: 0
   response: 7E8056251D60000
 - expected_values:
-    MACAN_FUEL_CONS_PER: 4.27
-  response: 7E8056251D601AB
+    MACAN_FUEL_CONS_PER: 12.77
+  response: 7E8056251D604FD
 - expected_values:
     MACAN_FUEL_CONS_PER: 92.52
   response: 7E8056251D62424

@@ -1,26 +1,14 @@
 command_id: 7E0.7E8.2229D1
 test_cases:
 - expected_values:
-    MACAN_AIR_MASS_ACT_MG: 139.61
-  response: 7E8056229D13689
+    MACAN_AIR_MASS_ACT_MG: 79.45
+  response: 7E8056229D11F09
 - expected_values:
-    MACAN_AIR_MASS_ACT_MG: 147.95
-  response: 7E8056229D139CB
+    MACAN_AIR_MASS_ACT_MG: 163.83
+  response: 7E8056229D13FFF
 - expected_values:
-    MACAN_AIR_MASS_ACT_MG: 152.53
-  response: 7E8056229D13B95
-- expected_values:
-    MACAN_AIR_MASS_ACT_MG: 153.52
-  response: 7E8056229D13BF8
-- expected_values:
-    MACAN_AIR_MASS_ACT_MG: 153.97
-  response: 7E8056229D13C25
-- expected_values:
-    MACAN_AIR_MASS_ACT_MG: 202.29
-  response: 7E8056229D14F05
-- expected_values:
-    MACAN_AIR_MASS_ACT_MG: 284.31
-  response: 7E8056229D16F0F
+    MACAN_AIR_MASS_ACT_MG: 166.4
+  response: 7E8056229D14100
 - expected_values:
     MACAN_AIR_MASS_ACT_MG: 327.67
   response: 7E8056229D17FFF

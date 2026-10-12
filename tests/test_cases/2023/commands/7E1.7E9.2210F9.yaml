@@ -2,4 +2,10 @@ command_id: 7E1.7E9.2210F9
 test_cases:
 - expected_values:
     MACAN_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: -1
-  response: 7E9056210F90006
+  response: 7E9056210F90002
+- expected_values:
+    MACAN_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 24.5
+  response: 7E9056210F9FFE9
+- expected_values:
+    MACAN_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 24.5
+  response: 7E9056210F9FFFD

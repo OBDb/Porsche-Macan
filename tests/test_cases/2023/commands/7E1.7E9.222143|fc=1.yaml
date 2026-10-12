@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     MACAN_SPEC_TQ_CLU_2_DATA: 28.55
   response: 7E905622143023B
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 29.15
+  response: '7E9056221430247'
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 38.45
+  response: '7E9056221430301'
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 85.4
+  response: 7E90562214306AC
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 160
+  response: 7E9056221430C80
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 188.25
+  response: 7E9056221430EB5
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: 291.45
+  response: 7E90562214316C5
+- expected_values:
+    MACAN_SPEC_TQ_CLU_2_DATA: -500
+  response: 7E905622143D8F0

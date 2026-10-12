@@ -4,14 +4,11 @@ test_cases:
     MACAN_MQB_INT_MAN_P: 12382
   response: 7E80562103C305E
 - expected_values:
-    MACAN_MQB_INT_MAN_P: 13417
-  response: 7E80562103C3469
+    MACAN_MQB_INT_MAN_P: 13046
+  response: 7E80562103C32F6
 - expected_values:
-    MACAN_MQB_INT_MAN_P: 13437
-  response: 7E80562103C347D
+    MACAN_MQB_INT_MAN_P: 13574
+  response: 7E80562103C3506
 - expected_values:
-    MACAN_MQB_INT_MAN_P: 13457
-  response: 7E80562103C3491
-- expected_values:
-    MACAN_MQB_INT_MAN_P: 13476
-  response: 7E80562103C34A4
+    MACAN_MQB_INT_MAN_P: 14277
+  response: 7E80562103C37C5

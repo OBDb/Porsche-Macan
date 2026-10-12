@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_LOST_TQ_ADPT_AC: 3
   response: 7E80562437F001E
+- expected_values:
+    MACAN_LOST_TQ_ADPT_AC: 5
+  response: 7E80562437F0032

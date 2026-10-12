@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.223996
 test_cases:
 - expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR: 4.43
+  response: 7E80562399601BB
+- expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR: 5.29
+  response: '7E8056239960211'
+- expected_values:
     MACAN_MIXTURE_ADPT_FACTOR: 8.11
   response: 7E805623996032B
-- expected_values:
-    MACAN_MIXTURE_ADPT_FACTOR: 8.16
-  response: '7E8056239960330'
-- expected_values:
-    MACAN_MIXTURE_ADPT_FACTOR: 8.27
-  response: 7E805623996033B
-- expected_values:
-    MACAN_MIXTURE_ADPT_FACTOR: 9.29
-  response: 7E80562399603A1

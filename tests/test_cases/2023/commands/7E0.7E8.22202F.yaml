@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MACAN_EOT_7E0_7E0: 102.9
   response: 7E80562202F0EB0
+- expected_values:
+    MACAN_EOT_7E0_7E0: 103.9
+  response: 7E80562202F0EBA

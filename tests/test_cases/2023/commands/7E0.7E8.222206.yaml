@@ -1,6 +1,21 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
+    MACAN_PQ35_FUEL_LEVEL_7E0_2206: 49
+  response: '7E80462220631'
+- expected_values:
+    MACAN_PQ35_FUEL_LEVEL_7E0_2206: 50
+  response: '7E80462220632'
+- expected_values:
+    MACAN_PQ35_FUEL_LEVEL_7E0_2206: 51
+  response: '7E80462220633'
+- expected_values:
+    MACAN_PQ35_FUEL_LEVEL_7E0_2206: 52
+  response: '7E80462220634'
+- expected_values:
+    MACAN_PQ35_FUEL_LEVEL_7E0_2206: 53
+  response: '7E80462220635'
+- expected_values:
     MACAN_PQ35_FUEL_LEVEL_7E0_2206: 63
   response: 7E8046222063F
 - expected_values:

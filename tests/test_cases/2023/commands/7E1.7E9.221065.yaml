@@ -1,5 +1,23 @@
 command_id: 7E1.7E9.221065
 test_cases:
 - expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 0
+  response: '7E9056210650000'
+- expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 839.8
+  response: 7E90562106506A4
+- expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 1106.04
+  response: 7E90562106506D8
+- expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 51.34
+  response: 7E905621065070A
+- expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 1106.06
+  response: 7E90562106507D8
+- expected_values:
+    MACAN_CLU_1_T_TIME_RANGE_0: 512.5
+  response: '7E9056210651964'
+- expected_values:
     MACAN_CLU_1_T_TIME_RANGE_0: 1024.5
   response: 7E90562106519C8

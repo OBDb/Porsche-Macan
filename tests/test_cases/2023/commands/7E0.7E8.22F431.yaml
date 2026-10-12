@@ -4,14 +4,8 @@ test_cases:
     MACAN_CLR_DIST: 9681
   response: 7E80562F43125D1
 - expected_values:
-    MACAN_CLR_DIST: 9682
-  response: 7E80562F43125D2
-- expected_values:
-    MACAN_CLR_DIST: 9683
-  response: 7E80562F43125D3
-- expected_values:
-    MACAN_CLR_DIST: 9684
-  response: 7E80562F43125D4
-- expected_values:
     MACAN_CLR_DIST: 9685
   response: 7E80562F43125D5
+- expected_values:
+    MACAN_CLR_DIST: 9764
+  response: 7E80562F4312624

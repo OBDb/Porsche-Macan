@@ -4,17 +4,8 @@ test_cases:
     MACAN_TI_MES4_PLS_1_2: 0
   response: 7E8056213A20000
 - expected_values:
-    MACAN_TI_MES4_PLS_1_2: 0.66
-  response: 7E8056213A200A5
+    MACAN_TI_MES4_PLS_1_2: 0.984
+  response: 7E8056213A200F6
 - expected_values:
-    MACAN_TI_MES4_PLS_1_2: 0.716
-  response: 7E8056213A200B3
-- expected_values:
-    MACAN_TI_MES4_PLS_1_2: 0.724
-  response: 7E8056213A200B5
-- expected_values:
-    MACAN_TI_MES4_PLS_1_2: 0.728
-  response: 7E8056213A200B6
-- expected_values:
-    MACAN_TI_MES4_PLS_1_2: 0.904
-  response: 7E8056213A200E2
+    MACAN_TI_MES4_PLS_1_2: 3.252
+  response: 7E8056213A2032D

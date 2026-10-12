@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_TIM_DEV_CURRENT_EXH_1: -2.31
   response: 7E805624185FF19
+- expected_values:
+    MACAN_TIM_DEV_CURRENT_EXH_1: -2.25
+  response: 7E805624185FF1F

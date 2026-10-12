@@ -1,20 +1,11 @@
 command_id: 7E0.7E8.2240E2
 test_cases:
 - expected_values:
-    MACAN_T_SENS_ENG_T_TGT: 97.5
-  response: 7E8056240E203CF
-- expected_values:
-    MACAN_T_SENS_ENG_T_TGT: 100.5
-  response: 7E8056240E203ED
+    MACAN_T_SENS_ENG_T_TGT: 92.2
+  response: 7E8056240E2039A
 - expected_values:
     MACAN_T_SENS_ENG_T_TGT: 102
   response: 7E8056240E203FC
 - expected_values:
-    MACAN_T_SENS_ENG_T_TGT: 103.5
-  response: 7E8056240E2040B
-- expected_values:
-    MACAN_T_SENS_ENG_T_TGT: 106.5
-  response: 7E8056240E20429
-- expected_values:
-    MACAN_T_SENS_ENG_T_TGT: 107.2
-  response: 7E8056240E20430
+    MACAN_T_SENS_ENG_T_TGT: 102.7
+  response: 7E8056240E20403

@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.222019
 test_cases:
 - expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 5
-  response: '7E8056220190032'
+    MACAN_CAM_ADJ_EXH_SPEC: 0
+  response: '7E8056220190000'
 - expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 5.3
-  response: '7E8056220190035'
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 5.4
-  response: '7E8056220190036'
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 5.5
-  response: '7E8056220190037'
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 6.8
-  response: '7E8056220190044'
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 7.6
-  response: 7E805622019004C
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 10.4
-  response: '7E8056220190068'
-- expected_values:
-    MACAN_CAM_ADJ_EXH_SPEC: 16.6
-  response: 7E80562201900A6
+    MACAN_CAM_ADJ_EXH_SPEC: 23.4
+  response: 7E80562201900EA

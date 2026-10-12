@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     MACAN_CTRL_MODULE_T: 79
   response: '7E90462030177'
+- expected_values:
+    MACAN_CTRL_MODULE_T: 80
+  response: '7E90462030178'
+- expected_values:
+    MACAN_CTRL_MODULE_T: 81
+  response: '7E90462030179'
+- expected_values:
+    MACAN_CTRL_MODULE_T: 82
+  response: 7E9046203017A
+- expected_values:
+    MACAN_CTRL_MODULE_T: 83
+  response: 7E9046203017B
+- expected_values:
+    MACAN_CTRL_MODULE_T: 84
+  response: 7E9046203017C
+- expected_values:
+    MACAN_CTRL_MODULE_T: 85
+  response: 7E9046203017D
+- expected_values:
+    MACAN_CTRL_MODULE_T: 86
+  response: 7E9046203017E

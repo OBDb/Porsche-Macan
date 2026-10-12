@@ -4,8 +4,8 @@ test_cases:
     MACAN_ACCEL_PEDAL_POS_7E0: 0
   response: '7E8056238040000'
 - expected_values:
-    MACAN_ACCEL_PEDAL_POS_7E0: 13.67
-  response: '7E8056238040557'
-- expected_values:
     MACAN_ACCEL_PEDAL_POS_7E0: 20.31
   response: 7E80562380407EF
+- expected_values:
+    MACAN_ACCEL_PEDAL_POS_7E0: 60.16
+  response: '7E8056238041780'
