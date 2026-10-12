@@ -1,7 +1,7 @@
 command_id: 70B.775.2218A1|fc=1
 test_cases:
 - expected_values:
-    MACAN_TID_2: 100
+    MACAN_TID_2: 561409885
     MACAN_TPOS_2: RR
     MACAN_TPS_2: 2.5
     MACAN_TPW_2: 12.7

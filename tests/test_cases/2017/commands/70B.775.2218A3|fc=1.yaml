@@ -1,7 +1,7 @@
 command_id: 70B.775.2218A3|fc=1
 test_cases:
 - expected_values:
-    MACAN_TID_4: 100
+    MACAN_TID_4: 627839221
     MACAN_TPOS_4: FL
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 5.9
@@ -11,7 +11,7 @@ test_cases:
     775100D6218A3256C10
     77521F500FF173D173B
 - expected_values:
-    MACAN_TID_4: 100
+    MACAN_TID_4: 627839221
     MACAN_TPOS_4: FL
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 5.9
@@ -21,7 +21,7 @@ test_cases:
     775100D6218A3256C10
     77521F500FF183F173B
 - expected_values:
-    MACAN_TID_4: 100
+    MACAN_TID_4: 627839221
     MACAN_TPOS_4: FL
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 5.9
@@ -31,7 +31,7 @@ test_cases:
     775100D6218A3256C10
     77521F500FF1950173B
 - expected_values:
-    MACAN_TID_4: 100
+    MACAN_TID_4: 627839221
     MACAN_TPOS_4: FL
     MACAN_TPS_4: 2.3
     MACAN_TPW_4: 12.7

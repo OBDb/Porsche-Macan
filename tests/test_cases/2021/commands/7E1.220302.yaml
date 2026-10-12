@@ -1,14 +1,14 @@
 command_id: 7E1.220302
 test_cases:
 - expected_values:
-    MACAN_DRIVE_TIME: 100
+    MACAN_DRIVE_TIME: 1440
   response: '7E9056203021680'
 - expected_values:
-    MACAN_DRIVE_TIME: 100
+    MACAN_DRIVE_TIME: 1440.25
   response: '7E9056203021681'
 - expected_values:
-    MACAN_DRIVE_TIME: 100
+    MACAN_DRIVE_TIME: 1440.5
   response: '7E9056203021682'
 - expected_values:
-    MACAN_DRIVE_TIME: 100
+    MACAN_DRIVE_TIME: 1440.75
   response: '7E9056203021683'
