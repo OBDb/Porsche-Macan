@@ -28,5 +28,5 @@ test_cases:
     MACAN_AAT_V4: 33
   response: 7E80462F44649
 - expected_values:
-    MACAN_AAT_V4: 215
+    MACAN_AAT_V4: null
   response: 7E80462F446FF

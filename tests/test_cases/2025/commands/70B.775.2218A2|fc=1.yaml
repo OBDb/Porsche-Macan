@@ -1,7 +1,7 @@
 command_id: 70B.775.2218A2|fc=1
 test_cases:
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 641505381
     MACAN_TPS_3: 0
     MACAN_TP_3: 16.7
     MACAN_TT_3: 60
@@ -11,7 +11,7 @@ test_cases:
     775100C6218A2263C98
     775216522FFA76400AA
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 638167204
     MACAN_TPS_3: 0
     MACAN_TP_3: 16.7
     MACAN_TT_3: 84
@@ -19,7 +19,7 @@ test_cases:
     775100C6218A22609A8
     77521A422FFA77C00AA
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 641505381
     MACAN_TPS_3: 0
     MACAN_TP_3: 5.7
     MACAN_TT_3: 60
@@ -27,7 +27,7 @@ test_cases:
     775100C6218A2263C98
     77521652265396400AA
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 616440213
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 11.2
@@ -37,7 +37,7 @@ test_cases:
     775100D6218A224BE21
     775219502FF19351970
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 616440213
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 11.2
@@ -47,7 +47,7 @@ test_cases:
     775100D6218A224BE21
     775219502FF1A3F1970
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 616440213
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 11.2
@@ -57,7 +57,7 @@ test_cases:
     775100D6218A224BE21
     775219502FF1B401970
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 616440213
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 12.7
@@ -67,7 +67,7 @@ test_cases:
     775100D6218A224BE21
     775219502FF1C43197F
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 616440213
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 12.7
@@ -75,7 +75,7 @@ test_cases:
     775100D6218A224BE21
     775219502FFFFFF197F
 - expected_values:
-    MACAN_TID_3: 100
+    MACAN_TID_3: 648981543
     MACAN_TPOS_3: RL
     MACAN_TPS_3: 2.5
     MACAN_TPW_3: 11
