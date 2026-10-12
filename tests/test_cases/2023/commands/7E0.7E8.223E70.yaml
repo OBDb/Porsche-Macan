@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.223E70
+test_cases:
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.255
+  response: 7E805623E7000FF
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.257
+  response: 7E805623E700101
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.381
+  response: 7E805623E70017D
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.387
+  response: 7E805623E700183
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.393
+  response: 7E805623E700189
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.394
+  response: 7E805623E70018A
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.398
+  response: 7E805623E70018E
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.787
+  response: 7E805623E700313
+- expected_values:
+    MACAN_INT_MANIFOLD_P_RAW: 0.99
+  response: 7E805623E7003DE

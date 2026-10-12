@@ -1,0 +1,7 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    MACAN_DQ250_SPD_OUTPUT: 0
+  response: |-
+    7E9100962100900DD1E
+    7E921820151AAAAAAAA

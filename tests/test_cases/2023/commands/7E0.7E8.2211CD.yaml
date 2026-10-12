@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211CD
+test_cases:
+- expected_values:
+    MACAN_TCO_1_SYS: 104
+  response: 7E8046211CD90
+- expected_values:
+    MACAN_TCO_1_SYS: 105
+  response: 7E8046211CD91
+- expected_values:
+    MACAN_TCO_1_SYS: 106
+  response: 7E8046211CD92
+- expected_values:
+    MACAN_TCO_1_SYS: 107
+  response: 7E8046211CD93
+- expected_values:
+    MACAN_TCO_1_SYS: 108
+  response: 7E8046211CD94

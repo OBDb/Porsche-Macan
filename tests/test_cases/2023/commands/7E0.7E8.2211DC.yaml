@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    MACAN_MAP_RAW: 73.67188
+  response: 7E8056211DC03AF
+- expected_values:
+    MACAN_MAP_RAW: 84.92188
+  response: 7E8056211DC043F
+- expected_values:
+    MACAN_MAP_RAW: 95.46875
+  response: 7E8056211DC04C6
+- expected_values:
+    MACAN_MAP_RAW: 106.32812
+  response: 7E8056211DC0551
+- expected_values:
+    MACAN_MAP_RAW: 116.71875
+  response: 7E8056211DC05D6
+- expected_values:
+    MACAN_MAP_RAW: 127.34375
+  response: 7E8056211DC065E
+- expected_values:
+    MACAN_MAP_RAW: 136.25
+  response: 7E8056211DC06D0
+- expected_values:
+    MACAN_MAP_RAW: 139.92188
+  response: 7E8056211DC06FF
+- expected_values:
+    MACAN_MAP_RAW: 143.98438
+  response: 7E8056211DC0733

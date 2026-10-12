@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 118823
+  response: 7E80662295B01D027
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 118824
+  response: 7E80662295B01D028
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 118825
+  response: 7E80662295B01D029
+- expected_values:
+    MACAN_ODO_ECU_INSTALLED: 118827
+  response: 7E80662295B01D02B

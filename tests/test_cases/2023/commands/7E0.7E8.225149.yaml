@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.225149
+test_cases:
+- expected_values:
+    MACAN_CHAIN_ELONGATION: 117837
+  response: 7E80662514901CC4D

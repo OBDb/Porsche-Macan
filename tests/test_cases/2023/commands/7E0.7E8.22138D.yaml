@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22138D
+test_cases:
+- expected_values:
+    MACAN_IGA_IGC_3: -10.51675
+  response: 7E80462138D43
+- expected_values:
+    MACAN_IGA_IGC_3: -9.76725
+  response: 7E80462138D45
+- expected_values:
+    MACAN_IGA_IGC_3: -9.3925
+  response: 7E80462138D46
+- expected_values:
+    MACAN_IGA_IGC_3: -8.26825
+  response: 7E80462138D49
+- expected_values:
+    MACAN_IGA_IGC_3: -7.8935
+  response: 7E80462138D4A
+- expected_values:
+    MACAN_IGA_IGC_3: -6.3945
+  response: 7E80462138D4E
+- expected_values:
+    MACAN_IGA_IGC_3: 25.45925
+  response: 7E80462138DA3
+- expected_values:
+    MACAN_IGA_IGC_3: 28.45725
+  response: 7E80462138DAB

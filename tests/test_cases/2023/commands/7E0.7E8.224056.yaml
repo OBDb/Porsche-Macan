@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224056
+test_cases:
+- expected_values:
+    MACAN_IDLE_SPD_SPEC_RPM: 800
+  response: '7E8056240560320'
+- expected_values:
+    MACAN_IDLE_SPD_SPEC_RPM: 850
+  response: '7E8056240560352'

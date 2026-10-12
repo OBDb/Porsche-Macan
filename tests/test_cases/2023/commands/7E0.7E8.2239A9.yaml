@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2239A9
+test_cases:
+- expected_values:
+    MACAN_OXYGEN_CTRL_ADPT: 9.11
+  response: 7E8056239A9038F

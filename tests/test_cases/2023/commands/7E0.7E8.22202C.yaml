@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22202C
+test_cases:
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_SPEC: 104.2
+  response: 7E80562202C0412
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_SPEC: 105.7
+  response: 7E80562202C0421
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_SPEC: 106.5
+  response: 7E80562202C0429
+- expected_values:
+    MACAN_ECT_RADIATOR_OUTLET_SPEC: 107.2
+  response: 7E80562202C0430

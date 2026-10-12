@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2220C2
+test_cases:
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.00153
+  response: 7E8056220C20001
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.02594
+  response: 7E8056220C20011
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.02747
+  response: 7E8056220C20012
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.08698
+  response: 7E8056220C20039
+- expected_values:
+    MACAN_WEAR_INDEX_0_NEW_ENG: 0.23041
+  response: 7E8056220C20097

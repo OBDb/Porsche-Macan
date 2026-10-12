@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2240D5
+test_cases:
+- expected_values:
+    MACAN_EOT_SENS_2: 97
+  response: 7E8056240D503CA
+- expected_values:
+    MACAN_EOT_SENS_2: 98
+  response: 7E8056240D503D4
+- expected_values:
+    MACAN_EOT_SENS_2: 100
+  response: 7E8056240D503E8
+- expected_values:
+    MACAN_EOT_SENS_2: 102
+  response: 7E8056240D503FC

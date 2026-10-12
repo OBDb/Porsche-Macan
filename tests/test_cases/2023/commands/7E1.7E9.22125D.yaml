@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22125D
+test_cases:
+- expected_values:
+    MACAN_NOMINAL_P_CLU_2: 2.55
+  response: 7E90562125D00FF

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    MACAN_FLI_INPUT: 83.92157
+  response: 7E80462F42FD6
+- expected_values:
+    MACAN_FLI_INPUT: 85.4902
+  response: 7E80462F42FDA

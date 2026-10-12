@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2258D1
+test_cases:
+- expected_values:
+    MACAN_ENG_OIL_LEVEL: 100
+  response: |-
+    7E810116258D10001D2
+    7E821560001D256472C
+    7E82204030007AAAAAA

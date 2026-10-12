@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2240E4
+test_cases:
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.659
+  response: 7E8056240E40293
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.674
+  response: 7E8056240E402A2
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.676
+  response: 7E8056240E402A4
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.677
+  response: 7E8056240E402A5
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.679
+  response: 7E8056240E402A7
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.684
+  response: 7E8056240E402AC
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.687
+  response: 7E8056240E402AF
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.69
+  response: 7E8056240E402B2
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.757
+  response: 7E8056240E402F5
