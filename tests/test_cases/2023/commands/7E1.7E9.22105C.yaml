@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT: 0
   response: 7E90562105C0000
+- expected_values:
+    MACAN_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT: -575.65
+  response: 7E90562105C07D3

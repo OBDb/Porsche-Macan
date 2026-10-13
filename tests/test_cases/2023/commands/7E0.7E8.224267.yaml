@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACAN_DIRECT_INJECTIONS: 30273045
   response: 7E80762426701CDEE15
+- expected_values:
+    MACAN_DIRECT_INJECTIONS: 30384457
+  response: 7E80762426701CFA149

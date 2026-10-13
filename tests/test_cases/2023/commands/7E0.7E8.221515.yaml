@@ -2,6 +2,9 @@ command_id: 7E0.7E8.221515
 test_cases:
 - expected_values:
     MACAN_CAT_T_CALC: 475
+  response: 7E80562151569EC
+- expected_values:
+    MACAN_CAT_T_CALC: 475
   response: 7E80562151569F8
 - expected_values:
     MACAN_CAT_T_CALC: 480

@@ -4,5 +4,8 @@ test_cases:
     MACAN_OXYGEN_CTRL_ADPT: 6.62
   response: 7E8056239A90296
 - expected_values:
+    MACAN_OXYGEN_CTRL_ADPT: 7
+  response: 7E8056239A902BC
+- expected_values:
     MACAN_OXYGEN_CTRL_ADPT: 9.11
   response: 7E8056239A9038F

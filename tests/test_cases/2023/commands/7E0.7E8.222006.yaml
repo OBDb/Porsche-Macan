@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222006
 test_cases:
 - expected_values:
-    MACAN_PQ35_OIL_FILL_LEVEL: 5.46
-  response: 7E805622006005B
+    MACAN_PQ35_OIL_FILL_LEVEL: 4.68
+  response: 7E805622006004E
 - expected_values:
     MACAN_PQ35_OIL_FILL_LEVEL: 7.38
   response: 7E805622006007B

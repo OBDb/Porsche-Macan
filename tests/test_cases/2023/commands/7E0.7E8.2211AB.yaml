@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     MACAN_INT_MODEL_AIR_MASS: 0.8
   response: 7E8056211AB0008
+- expected_values:
+    MACAN_INT_MODEL_AIR_MASS: 2.7
+  response: 7E8056211AB001B

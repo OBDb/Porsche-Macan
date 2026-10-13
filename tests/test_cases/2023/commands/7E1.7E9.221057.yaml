@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 0
   response: '7E9056210570000'
+- expected_values:
+    MACAN_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS: 76.8
+  response: 7E905621057001E

@@ -4,11 +4,11 @@ test_cases:
     MACAN_MAP_RAW: 15.85938
   response: 7E8056211DC00CB
 - expected_values:
+    MACAN_MAP_RAW: 60.07812
+  response: 7E8056211DC0301
+- expected_values:
     MACAN_MAP_RAW: 139.92188
   response: 7E8056211DC06FF
-- expected_values:
-    MACAN_MAP_RAW: 160.23438
-  response: 7E8056211DC0803
 - expected_values:
     MACAN_MAP_RAW: 180.70312
   response: 7E8056211DC0909

@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MACAN_LONG_TERM_FUEL_TRIM_1: 10.15625
   response: 7E80462F4078D
+- expected_values:
+    MACAN_LONG_TERM_FUEL_TRIM_1: 10.9375
+  response: 7E80462F4078E

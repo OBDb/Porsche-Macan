@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.221131
 test_cases:
 - expected_values:
+    MACAN_MQB_DQ250_I_UPPER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT: 20
+  response: '7E9056211310496'
+- expected_values:
     MACAN_MQB_DQ250_I_UPPER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT: 25
   response: 7E90562113105CE

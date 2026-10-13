@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22112F
 test_cases:
 - expected_values:
-    MACAN_SEG_AD_MMV_ER_3: 0.6547
-  response: 7E80562112F0ABA
+    MACAN_SEG_AD_MMV_ER_3: 0.64993
+  response: 7E80562112F0AA6
 - expected_values:
     MACAN_SEG_AD_MMV_ER_3: 0.66638
   response: 7E80562112F0AEB

@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22437E
 test_cases:
 - expected_values:
+    MACAN_LOST_TQ_ADPT_DRIVING: 1.6
+  response: 7E80562437E0010
+- expected_values:
     MACAN_LOST_TQ_ADPT_DRIVING: 3.1
   response: 7E80562437E001F
