@@ -8,6 +8,9 @@ test_cases:
   response: 7E90562101700F3
 - expected_values:
     MACAN_ROAD_RESISTANCE: -31
+  response: 7E90562101700F4
+- expected_values:
+    MACAN_ROAD_RESISTANCE: -31
   response: 7E90562101700F5
 - expected_values:
     MACAN_ROAD_RESISTANCE: -31

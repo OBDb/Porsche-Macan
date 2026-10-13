@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MACAN_MAF_THROUGH_THROTTLE: 0.8
   response: 7E8056211AC0008
+- expected_values:
+    MACAN_MAF_THROUGH_THROTTLE: 2.7
+  response: 7E8056211AC001B

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MACAN_LAMBDA_OUTPUT: 0.00055
   response: 7E8076215D4001224BF
+- expected_values:
+    MACAN_LAMBDA_OUTPUT: 0.00055
+  response: 7E8076215D40012260D

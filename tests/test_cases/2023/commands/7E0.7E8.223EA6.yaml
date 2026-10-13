@@ -7,5 +7,5 @@ test_cases:
     MACAN_CHG_P_CTRL_VLV_POS_TGT: 98.13
   response: 7E805623EA62655
 - expected_values:
-    MACAN_CHG_P_CTRL_VLV_POS_TGT: 99.43
-  response: 7E805623EA626D7
+    MACAN_CHG_P_CTRL_VLV_POS_TGT: 99.54
+  response: 7E805623EA626E2

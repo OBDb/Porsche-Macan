@@ -7,8 +7,8 @@ test_cases:
     MACAN_FUEL_HIGH_P_SPEC_7E0: 128.1
   response: 7E80562293B0501
 - expected_values:
-    MACAN_FUEL_HIGH_P_SPEC_7E0: 255.7
-  response: 7E80562293B09FD
+    MACAN_FUEL_HIGH_P_SPEC_7E0: 153.4
+  response: 7E80562293B05FE
 - expected_values:
     MACAN_FUEL_HIGH_P_SPEC_7E0: 282
   response: 7E80562293B0B04

@@ -7,5 +7,8 @@ test_cases:
     MACAN_MIXTURE_ADPT_FACTOR: 5.29
   response: '7E8056239960211'
 - expected_values:
+    MACAN_MIXTURE_ADPT_FACTOR: 7
+  response: 7E80562399602BC
+- expected_values:
     MACAN_MIXTURE_ADPT_FACTOR: 8.11
   response: 7E805623996032B

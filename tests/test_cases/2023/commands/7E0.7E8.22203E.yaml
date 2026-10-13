@@ -7,5 +7,5 @@ test_cases:
     MACAN_FUEL_T_7E0_7E0: 75
   response: 7E80562203E02EE
 - expected_values:
-    MACAN_FUEL_T_7E0_7E0: 79.5
-  response: 7E80562203E031B
+    MACAN_FUEL_T_7E0_7E0: 78.7
+  response: 7E80562203E0313
