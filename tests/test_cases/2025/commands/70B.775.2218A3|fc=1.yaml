@@ -25,6 +25,14 @@ test_cases:
     MACAN_TT_4: 60
   response: |-
     775100C6218A3263C98
+    77521B4235F376400AA
+- expected_values:
+    MACAN_TID_4: 641505460
+    MACAN_TPS_4: 0
+    MACAN_TP_4: 5.5
+    MACAN_TT_4: 60
+  response: |-
+    775100C6218A3263C98
     77521B42365376400AA
 - expected_values:
     MACAN_TID_4: 616427632
