@@ -77,11 +77,11 @@ test_cases:
     MACAN_TPOS_1: FL
     MACAN_TPS_1: 2.3
     MACAN_TPW_1: 10.5
-    MACAN_TP_1: 2.4
-    MACAN_TT_1: 24
+    MACAN_TP_1: 2.3
+    MACAN_TT_1: 19
   response: |-
     775100D6218A0262905
-    775215F00FF18401769
+    775215F00FF173B1769
 - expected_values:
     MACAN_TID_1: 648981300
     MACAN_TPOS_1: FL
