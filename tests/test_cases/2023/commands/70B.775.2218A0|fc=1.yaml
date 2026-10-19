@@ -35,6 +35,16 @@ test_cases:
     MACAN_TPOS_1: RR
     MACAN_TPS_1: 2.5
     MACAN_TPW_1: 12.7
+    MACAN_TP_1: 2.5
+    MACAN_TT_1: 29
+  response: |-
+    775100D6218A0234A42
+    775218A03FF1945197F
+- expected_values:
+    MACAN_TID_1: 592069258
+    MACAN_TPOS_1: RR
+    MACAN_TPS_1: 2.5
+    MACAN_TPW_1: 12.7
   response: |-
     775100D6218A0234A42
     775218A03FFFFFF197F
