@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    MACAN_MEAN_INJ_QUANTITY: 160.52
+  response: 7E8056211393EB4
+- expected_values:
+    MACAN_MEAN_INJ_QUANTITY: 171.46
+  response: 7E80562113942FA
+- expected_values:
+    MACAN_MEAN_INJ_QUANTITY: 174.3
+  response: '7E8056211394416'
+- expected_values:
+    MACAN_MEAN_INJ_QUANTITY: 182.17
+  response: '7E8056211394729'

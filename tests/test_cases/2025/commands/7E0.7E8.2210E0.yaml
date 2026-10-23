@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2210E0
+test_cases:
+- expected_values:
+    MACAN_ODO_2_V2: 5941
+  response: 7E8076210E000001735
+- expected_values:
+    MACAN_ODO_2_V2: 5942
+  response: 7E8076210E000001736
+- expected_values:
+    MACAN_ODO_2_V2: 5962
+  response: 7E8076210E00000174A
+- expected_values:
+    MACAN_ODO_2_V2: 5983
+  response: 7E8076210E00000175F
+- expected_values:
+    MACAN_ODO_2_V2: 6009
+  response: 7E8076210E000001779
+- expected_values:
+    MACAN_ODO_2_V2: 6010
+  response: 7E8076210E00000177A
+- expected_values:
+    MACAN_ODO_2_V2: 6011
+  response: 7E8076210E00000177B
+- expected_values:
+    MACAN_ODO_2_V2: 6018
+  response: 7E8076210E000001782
+- expected_values:
+    MACAN_ODO_2_V2: 6019
+  response: 7E8076210E000001783

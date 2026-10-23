@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     MACAN_ATF_T: 86
   response: 7E9046221047E
+- expected_values:
+    MACAN_ATF_T: 87
+  response: 7E9046221047F

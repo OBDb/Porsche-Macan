@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
-    MACAN_CLR_DIST: 9681
-  response: 7E80562F43125D1
-- expected_values:
-    MACAN_CLR_DIST: 9685
-  response: 7E80562F43125D5
+    MACAN_CLR_DIST: 1274
+  response: 7E80562F43104FA
 - expected_values:
     MACAN_CLR_DIST: 9764
   response: 7E80562F4312624

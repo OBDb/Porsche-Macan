@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
+    MACAN_CLR_DIST: 5874
+  response: 7E80562F43116F2
+- expected_values:
+    MACAN_CLR_DIST: 5875
+  response: 7E80562F43116F3
+- expected_values:
+    MACAN_CLR_DIST: 5894
+  response: 7E80562F4311706
+- expected_values:
     MACAN_CLR_DIST: 27284
   response: 7E80562F4316A94
-- expected_values:
-    MACAN_CLR_DIST: 27286
-  response: 7E80562F4316A96
-- expected_values:
-    MACAN_CLR_DIST: 27287
-  response: 7E80562F4316A97
-- expected_values:
-    MACAN_CLR_DIST: 27289
-  response: 7E80562F4316A99
-- expected_values:
-    MACAN_CLR_DIST: 27290
-  response: 7E80562F4316A9A

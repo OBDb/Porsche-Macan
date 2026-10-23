@@ -4,8 +4,8 @@ test_cases:
     MACAN_DRIVE_TIME: 108
   response: 7E90562030201B0
 - expected_values:
-    MACAN_DRIVE_TIME: 115.25
-  response: 7E90562030201CD
+    MACAN_DRIVE_TIME: 123.25
+  response: 7E90562030201ED
 - expected_values:
     MACAN_DRIVE_TIME: 1684
   response: 7E9056203021A50
