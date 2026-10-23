@@ -1,8 +1,20 @@
 command_id: 7E1.7E9.22101A
 test_cases:
 - expected_values:
+    MACAN_ODO_MILEAGE_2: 64634
+  response: 7E90562101AFC7A
+- expected_values:
+    MACAN_ODO_MILEAGE_2: 64635
+  response: 7E90562101AFC7B
+- expected_values:
     MACAN_ODO_MILEAGE_2: 64636
   response: 7E90562101AFC7C
 - expected_values:
     MACAN_ODO_MILEAGE_2: 64638
   response: 7E90562101AFC7E
+- expected_values:
+    MACAN_ODO_MILEAGE_2: 64641
+  response: 7E90562101AFC81
+- expected_values:
+    MACAN_ODO_MILEAGE_2: 64642
+  response: 7E90562101AFC82

@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    MACAN_WARM_UPS: 148
+  response: 7E80462F43094
+- expected_values:
+    MACAN_WARM_UPS: 149
+  response: 7E80462F43095
+- expected_values:
+    MACAN_WARM_UPS: 150
+  response: 7E80462F43096
+- expected_values:
+    MACAN_WARM_UPS: 151
+  response: 7E80462F43097
+- expected_values:
     MACAN_WARM_UPS: 255
   response: 7E80462F430FF

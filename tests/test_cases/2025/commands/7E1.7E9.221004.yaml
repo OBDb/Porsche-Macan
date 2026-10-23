@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     MACAN_TIRE_RL_SPD: 0
   response: '7E9056210040000'
+- expected_values:
+    MACAN_TIRE_RL_SPD: 9.9
+  response: '7E9056210040063'
+- expected_values:
+    MACAN_TIRE_RL_SPD: 19.6
+  response: 7E90562100400C4
+- expected_values:
+    MACAN_TIRE_RL_SPD: 21.8
+  response: 7E90562100400DA
+- expected_values:
+    MACAN_TIRE_RL_SPD: 23.5
+  response: 7E90562100400EB
+- expected_values:
+    MACAN_TIRE_RL_SPD: 30.2
+  response: 7E905621004012E
+- expected_values:
+    MACAN_TIRE_RL_SPD: 34.9
+  response: 7E905621004015D
+- expected_values:
+    MACAN_TIRE_RL_SPD: 35.3
+  response: '7E9056210040161'
+- expected_values:
+    MACAN_TIRE_RL_SPD: 36.9
+  response: '7E9056210040171'
+- expected_values:
+    MACAN_TIRE_RL_SPD: 47.8
+  response: 7E90562100401DE
