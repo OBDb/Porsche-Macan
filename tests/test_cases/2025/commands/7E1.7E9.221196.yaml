@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.221196
 test_cases:
 - expected_values:
-    MACAN_HYBRID_T: 923
+    MACAN_HYBRID_T: 92.3
   response: 7E905621196039B
