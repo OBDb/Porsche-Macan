@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22028D|f=2025-
+test_cases:
+- expected_values:
+    MACAN_ECM_T: 4.8
+  response: 7E80562028D0ADB
+- expected_values:
+    MACAN_ECM_T: 7.8
+  response: 7E80562028D0AF9
+- expected_values:
+    MACAN_ECM_T: 8.6
+  response: 7E80562028D0B01
+- expected_values:
+    MACAN_ECM_T: 44.4
+  response: 7E80562028D0C67

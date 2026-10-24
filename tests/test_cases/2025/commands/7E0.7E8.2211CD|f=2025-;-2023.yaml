@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2211CD
+command_id: 7E0.7E8.2211CD|f=2025-;-2023
 test_cases:
 - expected_values:
     MACAN_TCO_1_SYS: 65

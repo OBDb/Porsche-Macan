@@ -221,7 +221,7 @@ unsupported_commands_by_ecu:
   - 767.7D1.222431
   "7E0":
   - 7E0.2211BB
-  - 7E0.7E8.22028D
+  - 7E0.7E8.22028D|f=-2024:MACAN_ECM_T_RAW
   - 7E0.7E8.2208D2
   - 7E0.7E8.221002
   - 7E0.7E8.221004

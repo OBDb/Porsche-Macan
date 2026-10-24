@@ -92,6 +92,14 @@
   "signals": [
     {"id": "MACAN_SIM_CARD_SIM_CARD", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "SIM card, SIM card in main unit"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
+  "signals": [
+    {"id": "MACAN_ECM_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Engine control module temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 5, "filter": { "to": 2024 }, "dbgfilter": { "to": 2022 },
+  "signals": [
+    {"id": "MACAN_ECM_T_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine control module temperature, raw 16-bit"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1000"}, "freq": 5, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "MACAN_AAT_7E0_2", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Ambient temperature"}
@@ -904,9 +912,13 @@
   "signals": [
     {"id": "MACAN_BOOST_REGULATOR", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "filter": { "to": 2023, "from": 2025 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "MACAN_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "TCO_1_SYS"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "filter": { "years": [2024] },
+  "signals": [
+    {"id": "MACAN_TCO_1_SYS_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "TCO_1_SYS, raw 16-bit"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CE"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
@@ -1266,7 +1278,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "13A0"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "MACAN_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature modeled value"}
+    {"id": "MACAN_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Coolant temperature modeled value, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A1"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
@@ -1678,7 +1690,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
-    {"id": "MACAN_FUEL_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 300, "min": -40, "div": 10, "add": -273.1, "nullmin": -40, "nullmax": 300, "unit": "celsius" }, "name": "Fuel temperature"}
+    {"id": "MACAN_FUEL_T_7E0", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Fuel temperature read, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
   "signals": [
@@ -2166,7 +2178,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "MACAN_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "MACAN_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "20A2"}, "freq": 1,
   "signals": [
@@ -3661,7 +3673,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1196"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "MACAN_HYBRID_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Hybrid temperature"}
+    {"id": "MACAN_HYBRID_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Hybrid temperature"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "11A7"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [

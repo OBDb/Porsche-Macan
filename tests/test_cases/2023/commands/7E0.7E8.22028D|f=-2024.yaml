@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22028D|f=-2024
+test_cases:
+- expected_values:
+    MACAN_ECM_T_RAW: 590
+  response: 7E80562028D024E
