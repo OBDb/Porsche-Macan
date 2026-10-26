@@ -4,5 +4,11 @@ test_cases:
     MACAN_FLI_INPUT: 0
   response: 7E80462F42F00
 - expected_values:
+    MACAN_FLI_INPUT: 86.66667
+  response: 7E80462F42FDD
+- expected_values:
+    MACAN_FLI_INPUT: 87.84314
+  response: 7E80462F42FE0
+- expected_values:
     MACAN_FLI_INPUT: 100
   response: 7E80462F42FFF
