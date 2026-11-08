@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MACAN_DRIVE_TIME_MANUAL: 0
   response: '7E90462030500'
+- expected_values:
+    MACAN_DRIVE_TIME_MANUAL: 1
+  response: '7E90462030501'
