@@ -59,6 +59,14 @@ test_cases:
     775100D6218A3234A46
     775210902FFFFFF197F
 - expected_values:
+    MACAN_TID_4: 600174420
+    MACAN_TPOS_4: RR
+    MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 12.7
+  response: |-
+    775100D6218A323C5EF
+    775215403FFFFFF197F
+- expected_values:
     MACAN_TID_4: 600189167
     MACAN_TPOS_4: FR
     MACAN_TPS_4: 2.3

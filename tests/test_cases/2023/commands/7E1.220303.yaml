@@ -4,6 +4,9 @@ test_cases:
     MACAN_DRIVE_TIME_ECO: 10.8
   response: 7E9046203031B
 - expected_values:
+    MACAN_DRIVE_TIME_ECO: 19.6
+  response: '7E90462030331'
+- expected_values:
     MACAN_DRIVE_TIME_ECO: 94
   response: 7E904620303EB
 - expected_values:
