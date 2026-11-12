@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222017
+test_cases:
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -16.81
+  response: 7E805622017F96F
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -8.5
+  response: 7E805622017FCAE
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -7.5
+  response: 7E805622017FD12
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -5.94
+  response: 7E805622017FDAE
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -5.25
+  response: 7E805622017FDF3
+- expected_values:
+    MACAN_AC_COMP_TQ_7E0: -5
+  response: 7E805622017FE0C

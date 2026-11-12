@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213CD|fc=1
+test_cases:
+- expected_values:
+    MACAN_AIR_MASS: 10.53125
+  response: 7E8056213CD0151
+- expected_values:
+    MACAN_AIR_MASS: 20.1875
+  response: 7E8056213CD0286

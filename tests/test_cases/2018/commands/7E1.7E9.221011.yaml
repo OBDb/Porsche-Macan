@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221011
+test_cases:
+- expected_values:
+    MACAN_ADAPTIVE_MODE: 255
+  response: 7E905621011FF37
+- expected_values:
+    MACAN_ADAPTIVE_MODE: 255
+  response: 7E905621011FF3A

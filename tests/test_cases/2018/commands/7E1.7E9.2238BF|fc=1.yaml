@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238BF|fc=1
+test_cases:
+- expected_values:
+    MACAN_ATF_T_2: 0
+  response: 7E9056238BF0000

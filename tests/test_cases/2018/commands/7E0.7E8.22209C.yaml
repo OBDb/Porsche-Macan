@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22209C
+test_cases:
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 13.5
+  response: 7E80562209C0087
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 18.1
+  response: 7E80562209C00B5
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 18.8
+  response: 7E80562209C00BC
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 21.6
+  response: 7E80562209C00D8
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 26.1
+  response: 7E80562209C0105
+- expected_values:
+    MACAN_ENG_DRAG_TQ: 28.3
+  response: 7E80562209C011B

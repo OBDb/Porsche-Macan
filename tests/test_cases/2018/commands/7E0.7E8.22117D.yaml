@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22117D
+test_cases:
+- expected_values:
+    MACAN_N_32: 768
+  response: 7E80462117D18
+- expected_values:
+    MACAN_N_32: 928
+  response: 7E80462117D1D
+- expected_values:
+    MACAN_N_32: 1184
+  response: 7E80462117D25
+- expected_values:
+    MACAN_N_32: 1888
+  response: 7E80462117D3B

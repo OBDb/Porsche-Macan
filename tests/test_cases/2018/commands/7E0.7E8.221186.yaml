@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221186
+test_cases:
+- expected_values:
+    MACAN_PSN_EDGE_REL_AD_CAM_SAVE_1: 0.8125
+  response: 7E805621186000D
+- expected_values:
+    MACAN_PSN_EDGE_REL_AD_CAM_SAVE_1: 1
+  response: '7E8056211860010'
+- expected_values:
+    MACAN_PSN_EDGE_REL_AD_CAM_SAVE_1: 1.125
+  response: '7E8056211860012'

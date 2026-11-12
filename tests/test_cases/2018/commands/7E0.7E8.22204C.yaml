@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    MACAN_FUEL_RATE: 0.84
+  response: 7E80562204C0054
+- expected_values:
+    MACAN_FUEL_RATE: 2.25
+  response: 7E80562204C00E1
+- expected_values:
+    MACAN_FUEL_RATE: 2.97
+  response: 7E80562204C0129
+- expected_values:
+    MACAN_FUEL_RATE: 3.71
+  response: 7E80562204C0173
+- expected_values:
+    MACAN_FUEL_RATE: 3.9
+  response: 7E80562204C0186
+- expected_values:
+    MACAN_FUEL_RATE: 8.74
+  response: 7E80562204C036A

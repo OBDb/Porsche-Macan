@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2213A1
+test_cases:
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 0.84
+  response: 7E8056213A100D2
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.084
+  response: 7E8056213A1010F
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.112
+  response: 7E8056213A10116
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.172
+  response: 7E8056213A10125
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.192
+  response: 7E8056213A1012A
+- expected_values:
+    MACAN_TI_MES4_PLS_1_1: 1.312
+  response: 7E8056213A10148

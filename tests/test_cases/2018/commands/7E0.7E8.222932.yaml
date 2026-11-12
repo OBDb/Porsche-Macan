@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222932
+test_cases:
+- expected_values:
+    MACAN_FUEL_LOW_P_SPEC: 5
+  response: '7E8056229321388'
+- expected_values:
+    MACAN_FUEL_LOW_P_SPEC: 5.042
+  response: 7E80562293213B2
+- expected_values:
+    MACAN_FUEL_LOW_P_SPEC: 6.133
+  response: 7E80562293217F5

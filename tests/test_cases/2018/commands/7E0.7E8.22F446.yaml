@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F446
+test_cases:
+- expected_values:
+    MACAN_AAT_V4: 22
+  response: 7E80462F4463E
+- expected_values:
+    MACAN_AAT_V4: 23
+  response: 7E80462F4463F
+- expected_values:
+    MACAN_AAT_V4: 24
+  response: 7E80462F44640
+- expected_values:
+    MACAN_AAT_V4: 27
+  response: 7E80462F44643
+- expected_values:
+    MACAN_AAT_V4: 29
+  response: 7E80462F44645
+- expected_values:
+    MACAN_AAT_V4: 30
+  response: 7E80462F44646

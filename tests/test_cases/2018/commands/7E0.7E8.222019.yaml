@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222019
+test_cases:
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 5.5
+  response: '7E8056220190037'
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 8
+  response: '7E8056220190050'
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 9
+  response: 7E805622019005A
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 11
+  response: 7E805622019006E
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 15.5
+  response: 7E805622019009B
+- expected_values:
+    MACAN_CAM_ADJ_EXH_SPEC: 22
+  response: 7E80562201900DC

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.224E70
+test_cases:
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.156
+  response: 7E805624E70009C
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.176
+  response: 7E805624E7000B0
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.352
+  response: 7E805624E700160
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.449
+  response: 7E805624E7001C1
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.469
+  response: 7E805624E7001D5
+- expected_values:
+    MACAN_KNOCK_SENSORS_AVG_V_1_2: 0.84
+  response: 7E805624E700348

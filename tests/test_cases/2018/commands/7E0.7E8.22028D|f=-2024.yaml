@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22028D|f=-2024
+test_cases:
+- expected_values:
+    MACAN_ECM_T_RAW: 290
+  response: 7E80562028D0122
+- expected_values:
+    MACAN_ECM_T_RAW: 350
+  response: 7E80562028D015E
+- expected_values:
+    MACAN_ECM_T_RAW: 370
+  response: 7E80562028D0172
+- expected_values:
+    MACAN_ECM_T_RAW: 520
+  response: 7E80562028D0208
+- expected_values:
+    MACAN_ECM_T_RAW: 530
+  response: 7E80562028D0212
+- expected_values:
+    MACAN_ECM_T_RAW: 550
+  response: 7E80562028D0226

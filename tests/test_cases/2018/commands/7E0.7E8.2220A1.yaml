@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2220A1
+test_cases:
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: 21
+  response: 7E8056220A100D2
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: 35
+  response: 7E8056220A1015E
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: 54
+  response: 7E8056220A1021C
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: 104
+  response: 7E8056220A10410
+- expected_values:
+    MACAN_PQ35_CALCULATED_OIL_T: 106
+  response: 7E8056220A10424

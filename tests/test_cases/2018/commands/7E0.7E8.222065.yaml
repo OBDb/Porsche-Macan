@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222065
+test_cases:
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 0.813
+  response: 7E805622065032D
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 0.815
+  response: 7E805622065032F
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 3.306
+  response: 7E8056220650CEA
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 3.374
+  response: 7E8056220650D2E
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 3.389
+  response: 7E8056220650D3D
+- expected_values:
+    MACAN_CHG_AIR_P_ACTUATOR_7E0: 3.423
+  response: 7E8056220650D5F

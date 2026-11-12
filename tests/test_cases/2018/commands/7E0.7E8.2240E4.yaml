@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2240E4
+test_cases:
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.771
+  response: 7E8056240E40303
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.795
+  response: 7E8056240E4031B
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 0.797
+  response: 7E8056240E4031D
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 1.331
+  response: 7E8056240E40533
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 2.378
+  response: 7E8056240E4094A
+- expected_values:
+    MACAN_T_SENS_ENG_T_V: 2.92
+  response: 7E8056240E40B68

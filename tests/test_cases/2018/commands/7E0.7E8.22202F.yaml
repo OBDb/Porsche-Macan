@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22202F
+test_cases:
+- expected_values:
+    MACAN_EOT_7E0_7E0: 21
+  response: 7E80562202F0B7D
+- expected_values:
+    MACAN_EOT_7E0_7E0: 31
+  response: 7E80562202F0BE1
+- expected_values:
+    MACAN_EOT_7E0_7E0: 53
+  response: 7E80562202F0CBD
+- expected_values:
+    MACAN_EOT_7E0_7E0: 104
+  response: 7E80562202F0EBB
+- expected_values:
+    MACAN_EOT_7E0_7E0: 106
+  response: 7E80562202F0ECF

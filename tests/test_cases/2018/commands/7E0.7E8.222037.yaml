@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222037
+test_cases:
+- expected_values:
+    MACAN_ENG_AIR_MASS_SPEC: 15
+  response: 7E805622037000F
+- expected_values:
+    MACAN_ENG_AIR_MASS_SPEC: 17
+  response: '7E8056220370011'
+- expected_values:
+    MACAN_ENG_AIR_MASS_SPEC: 18
+  response: '7E8056220370012'
+- expected_values:
+    MACAN_ENG_AIR_MASS_SPEC: 25
+  response: '7E8056220370019'
+- expected_values:
+    MACAN_ENG_AIR_MASS_SPEC: 43
+  response: 7E805622037002B

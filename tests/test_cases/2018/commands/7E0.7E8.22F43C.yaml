@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    MACAN_EXH_GAS_T: 366.1
+  response: 7E80562F43C0FDD
+- expected_values:
+    MACAN_EXH_GAS_T: 481.6
+  response: 7E80562F43C1460
+- expected_values:
+    MACAN_EXH_GAS_T: 531.2
+  response: 7E80562F43C1650
+- expected_values:
+    MACAN_EXH_GAS_T: 586.6
+  response: 7E80562F43C187A
+- expected_values:
+    MACAN_EXH_GAS_T: 702.1
+  response: 7E80562F43C1CFD

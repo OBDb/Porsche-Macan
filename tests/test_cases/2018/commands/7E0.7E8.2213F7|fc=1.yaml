@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213F7|fc=1
+test_cases:
+- expected_values:
+    MACAN_KNOCK_RETARD_CYL_6: -42
+  response: 7E8056213F710DC
+- expected_values:
+    MACAN_KNOCK_RETARD_CYL_6: -40.5
+  response: 7E8056213F71465
