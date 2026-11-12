@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224336
+test_cases:
+- expected_values:
+    MACAN_HEATER_SUPPORT_PMP_SPEC: 10
+  response: 7E80562433603E8
+- expected_values:
+    MACAN_HEATER_SUPPORT_PMP_SPEC: 49.79
+  response: '7E8056243361373'
+- expected_values:
+    MACAN_HEATER_SUPPORT_PMP_SPEC: 50.4
+  response: 7E80562433613B0
+- expected_values:
+    MACAN_HEATER_SUPPORT_PMP_SPEC: 65.4
+  response: 7E805624336198C

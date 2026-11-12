@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2216BA
+test_cases:
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 7
+  response: 7E8056216BA070D
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 20
+  response: 7E8056216BA14FA
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 22
+  response: 7E8056216BA1661
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 26
+  response: 7E8056216BA1A1C
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 26
+  response: 7E8056216BA1A7C
+- expected_values:
+    MACAN_VLV_LIFT_SYSTEM_VLV: 27
+  response: 7E8056216BA1BA6

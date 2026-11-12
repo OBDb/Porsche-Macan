@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22203F
+test_cases:
+- expected_values:
+    MACAN_TQ_LIM_7E0: 215.7
+  response: 7E80562203F086D
+- expected_values:
+    MACAN_TQ_LIM_7E0: 254.6
+  response: 7E80562203F09F2
+- expected_values:
+    MACAN_TQ_LIM_7E0: 290.7
+  response: 7E80562203F0B5B
+- expected_values:
+    MACAN_TQ_LIM_7E0: 385.4
+  response: 7E80562203F0F0E
+- expected_values:
+    MACAN_TQ_LIM_7E0: 395.7
+  response: 7E80562203F0F75
+- expected_values:
+    MACAN_TQ_LIM_7E0: 399.1
+  response: 7E80562203F0F97

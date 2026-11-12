@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22202A
+test_cases:
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_ACTUAL: 79.44
+  response: 7E80562202A03E1
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_ACTUAL: 79.68
+  response: 7E80562202A03E4
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_ACTUAL: 80.48
+  response: 7E80562202A03EE
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_ACTUAL: 83.84
+  response: 7E80562202A0418
+- expected_values:
+    MACAN_PQ35_CHARGE_AIR_P_ACTUAL: 85.12
+  response: 7E80562202A0428

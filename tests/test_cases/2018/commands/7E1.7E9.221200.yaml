@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221200
+test_cases:
+- expected_values:
+    MACAN_LAUNCH_CTRL_CNT_VAR_1: 46363
+  response: 7E9076212001BB57EED
+- expected_values:
+    MACAN_LAUNCH_CTRL_CNT_VAR_1: 46619
+  response: 7E9076212001BB6903E

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2211A7
+test_cases:
+- expected_values:
+    MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 143.59
+  response: 7E9056211A71738
+- expected_values:
+    MACAN_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 243.45
+  response: 7E9056211A7195F

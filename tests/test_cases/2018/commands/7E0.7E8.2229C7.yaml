@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2229C7
+test_cases:
+- expected_values:
+    MACAN_CHG_P_SENS_V: 1.611
+  response: 7E8056229C7064B
+- expected_values:
+    MACAN_CHG_P_SENS_V: 1.636
+  response: 7E8056229C70664
+- expected_values:
+    MACAN_CHG_P_SENS_V: 1.65
+  response: 7E8056229C70672
+- expected_values:
+    MACAN_CHG_P_SENS_V: 1.68
+  response: 7E8056229C70690
+- expected_values:
+    MACAN_CHG_P_SENS_V: 1.738
+  response: 7E8056229C706CA

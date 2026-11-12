@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22209B
+test_cases:
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 10.1
+  response: 7E80562209B0065
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 12.8
+  response: 7E80562209B0080
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 14.6
+  response: 7E80562209B0092
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 20.2
+  response: 7E80562209B00CA
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 23.9
+  response: 7E80562209B00EF
+- expected_values:
+    MACAN_TQ_REQ_SUM_AUXILIARY: 24.5
+  response: 7E80562209B00F5

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210F5
+test_cases:
+- expected_values:
+    MACAN_MIS_4: 0
+  response: 7E8076210F5000007B6
+- expected_values:
+    MACAN_MIS_4: 0
+  response: 7E8076210F5000007D4
+- expected_values:
+    MACAN_MIS_4: 0
+  response: 7E8076210F500001075
+- expected_values:
+    MACAN_MIS_4: 0
+  response: 7E8076210F500001DBA

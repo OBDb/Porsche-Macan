@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224384
+test_cases:
+- expected_values:
+    MACAN_HIGH_P_REGULATION: -7.63
+  response: 7E805624384FD05
+- expected_values:
+    MACAN_HIGH_P_REGULATION: -4.73
+  response: 7E805624384FE27

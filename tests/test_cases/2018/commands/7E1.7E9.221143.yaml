@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221143
+test_cases:
+- expected_values:
+    MACAN_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_6_R: 0
+  response: '7E90762114300000001'
+- expected_values:
+    MACAN_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_6_R: 276.48
+  response: 7E907621143006C00FE

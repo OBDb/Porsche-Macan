@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221312
+test_cases:
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: 0.10597
+  response: '7E8056213120005'
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: 0.31791
+  response: 7E805621312000F
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: 0.97492
+  response: 7E805621312002E
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: 1.63194
+  response: 7E805621312004D
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: -1.71671
+  response: 7E805621312FFAF
+- expected_values:
+    MACAN_FUEL_MASS_REQ_P_CTL: -0.61463
+  response: 7E805621312FFE3

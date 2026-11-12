@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    MACAN_MAF_THROUGH_THROTTLE: 0.3
+  response: 7E8056211AC0003
+- expected_values:
+    MACAN_MAF_THROUGH_THROTTLE: 239.9
+  response: 7E8056211AC095F

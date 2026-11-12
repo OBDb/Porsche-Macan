@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2213F6
+test_cases:
+- expected_values:
+    MACAN_NL_PRE_0: 0.20988
+  response: 7E8056213F60ABF
+- expected_values:
+    MACAN_NL_PRE_0: 0.22362
+  response: 7E8056213F60B73
+- expected_values:
+    MACAN_NL_PRE_0: 0.27123
+  response: 7E8056213F60DE3
+- expected_values:
+    MACAN_NL_PRE_0: 0.29335
+  response: 7E8056213F60F05
+- expected_values:
+    MACAN_NL_PRE_0: 0.32738
+  response: 7E8056213F610C3
+- expected_values:
+    MACAN_NL_PRE_0: 0.4583
+  response: 7E8056213F61777

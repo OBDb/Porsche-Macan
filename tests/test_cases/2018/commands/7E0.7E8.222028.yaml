@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222028
+test_cases:
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 27.61
+  response: 7E8056220280AC9
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 28.41
+  response: 7E8056220280B19
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 29.59
+  response: 7E8056220280B8F
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 29.82
+  response: 7E8056220280BA6
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 30.42
+  response: 7E8056220280BE2
+- expected_values:
+    MACAN_ACTIVATION_FUEL_PMP: 31.57
+  response: 7E8056220280C55

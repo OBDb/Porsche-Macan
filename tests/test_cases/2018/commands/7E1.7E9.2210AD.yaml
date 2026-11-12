@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2210AD
+test_cases:
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: -15.37
+  response: 7E9056210ADFFF9
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: -12.81
+  response: 7E9056210ADFFFA

@@ -1,0 +1,7 @@
+command_id: 7E1.7E9.221101
+test_cases:
+- expected_values:
+    MACAN_ADPT_CNT_TSF_LOCKUP: 213
+  response: |-
+    7E9100962110100D51C
+    7E921DE013BAAAAAAAA

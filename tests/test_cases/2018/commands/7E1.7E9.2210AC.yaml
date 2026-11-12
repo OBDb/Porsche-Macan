@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2210AC
+test_cases:
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: -199.72
+  response: 7E9056210ACFCB1
+- expected_values:
+    MACAN_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: -120.36
+  response: 7E9056210ACFCD0
