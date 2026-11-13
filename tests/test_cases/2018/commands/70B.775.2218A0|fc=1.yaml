@@ -12,6 +12,26 @@ test_cases:
     MACAN_TID_1: 575231624
     MACAN_TPOS_1: RL
     MACAN_TPS_1: 2.7
+    MACAN_TPW_1: 6.6
+    MACAN_TP_1: 2.5
+    MACAN_TT_1: 19
+  response: |-
+    775100D6218A0224956
+    775218802FF193B1B42
+- expected_values:
+    MACAN_TID_1: 575231624
+    MACAN_TPOS_1: RL
+    MACAN_TPS_1: 2.7
+    MACAN_TPW_1: 6.6
+    MACAN_TP_1: 2.5
+    MACAN_TT_1: 20
+  response: |-
+    775100D6218A0224956
+    775218802FF193C1B42
+- expected_values:
+    MACAN_TID_1: 575231624
+    MACAN_TPOS_1: RL
+    MACAN_TPS_1: 2.7
     MACAN_TPW_1: 12.7
     MACAN_TP_1: 2.7
     MACAN_TT_1: 33
