@@ -21,11 +21,11 @@ test_cases:
 - expected_values:
     MACAN_TID_2: 641505667
     MACAN_TPS_2: 0
-    MACAN_TP_2: 5.5
+    MACAN_TP_2: 4.6
     MACAN_TT_2: 60
   response: |-
     775100C6218A1263C99
-    7752183215D376400AA
+    775218321582E6400AA
 - expected_values:
     MACAN_TID_2: 641505667
     MACAN_TPS_2: 0
