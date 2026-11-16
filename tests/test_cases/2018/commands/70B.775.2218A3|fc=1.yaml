@@ -22,6 +22,16 @@ test_cases:
     MACAN_TID_4: 574653642
     MACAN_TPOS_4: FL
     MACAN_TPS_4: 2.5
+    MACAN_TPW_4: 6.5
+    MACAN_TP_4: 2.3
+    MACAN_TT_4: 24
+  response: |-
+    775100D6218A3224084
+    77521CA00FF17401941
+- expected_values:
+    MACAN_TID_4: 574653642
+    MACAN_TPOS_4: FL
+    MACAN_TPS_4: 2.5
     MACAN_TPW_4: 12.7
     MACAN_TP_4: 2.5
     MACAN_TT_4: 34
